@@ -1,0 +1,52 @@
+﻿<div id="authModal" class="modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-backdrop js-modal-close" tabindex="-1"></div>
+
+    <div class="modal-content" role="document">
+        <button type="button" class="modal-close js-modal-close" aria-label="Закрыть">✕</button>
+
+        <h3 class="modal-title">Аккаунт</h3>
+
+        <div class="auth-tabs">
+            <button type="button" class="tab-btn active" data-tab="login" aria-controls="auth-login" aria-selected="true">Войти</button>
+            <button type="button" class="tab-btn" data-tab="register" aria-controls="auth-register" aria-selected="false">Зарегистрироваться</button>
+        </div>
+
+        <div class="auth-panels">
+            <!-- ВХОД -->
+            <form id="auth-login" class="auth-panel active" method="post" action="javascript:void(0)">
+                <div class="form-row">
+                    <label for="login-email">Email</label>
+                    <input id="login-email" name="Email" type="email" placeholder="you@example.com" required />
+                </div>
+                <div class="form-row">
+                    <label for="login-pass">Пароль</label>
+                    <input id="login-pass" name="Password" type="password" placeholder="••••••••" required />
+                </div>
+                <button class="btn btn-primary" type="submit">Войти</button>
+                <div id="loginErrors"></div> <!-- контейнер ошибок -->
+            </form>
+
+            <!-- РЕГИСТРАЦИЯ -->
+            <form id="auth-register" class="auth-panel" method="post" action="javascript:void(0)">
+                <div class="form-row">
+                    <label for="reg-name">Имя</label>
+                    <input id="reg-name" name="Name" type="text" placeholder="Ваше имя" required />
+                </div>
+                <div class="form-row">
+                    <label for="reg-email">Email</label>
+                    <input id="reg-email" name="Email" type="email" placeholder="you@example.com" required />
+                </div>
+                <div class="form-row">
+                    <label for="reg-pass">Пароль</label>
+                    <input id="reg-pass" name="Password" type="password" placeholder="Минимум 6 символов" required />
+                </div>
+                <div class="form-row">
+                    <label for="reg-pass2">Подтверждение пароля</label>
+                    <input id="reg-pass2" name="ConfirmPassword" type="password" placeholder="Ещё раз пароль" required />
+                </div>
+                <button class="btn btn-primary" type="submit">Зарегистрироваться</button>
+                <div id="registerErrors"></div> <!-- контейнер ошибок -->
+            </form>
+        </div>
+    </div>
+</div>

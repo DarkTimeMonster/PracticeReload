@@ -1,0 +1,156 @@
+﻿@using Domain.ViewModels.Profile
+@model ProfilePageViewModel
+
+@{
+    ViewData["Title"] = "Профиль";
+    var displayName = string.IsNullOrWhiteSpace(Model.Name) ? Model.Email : Model.Name;
+    var avatarLetter = string.IsNullOrWhiteSpace(displayName) ? "?" : displayName.Trim()[0].ToString().ToUpper();
+}
+
+<section class="profile-page">
+    <div class="profile-card">
+        <div class="profile-header">
+            <div class="profile-avatar">@avatarLetter</div>
+
+            <div class="profile-info-main">
+                <h1>@displayName</h1>
+                <p class="profile-email">@Model.Email</p>
+                <p class="profile-meta">
+                    На сайте с @Model.CreatedAt.ToLocalTime().ToString("dd.MM.yyyy HH:mm")
+                </p>
+            </div>
+
+            <div class="profile-actions">
+                <button type="button"
+                        class="btn btn-outline"
+                        data-open-modal="editProfileModal">
+                    Редактировать
+                </button>
+
+                <button type="button"
+                        class="btn btn-outline"
+                        data-open-modal="changePasswordModal">
+                    Сменить пароль
+                </button>
+            </div>
+        </div>
+
+        @if (ViewBag.ProfileMessage != null)
+        {
+            <div class="alert alert-success">@ViewBag.ProfileMessage</div>
+        }
+        @if (ViewBag.ProfileError != null)
+        {
+            <div class="alert alert-error">@ViewBag.ProfileError</div>
+        }
+    </div>
+</section>
+
+<!-- ===== МОДАЛКА: Редактирование профиля ===== -->
+<div id="editProfileModal" class="profile-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="profile-modal-backdrop" data-close-modal></div>
+
+    <div class="profile-modal-content" role="document">
+        <button type="button" class="profile-modal-close" data-close-modal aria-label="Закрыть">✕</button>
+
+        <h2 class="modal-title">Редактирование данных</h2>
+
+        <form asp-action="Update" method="post">
+            @Html.AntiForgeryToken()
+
+            <div class="form-row">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" />
+                <span class="field-error" asp-validation-for="Name"></span>
+            </div>
+
+            <div class="form-row">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" />
+                <span class="field-error" asp-validation-for="Email"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Сохранить</button>
+        </form>
+    </div>
+</div>
+
+<!-- ===== МОДАЛКА: Смена пароля ===== -->
+<div id="changePasswordModal" class="profile-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="profile-modal-backdrop" data-close-modal></div>
+
+    <div class="profile-modal-content" role="document">
+        <button type="button" class="profile-modal-close" data-close-modal aria-label="Закрыть">✕</button>
+
+        <h2 class="modal-title">Смена пароля</h2>
+
+        <form asp-action="ChangePassword" method="post">
+            @Html.AntiForgeryToken()
+
+            <div class="form-row">
+                <label for="CurrentPassword">Текущий пароль</label>
+                <input id="CurrentPassword" name="CurrentPassword" type="password" />
+            </div>
+
+            <div class="form-row">
+                <label for="NewPassword">Новый пароль</label>
+                <input id="NewPassword" name="NewPassword" type="password" />
+            </div>
+
+            <div class="form-row">
+                <label for="ConfirmPassword">Подтверждение нового пароля</label>
+                <input id="ConfirmPassword" name="ConfirmPassword" type="password" />
+            </div>
+
+            <button type="submit" class="btn btn-outline">Изменить пароль</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        (function () {
+            const openButtons = document.querySelectorAll('[data-open-modal]');
+            const body = document.body;
+
+            function openModal(id) {
+                const modal = document.getElementById(id);
+                if (!modal) return;
+                modal.classList.add('open');
+                modal.setAttribute('aria-hidden', 'false');
+                body.classList.add('noscroll');
+            }
+
+            function closeModal(modal) {
+                modal.classList.remove('open');
+                modal.setAttribute('aria-hidden', 'true');
+                body.classList.remove('noscroll');
+            }
+
+            openButtons.forEach(btn => {
+                btn.addEventListener('click', () => {
+                    const id = btn.getAttribute('data-open-modal');
+                    openModal(id);
+                });
+            });
+
+            document.querySelectorAll('.profile-modal').forEach(modal => {
+                modal.addEventListener('click', e => {
+                    if (e.target.hasAttribute('data-close-modal') ||
+                        e.target.classList.contains('profile-modal-backdrop')) {
+                        closeModal(modal);
+                    }
+                });
+            });
+
+            document.addEventListener('keydown', e => {
+                if (e.key === 'Escape') {
+                    document.querySelectorAll('.profile-modal.open')
+                        .forEach(closeModal);
+                }
+            });
+        })();
+    </script>
+}

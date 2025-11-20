@@ -1,0 +1,50 @@
+C:\Users\dawis\source\repos\ClassLibrary3\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Users\dawis\source\repos\ClassLibrary3\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dawis\source\repos\ClassLibrary3\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Users\dawis\source\repos\ClassLibrary3\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Users\dawis\source\repos\ClassLibrary3\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\dawis\source\repos\ClassLibrary3\bin\Debug\net8.0\DAL.deps.json
+C:\Users\dawis\source\repos\ClassLibrary3\bin\Debug\net8.0\DAL.dll
+C:\Users\dawis\source\repos\ClassLibrary3\bin\Debug\net8.0\DAL.pdb
+C:\Users\dawis\source\repos\ClassLibrary3\bin\Debug\net8.0\Domain.dll
+C:\Users\dawis\source\repos\ClassLibrary3\bin\Debug\net8.0\Domain.pdb
+C:\Users\dawis\source\repos\ClassLibrary3\obj\Debug\net8.0\DAL.csproj.Up2Date
+C:\Users\dawis\source\repos\ClassLibrary3\obj\Debug\net8.0\DAL.dll
+C:\Users\dawis\source\repos\ClassLibrary3\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\dawis\source\repos\ClassLibrary3\obj\Debug\net8.0\DAL.pdb
+C:\Users\dawis\source\repos\ClassLibrary3\obj\Debug\net8.0\ref\DAL.dll
+D:\Practice\ClassLibrary3\bin\Debug\net8.0\DAL.deps.json
+D:\Practice\ClassLibrary3\bin\Debug\net8.0\DAL.runtimeconfig.json
+D:\Practice\ClassLibrary3\bin\Debug\net8.0\DAL.dll
+D:\Practice\ClassLibrary3\bin\Debug\net8.0\DAL.pdb
+D:\Practice\ClassLibrary3\bin\Debug\net8.0\Domain.dll
+D:\Practice\ClassLibrary3\bin\Debug\net8.0\Domain.pdb
+D:\Practice\ClassLibrary3\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\Practice\ClassLibrary3\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\ClassLibrary3\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\Practice\ClassLibrary3\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\Practice\ClassLibrary3\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\Practice\ClassLibrary3\obj\Debug\net8.0\DAL.csproj.Up2Date
+D:\Practice\ClassLibrary3\obj\Debug\net8.0\DAL.dll
+D:\Practice\ClassLibrary3\obj\Debug\net8.0\refint\DAL.dll
+D:\Practice\ClassLibrary3\obj\Debug\net8.0\DAL.pdb
+D:\Practice\ClassLibrary3\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+D:\Practice\ClassLibrary3\obj\Debug\net8.0\ref\DAL.dll
+D:\Practice\ClassLibrary3\obj\Debug\net8.0\DAL.sourcelink.json
+D:\Новая папка\ClassLibrary3\bin\Debug\net8.0\DAL.deps.json
+D:\Новая папка\ClassLibrary3\bin\Debug\net8.0\DAL.runtimeconfig.json
+D:\Новая папка\ClassLibrary3\bin\Debug\net8.0\DAL.dll
+D:\Новая папка\ClassLibrary3\bin\Debug\net8.0\DAL.pdb
+D:\Новая папка\ClassLibrary3\bin\Debug\net8.0\Domain.dll
+D:\Новая папка\ClassLibrary3\bin\Debug\net8.0\Domain.pdb
+D:\Новая папка\ClassLibrary3\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+D:\Новая папка\ClassLibrary3\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Новая папка\ClassLibrary3\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+D:\Новая папка\ClassLibrary3\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+D:\Новая папка\ClassLibrary3\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+D:\Новая папка\ClassLibrary3\obj\Debug\net8.0\DAL.csproj.Up2Date
+D:\Новая папка\ClassLibrary3\obj\Debug\net8.0\DAL.dll
+D:\Новая папка\ClassLibrary3\obj\Debug\net8.0\refint\DAL.dll
+D:\Новая папка\ClassLibrary3\obj\Debug\net8.0\DAL.pdb
+D:\Новая папка\ClassLibrary3\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+D:\Новая папка\ClassLibrary3\obj\Debug\net8.0\ref\DAL.dll

@@ -1,0 +1,1193 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Practice\\DaviskibaYP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7386E0A7-C245-ACFA-D5C7-477A3E9F7E13}|..\\ClassLibrary3\\DAL.csproj|d:\\practice\\classlibrary3\\migrations\\gastrofestdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7386E0A7-C245-ACFA-D5C7-477A3E9F7E13}|..\\ClassLibrary3\\DAL.csproj|d:\\practice\\classlibrary3\\migrations\\20251115204117_adduserroletousers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6383C15B-5AA6-14CC-E6DE-B8C238620A33}|..\\Services\\Services.csproj|d:\\practice\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\validation\\loginandregistration\\loginviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:validation\\loginandregistration\\loginviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|d:\\practice\\domain\\viewmodels\\loginandregistration\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\festivals\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\festivals\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\controllers\\festivalimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:controllers\\festivalimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\validation\\festivals\\festivaleditviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:validation\\festivals\\festivaleditviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\validation\\loginandregistration\\contactmessagevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:validation\\loginandregistration\\contactmessagevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\wwwroot\\js\\contact_form.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\js\\contact_form.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\wwwroot\\js\\map_init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\js\\map_init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\shared\\_messageform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_messageform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\validation\\loginandregistration\\registerviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:validation\\loginandregistration\\registerviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\validation\\festivals\\festivalimageeditviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:validation\\festivals\\festivalimageeditviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\controllers\\festivalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:controllers\\festivalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\shared\\_authmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_authmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\shared\\_contactsblock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_contactsblock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\festivals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\festivals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\festivals\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\festivals\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\festivals\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\festivals\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\festivalimages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\festivalimages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\wwwroot\\js\\shared_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\js\\shared_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\wwwroot\\js\\modal_init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\js\\modal_init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\wwwroot\\css\\modal_and_gallery.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\css\\modal_and_gallery.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\daviskibayp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:daviskibayp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\festivalimages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\festivalimages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\festivalimages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\festivalimages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\shared\\_gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\daviskibayp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:daviskibayp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\shared\\_about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\shared\\_services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_services.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practice\\daviskibayp\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dawis\\source\\repos\\Services\\ContactService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\ContactRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dawis\\source\\repos\\Services\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\DAL.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\FestivalService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\ContactService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Domain\\Entities\\Entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7386E0A7-C245-ACFA-D5C7-477A3E9F7E13}|..\\ClassLibrary3\\DAL.csproj|d:\\practice\\classlibrary3\\contactstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7386E0A7-C245-ACFA-D5C7-477A3E9F7E13}|..\\ClassLibrary3\\DAL.csproj|d:\\practice\\classlibrary3\\gastrofestdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ClassLibrary3\\ContactStorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|d:\\practice\\domain\\entities\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|d:\\practice\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|d:\\practice\\domain\\viewmodels\\loginandregistration\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6383C15B-5AA6-14CC-E6DE-B8C238620A33}|..\\Services\\Services.csproj|d:\\practice\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7386E0A7-C245-ACFA-D5C7-477A3E9F7E13}|..\\ClassLibrary3\\DAL.csproj|d:\\practice\\classlibrary3\\migrations\\20251112144626_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7386E0A7-C245-ACFA-D5C7-477A3E9F7E13}|..\\ClassLibrary3\\DAL.csproj|d:\\practice\\classlibrary3\\userstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6383C15B-5AA6-14CC-E6DE-B8C238620A33}|..\\Services\\Services.csproj|d:\\practice\\services\\festivalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6383C15B-5AA6-14CC-E6DE-B8C238620A33}|..\\Services\\Services.csproj|d:\\practice\\services\\festivalimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7386E0A7-C245-ACFA-D5C7-477A3E9F7E13}|..\\ClassLibrary3\\DAL.csproj|d:\\practice\\classlibrary3\\festivalstorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7386E0A7-C245-ACFA-D5C7-477A3E9F7E13}|..\\ClassLibrary3\\DAL.csproj|d:\\practice\\classlibrary3\\festivalimagestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7386E0A7-C245-ACFA-D5C7-477A3E9F7E13}|..\\ClassLibrary3\\DAL.csproj|d:\\practice\\classlibrary3\\interfaces\\ibasestorage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|d:\\practice\\domain\\viewmodels\\festivals\\festivalimageeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|d:\\practice\\domain\\viewmodels\\profile\\profileviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|d:\\practice\\domain\\viewmodels\\festivals\\festivaleditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7386E0A7-C245-ACFA-D5C7-477A3E9F7E13}|..\\ClassLibrary3\\DAL.csproj|d:\\practice\\classlibrary3\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|d:\\practice\\domain\\viewmodels\\festivals\\festivaldetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "D:\\Practice\\Services\\ContactService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\ContactService.cs",
+              "ToolTip": "D:\\Practice\\Services\\ContactService.cs",
+              "RelativeToolTip": "..\\Services\\ContactService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:46:06.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwBgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T15:01:41.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GastroFestDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\Migrations\\GastroFestDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary3\\Migrations\\GastroFestDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\Practice\\ClassLibrary3\\Migrations\\GastroFestDbContextModelSnapshot.cs",
+              "RelativeToolTip": "..\\ClassLibrary3\\Migrations\\GastroFestDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAgwOQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T14:55:34.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20251115204117_AddUserRoleToUsers.cs",
+              "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\Migrations\\20251115204117_AddUserRoleToUsers.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary3\\Migrations\\20251115204117_AddUserRoleToUsers.cs",
+              "ToolTip": "D:\\Practice\\ClassLibrary3\\Migrations\\20251115204117_AddUserRoleToUsers.cs",
+              "RelativeToolTip": "..\\ClassLibrary3\\Migrations\\20251115204117_AddUserRoleToUsers.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T20:41:17.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "login_and_registration_script.js",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\wwwroot\\js\\login_and_registration_script.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\login_and_registration_script.js",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\wwwroot\\js\\login_and_registration_script.js",
+              "RelativeToolTip": "wwwroot\\js\\login_and_registration_script.js",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAUwJQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-05T12:30:52.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "shared.css",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\wwwroot\\css\\shared.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\shared.css",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\wwwroot\\css\\shared.css",
+              "RelativeToolTip": "wwwroot\\css\\shared.css",
+              "ViewState": "AgIAAGgEAAAAAAAAAAAAALMEAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-03T14:56:52.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "ToolTip": "D:\\Practice\\Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "RelativeToolTip": "..\\Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T23:31:33.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T14:56:15.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FestivalImagesController.cs",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Controllers\\FestivalImagesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FestivalImagesController.cs",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Controllers\\FestivalImagesController.cs",
+              "RelativeToolTip": "Controllers\\FestivalImagesController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAswGgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T10:37:02.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContactMessageValidator.cs",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Validation\\LoginAndRegistration\\ContactMessageValidator.cs",
+              "RelativeDocumentMoniker": "Validation\\LoginAndRegistration\\ContactMessageValidator.cs",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Validation\\LoginAndRegistration\\ContactMessageValidator.cs",
+              "RelativeToolTip": "Validation\\LoginAndRegistration\\ContactMessageValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T14:48:06.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\Festivals\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Festivals\\Create.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\Festivals\\Create.cshtml",
+              "RelativeToolTip": "Views\\Festivals\\Create.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T10:30:03.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FestivalEditViewModelValidator.cs",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Validation\\Festivals\\FestivalEditViewModelValidator.cs",
+              "RelativeDocumentMoniker": "Validation\\Festivals\\FestivalEditViewModelValidator.cs",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Validation\\Festivals\\FestivalEditViewModelValidator.cs",
+              "RelativeToolTip": "Validation\\Festivals\\FestivalEditViewModelValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:32:42.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginViewModelValidator.cs",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Validation\\LoginAndRegistration\\LoginViewModelValidator.cs",
+              "RelativeDocumentMoniker": "Validation\\LoginAndRegistration\\LoginViewModelValidator.cs",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Validation\\LoginAndRegistration\\LoginViewModelValidator.cs",
+              "RelativeToolTip": "Validation\\LoginAndRegistration\\LoginViewModelValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:28:40.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "map_init.js",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\wwwroot\\js\\map_init.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\map_init.js",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\wwwroot\\js\\map_init.js",
+              "RelativeToolTip": "wwwroot\\js\\map_init.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-04T23:02:12.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACQAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T18:29:00.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "contact_form.js",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\wwwroot\\js\\contact_form.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\contact_form.js",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\wwwroot\\js\\contact_form.js",
+              "RelativeToolTip": "wwwroot\\js\\contact_form.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-05T13:20:06.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_MessageForm.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_MessageForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_MessageForm.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_MessageForm.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_MessageForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T12:23:52.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:58:10.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:34:30.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\ContactService.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\ContactService.cs",
+              "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\ContactService.cs",
+              "RelativeToolTip": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\ContactService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T11:29:39.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactsController.cs",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "Controllers\\ContactsController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAA5wC0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T14:26:04.579Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "FestivalService.cs",
+              "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\FestivalService.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\FestivalService.cs",
+              "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\FestivalService.cs",
+              "RelativeToolTip": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\FestivalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T12:01:50.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterViewModelValidator.cs",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Validation\\LoginAndRegistration\\RegisterViewModelValidator.cs",
+              "RelativeDocumentMoniker": "Validation\\LoginAndRegistration\\RegisterViewModelValidator.cs",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Validation\\LoginAndRegistration\\RegisterViewModelValidator.cs",
+              "RelativeToolTip": "Validation\\LoginAndRegistration\\RegisterViewModelValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:31:54.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Domain\\Entities\\Entities.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Domain\\Entities\\Entities.cs",
+              "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Domain\\Entities\\Entities.cs",
+              "RelativeToolTip": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Domain\\Entities\\Entities.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAA9wD0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T11:43:02.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ContactStorage.cs",
+              "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\ContactStorage.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary3\\ContactStorage.cs",
+              "ToolTip": "D:\\Practice\\ClassLibrary3\\ContactStorage.cs",
+              "RelativeToolTip": "..\\ClassLibrary3\\ContactStorage.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwAYAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T09:23:43.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "GastroFestDbContext.cs",
+              "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\GastroFestDbContext.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary3\\GastroFestDbContext.cs",
+              "ToolTip": "D:\\Practice\\ClassLibrary3\\GastroFestDbContext.cs",
+              "RelativeToolTip": "..\\ClassLibrary3\\GastroFestDbContext.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAkwFQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T13:44:40.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ContactStorage.cs",
+              "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ClassLibrary3\\ContactStorage.cs",
+              "RelativeDocumentMoniker": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ClassLibrary3\\ContactStorage.cs",
+              "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ClassLibrary3\\ContactStorage.cs",
+              "RelativeToolTip": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ClassLibrary3\\ContactStorage.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T11:29:41.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "D:\\Practice\\Domain\\Entities\\Entities.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Entities.cs",
+              "ToolTip": "D:\\Practice\\Domain\\Entities\\Entities.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Entities.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAIwDoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:27:32.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "D:\\Practice\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "..\\Domain\\Domain.csproj",
+              "ToolTip": "D:\\Practice\\Domain\\Domain.csproj",
+              "RelativeToolTip": "..\\Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-19T14:51:28.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "jquery.js",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "RelativeToolTip": "wwwroot\\lib\\jquery\\dist\\jquery.js",
+              "ViewState": "AgIAAN4VAAAAAAAAAAAAALQVAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-19T12:22:46.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FestivalImageEditViewModelValidator.cs",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Validation\\Festivals\\FestivalImageEditViewModelValidator.cs",
+              "RelativeDocumentMoniker": "Validation\\Festivals\\FestivalImageEditViewModelValidator.cs",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Validation\\Festivals\\FestivalImageEditViewModelValidator.cs",
+              "RelativeToolTip": "Validation\\Festivals\\FestivalImageEditViewModelValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:33:02.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
+              "ToolTip": "D:\\Practice\\Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
+              "RelativeToolTip": "..\\Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:49:06.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FestivalsController.cs",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Controllers\\FestivalsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FestivalsController.cs",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Controllers\\FestivalsController.cs",
+              "RelativeToolTip": "Controllers\\FestivalsController.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAuwEUAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:39:25.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\Festivals\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Festivals\\Index.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\Festivals\\Index.cshtml",
+              "RelativeToolTip": "Views\\Festivals\\Index.cshtml",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAuwFoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T09:51:10.04Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "_ContactsBlock.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_ContactsBlock.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ContactsBlock.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_ContactsBlock.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ContactsBlock.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T12:23:05.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_AuthModal.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_AuthModal.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AuthModal.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_AuthModal.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AuthModal.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwCgAAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T15:07:23.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Practice\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\UserService.cs",
+              "ToolTip": "D:\\Practice\\Services\\UserService.cs",
+              "RelativeToolTip": "..\\Services\\UserService.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAmwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:08:07.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\Festivals\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Festivals\\Details.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\Festivals\\Details.cshtml",
+              "RelativeToolTip": "Views\\Festivals\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T17:54:44.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\Festivals\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Festivals\\Edit.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\Festivals\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Festivals\\Edit.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAuwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-15T23:30:25.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABkAAAAAAAAAAAAuwEEAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T14:58:53.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\Profile\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\Profile\\Index.cshtml",
+              "RelativeToolTip": "Views\\Profile\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-14T15:21:47.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\FestivalImages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\FestivalImages\\Index.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\FestivalImages\\Index.cshtml",
+              "RelativeToolTip": "Views\\FestivalImages\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T11:10:22.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "20251112144626_InitialCreate.cs",
+              "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\Migrations\\20251112144626_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary3\\Migrations\\20251112144626_InitialCreate.cs",
+              "ToolTip": "D:\\Practice\\ClassLibrary3\\Migrations\\20251112144626_InitialCreate.cs",
+              "RelativeToolTip": "..\\ClassLibrary3\\Migrations\\20251112144626_InitialCreate.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAgwEcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T14:46:27.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "UserStorage.cs",
+              "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\UserStorage.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary3\\UserStorage.cs",
+              "ToolTip": "D:\\Practice\\ClassLibrary3\\UserStorage.cs",
+              "RelativeToolTip": "..\\ClassLibrary3\\UserStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:56:00.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "FestivalService.cs",
+              "DocumentMoniker": "D:\\Practice\\Services\\FestivalService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\FestivalService.cs",
+              "ToolTip": "D:\\Practice\\Services\\FestivalService.cs",
+              "RelativeToolTip": "..\\Services\\FestivalService.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T09:45:34.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "FestivalImageService.cs",
+              "DocumentMoniker": "D:\\Practice\\Services\\FestivalImageService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\FestivalImageService.cs",
+              "ToolTip": "D:\\Practice\\Services\\FestivalImageService.cs",
+              "RelativeToolTip": "..\\Services\\FestivalImageService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAmwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T10:34:14.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "shared_script.js",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\wwwroot\\js\\shared_script.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\shared_script.js",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\wwwroot\\js\\shared_script.js",
+              "RelativeToolTip": "wwwroot\\js\\shared_script.js",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAswDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-03T14:57:30.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "modal_init.js",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\wwwroot\\js\\modal_init.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\modal_init.js",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\wwwroot\\js\\modal_init.js",
+              "RelativeToolTip": "wwwroot\\js\\modal_init.js",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAUwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-04T22:52:02.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "modal_and_gallery.css",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\wwwroot\\css\\modal_and_gallery.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\modal_and_gallery.css",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\wwwroot\\css\\modal_and_gallery.css",
+              "RelativeToolTip": "wwwroot\\css\\modal_and_gallery.css",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAqwJgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-04T22:51:25.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "FestivalStorage.cs",
+              "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\FestivalStorage.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary3\\FestivalStorage.cs",
+              "ToolTip": "D:\\Practice\\ClassLibrary3\\FestivalStorage.cs",
+              "RelativeToolTip": "..\\ClassLibrary3\\FestivalStorage.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:37:27.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "FestivalImageStorage.cs",
+              "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\FestivalImageStorage.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary3\\FestivalImageStorage.cs",
+              "ToolTip": "D:\\Practice\\ClassLibrary3\\FestivalImageStorage.cs",
+              "RelativeToolTip": "..\\ClassLibrary3\\FestivalImageStorage.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T10:33:37.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "IBaseStorage.cs",
+              "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\Interfaces\\IBaseStorage.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary3\\Interfaces\\IBaseStorage.cs",
+              "ToolTip": "D:\\Practice\\ClassLibrary3\\Interfaces\\IBaseStorage.cs",
+              "RelativeToolTip": "..\\ClassLibrary3\\Interfaces\\IBaseStorage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:00:04.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DaviskibaYP.csproj",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\DaviskibaYP.csproj",
+              "RelativeDocumentMoniker": "DaviskibaYP.csproj",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\DaviskibaYP.csproj",
+              "RelativeToolTip": "DaviskibaYP.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-04T11:44:47.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\FestivalImages\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\FestivalImages\\Edit.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\FestivalImages\\Edit.cshtml",
+              "RelativeToolTip": "Views\\FestivalImages\\Edit.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T11:11:17.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\FestivalImages\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\FestivalImages\\Create.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\FestivalImages\\Create.cshtml",
+              "RelativeToolTip": "Views\\FestivalImages\\Create.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T10:37:47.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "FestivalImageEditViewModel.cs",
+              "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\Festivals\\FestivalImageEditViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\ViewModels\\Festivals\\FestivalImageEditViewModel.cs",
+              "ToolTip": "D:\\Practice\\Domain\\ViewModels\\Festivals\\FestivalImageEditViewModel.cs",
+              "RelativeToolTip": "..\\Domain\\ViewModels\\Festivals\\FestivalImageEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-17T10:36:29.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "ProfileViewModels.cs",
+              "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\Profile\\ProfileViewModels.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\ViewModels\\Profile\\ProfileViewModels.cs",
+              "ToolTip": "D:\\Practice\\Domain\\ViewModels\\Profile\\ProfileViewModels.cs",
+              "RelativeToolTip": "..\\Domain\\ViewModels\\Profile\\ProfileViewModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T08:23:21.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_Gallery.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_Gallery.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Gallery.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_Gallery.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Gallery.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T15:10:20.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "FestivalEditViewModel.cs",
+              "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\Festivals\\FestivalEditViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\ViewModels\\Festivals\\FestivalEditViewModel.cs",
+              "ToolTip": "D:\\Practice\\Domain\\ViewModels\\Festivals\\FestivalEditViewModel.cs",
+              "RelativeToolTip": "..\\Domain\\ViewModels\\Festivals\\FestivalEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T10:28:20.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAADWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-04T12:01:20.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-13T10:47:13.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "DAL.csproj",
+              "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\DAL.csproj",
+              "RelativeDocumentMoniker": "..\\ClassLibrary3\\DAL.csproj",
+              "ToolTip": "D:\\Practice\\ClassLibrary3\\DAL.csproj",
+              "RelativeToolTip": "..\\ClassLibrary3\\DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-15T18:28:23.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAG8JAAAAAAAAAAArwIQJAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-11-15T18:00:16.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DaviskibaYP",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\DaviskibaYP.csproj",
+              "RelativeDocumentMoniker": "DaviskibaYP.csproj",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\DaviskibaYP.csproj",
+              "RelativeToolTip": "DaviskibaYP.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-15T15:05:05.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "FestivalDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\Festivals\\FestivalDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\ViewModels\\Festivals\\FestivalDetailsViewModel.cs",
+              "ToolTip": "D:\\Practice\\Domain\\ViewModels\\Festivals\\FestivalDetailsViewModel.cs",
+              "RelativeToolTip": "..\\Domain\\ViewModels\\Festivals\\FestivalDetailsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T17:50:24.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_About.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_About.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_About.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T12:22:22.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_Services.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_Services.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Services.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_Services.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Services.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T12:22:44.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T14:59:19.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T10:22:43.73Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "ContactRepository.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\ContactRepository.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\ContactRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T11:40:18.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\Services\\ContactService.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\Services\\ContactService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwCQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T11:40:47.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Practice\\DaviskibaYP\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Practice\\DaviskibaYP\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T10:23:24.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\Services\\Class1.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\Services\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:48:28.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\DAL.csproj",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-03T14:48:53.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\Class1.cs",
+              "ToolTip": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T14:47:59.911Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

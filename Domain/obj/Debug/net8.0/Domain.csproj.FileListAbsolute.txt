@@ -1,0 +1,23 @@
+D:\Practice\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Practice\Domain\bin\Debug\net8.0\Domain.dll
+D:\Practice\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Practice\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Practice\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Practice\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Practice\Domain\obj\Debug\net8.0\Domain.dll
+D:\Practice\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Practice\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Practice\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\Practice\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\Новая папка\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Новая папка\Domain\bin\Debug\net8.0\Domain.dll
+D:\Новая папка\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Новая папка\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Новая папка\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Новая папка\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Новая папка\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Новая папка\Domain\obj\Debug\net8.0\Domain.dll
+D:\Новая папка\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Новая папка\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Новая папка\Domain\obj\Debug\net8.0\ref\Domain.dll

@@ -1,0 +1,52 @@
+C:\Users\dawis\source\repos\Services\bin\Debug\net8.0\Services.deps.json
+C:\Users\dawis\source\repos\Services\bin\Debug\net8.0\Services.dll
+C:\Users\dawis\source\repos\Services\bin\Debug\net8.0\Services.pdb
+C:\Users\dawis\source\repos\Services\bin\Debug\net8.0\Domain.dll
+C:\Users\dawis\source\repos\Services\bin\Debug\net8.0\Domain.pdb
+C:\Users\dawis\source\repos\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+C:\Users\dawis\source\repos\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dawis\source\repos\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+C:\Users\dawis\source\repos\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+C:\Users\dawis\source\repos\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+C:\Users\dawis\source\repos\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+C:\Users\dawis\source\repos\Services\obj\Debug\net8.0\Services.dll
+C:\Users\dawis\source\repos\Services\obj\Debug\net8.0\refint\Services.dll
+C:\Users\dawis\source\repos\Services\obj\Debug\net8.0\Services.pdb
+C:\Users\dawis\source\repos\Services\obj\Debug\net8.0\ref\Services.dll
+C:\Users\dawis\source\repos\Services\bin\Debug\net8.0\DAL.dll
+C:\Users\dawis\source\repos\Services\bin\Debug\net8.0\DAL.pdb
+D:\Practice\Services\bin\Debug\net8.0\Services.deps.json
+D:\Practice\Services\bin\Debug\net8.0\Services.dll
+D:\Practice\Services\bin\Debug\net8.0\Services.pdb
+D:\Practice\Services\bin\Debug\net8.0\DAL.dll
+D:\Practice\Services\bin\Debug\net8.0\Domain.dll
+D:\Practice\Services\bin\Debug\net8.0\DAL.pdb
+D:\Practice\Services\bin\Debug\net8.0\Domain.pdb
+D:\Practice\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\Practice\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\Practice\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\Practice\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\Practice\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\Practice\Services\obj\Debug\net8.0\Services.dll
+D:\Practice\Services\obj\Debug\net8.0\refint\Services.dll
+D:\Practice\Services\obj\Debug\net8.0\Services.pdb
+D:\Practice\Services\obj\Debug\net8.0\ref\Services.dll
+D:\Practice\Services\obj\Debug\net8.0\Services.sourcelink.json
+D:\Новая папка\Services\bin\Debug\net8.0\Services.deps.json
+D:\Новая папка\Services\bin\Debug\net8.0\Services.dll
+D:\Новая папка\Services\bin\Debug\net8.0\Services.pdb
+D:\Новая папка\Services\bin\Debug\net8.0\DAL.dll
+D:\Новая папка\Services\bin\Debug\net8.0\Domain.dll
+D:\Новая папка\Services\bin\Debug\net8.0\DAL.pdb
+D:\Новая папка\Services\bin\Debug\net8.0\Domain.pdb
+D:\Новая папка\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\Новая папка\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Новая папка\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\Новая папка\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\Новая папка\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\Новая папка\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\Новая папка\Services\obj\Debug\net8.0\Services.dll
+D:\Новая папка\Services\obj\Debug\net8.0\refint\Services.dll
+D:\Новая папка\Services\obj\Debug\net8.0\Services.pdb
+D:\Новая папка\Services\obj\Debug\net8.0\ref\Services.dll

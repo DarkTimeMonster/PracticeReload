@@ -1,0 +1,68 @@
+﻿@using Domain.Entities
+@model List<FestivalImage>
+
+@{
+    var fest = (Domain.Entities.Festival)ViewBag.Festival;
+    ViewData["Title"] = $"Галерея — {fest.Title}";
+}
+
+<section class="section-card">
+    <div class="section-inner">
+        <div class="h-tag">Галерея</div>
+        <h2>Фотографии фестиваля «@fest.Title»</h2>
+
+        <a asp-action="Create"
+           asp-route-festivalId="@fest.Id"
+           class="btn btn-primary btn-shadow"
+           style="margin-top: 8px;">
+            + Добавить фото
+        </a>
+    </div>
+</section>
+
+<section class="section-card">
+    @if (Model == null || !Model.Any())
+    {
+        <p>Пока нет ни одной картинки.</p>
+    }
+    else
+    {
+        <div class="gallery">
+            @foreach (var img in Model.OrderBy(i => i.SortOrder))
+            {
+                <div class="festival-gallery-item" style="position:relative;">
+                    <img src="@img.Url" alt="@img.Alt" />
+
+                    <div style="margin-top:6px;font-size:13px;">
+                        Порядок: @img.SortOrder
+                        @if (!string.IsNullOrWhiteSpace(img.Alt))
+                        {
+                            <span class="muted">(@img.Alt)</span>
+                        }
+                    </div>
+
+                    <div style="margin-top:8px; display:flex; gap:8px;">
+                        <a asp-action="Edit"
+                           asp-route-id="@img.Id"
+                           class="btn btn-outline btn-sm">
+                            Редактировать
+                        </a>
+
+                        <form asp-action="Delete"
+                              asp-route-id="@img.Id"
+                              asp-route-festivalId="@fest.Id"
+                              method="post"
+                              style="display:inline;">
+                            @Html.AntiForgeryToken()
+                            <button type="submit"
+                                    class="btn btn-outline btn-sm"
+                                    onclick="return confirm('Удалить это фото?');">
+                                Удалить
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</section>

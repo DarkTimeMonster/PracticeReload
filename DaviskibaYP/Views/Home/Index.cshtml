@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Главная — GastroFest";
+}
+
+<!-- 1. Главная / красивый hero -->
+<section id="home" class="hero-main">
+    <div class="hero-main__bg"></div>
+
+    <div class="hero-main__content">
+        <div class="hero-main__left">
+            <span class="hero-main__badge">GastroFest</span>
+            <h1 class="hero-main__title">Весь вкус города — на одной карте</h1>
+            <p class="hero-main__text">
+                Каталог гастрономических фестивалей: уличная еда, вино, кофе и локальная кухня.
+                Ищите события и оставляйте сообщения организаторам через форму обратной связи.
+            </p>
+
+            <div class="hero-main__actions">
+                <a href="#services" class="btn btn-primary btn-shadow">Найти фестиваль</a>
+                <a href="#contacts" class="btn btn-outline">Написать нам</a>
+            </div>
+        </div>
+
+
+        <div class="hero-main__right">
+            <div class="hero-main__card">
+                <div class="hero-main__card-header">
+                    Ближайший фестиваль
+                </div>
+                <div class="hero-main__card-body">
+                    <p class="hero-main__card-title">Street Food Weekend</p>
+                    <p class="hero-main__card-meta">Площадь города · каждые выходные</p>
+                    <p class="hero-main__card-note">
+                        Пример карточки фестиваля — в будущем здесь будет список из базы данных.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 2. О нас: твой текущий красивый блок -->
+<section id="about">
+    @await Html.PartialAsync("_About")
+</section>
+
+<!-- 3. Услуги -->
+<section id="services">
+    @await Html.PartialAsync("_Services")
+</section>
+
+<!-- 4. Галерея -->
+<section id="gallery">
+    @await Html.PartialAsync("_Gallery")
+</section>
+
+<!-- 5. Контакты -->
+<section id="contacts">
+    @await Html.PartialAsync("_ContactsBlock")
+</section>
+
+<!-- 6. Форма сообщения -->
+<section id="message">
+    @await Html.PartialAsync("_MessageForm")
+</section>
+    

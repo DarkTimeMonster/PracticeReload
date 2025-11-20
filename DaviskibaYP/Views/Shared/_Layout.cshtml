@@ -1,0 +1,147 @@
+@{
+    Layout = null;
+    var title = ViewBag.Title ?? "GastroFest — Каталог гастрономических фестивалей";
+}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>@title</title>
+
+    <link rel="stylesheet" href="~/css/shared.css" />
+    <link rel="stylesheet" href="~/css/modal_and_gallery.css" />
+
+    <link rel="stylesheet"
+          href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin="" />
+</head>
+<body>
+    <header class="site-header" id="siteHeader">
+        <!-- Фиксированная шапка -->
+        <div class="header-bar" id="headerBar">
+            <div class="topbar">
+                <div class="container topbar-inner">
+                    <a class="logo" href="@Url.Action("Index", "Home")">GastroFest<span class="dot">.</span></a>
+
+                    <div class="topbar-actions">
+                        @if (User.Identity?.IsAuthenticated ?? false)
+                        {
+                            <div class="auth-buttons only-desktop">
+                                <span class="user-name">
+                                    @User.Identity.Name
+                                </span>
+                                <a class="btn btn-outline" href="@Url.Action("Index", "Profile")">Профиль</a>
+                                <form method="post" action="@Url.Action("Logout", "Account")" style="display:inline;">
+                                    <button type="submit" class="btn btn-primary btn-shadow">Выйти</button>
+                                </form>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="auth-buttons only-desktop">
+                                <a class="btn btn-outline js-open-auth" data-auth-tab="login" href="#">Войти</a>
+                                <a class="btn btn-primary btn-shadow js-open-auth" data-auth-tab="register" href="#">Зарегистрироваться</a>
+                            </div>
+                        }
+
+
+                        <button class="nav-toggle" id="navToggle"
+                                aria-controls="mainNav"
+                                aria-expanded="false"
+                                aria-label="Открыть меню">
+                            <span class="nav-toggle-bar"></span>
+                            <span class="nav-toggle-bar"></span>
+                            <span class="nav-toggle-bar"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <nav class="navbar" aria-label="Главная навигация">
+                <div class="container navbar-inner">
+                    <div id="mainNav" class="nav-collapse" data-collapsed="true">
+                        <ul class="main-menu">
+                            
+                                <li><a href="@Url.Action("Index", "Home")#home">Главная</a></li>
+                                <li><a href="@Url.Action("Index", "Home")#about">О нас</a></li>
+                                <li><a href="@Url.Action("Index", "Festivals")">Фестивали</a></li>
+                                <li><a href="@Url.Action("Index", "Home")#services">Услуги</a></li>
+                                <li><a href="@Url.Action("Index", "Home")#contacts">Контакты</a></li>
+
+                            <li class="only-mobile">
+                                <a class="menu-btn btn-outline js-open-auth"
+                                   data-auth-tab="login"
+                                   href="#">
+                                    Войти
+                                </a>
+                            </li>
+                            <li class="only-mobile">
+                                <a class="menu-btn btn-primary btn-shadow js-open-auth"
+                                   data-auth-tab="register"
+                                   href="#">
+                                    Зарегистрироваться
+                                </a>
+                            </li>
+
+                            
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <!-- Спейсер: занимает место фиксированной шапки, чтобы контент не "прыгал" -->
+        <div id="headerSpacer" class="header-spacer"></div>
+    </header>
+
+    <main class="container main-content" role="main">
+        @RenderBody()
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <span class="footer-logo">GastroFest<span class="dot">.</span></span>
+                <p class="footer-text">
+                    Небольшой учебный проект-каталог гастрономических фестивалей.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="@Url.Action("Index", "Home")#home">Главная</a>
+                <a href="@Url.Action("Index", "Home")#about">О нас</a>
+                <a href="@Url.Action("Index", "Festivals")">Фестивали</a>
+                <a href="@Url.Action("Index", "Home")#services">Услуги</a>
+                <a href="@Url.Action("Index", "Home")#contacts">Контакты</a>
+            </div>
+
+            <div class="footer-copy">
+                © @DateTime.Now.Year GastroFest
+            </div>
+        </div>
+    </footer>
+
+    @await Html.PartialAsync("_AuthModal")
+
+    <!-- jQuery и валидация для _ValidationScriptsPartial -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/4.0.0/jquery.validate.unobtrusive.min.js"></script>
+
+    <script src="~/js/shared_script.js" defer></script>
+    <script src="~/js/modal_init.js" defer></script>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin="">
+    </script>
+    <script src="~/js/map_init.js"></script>
+    <script src="~/js/login_and_registration_script.js" defer></script>
+    <script src="~/js/contact_form.js" defer></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

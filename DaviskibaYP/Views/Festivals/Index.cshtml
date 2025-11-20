@@ -1,0 +1,114 @@
+﻿@using Domain.Entities
+@model List<Festival>
+
+@{
+    ViewData["Title"] = "Каталог фестивалей";
+}
+
+<section class="section-card">
+    <div class="section-inner">
+        <div class="h-tag">Фестивали</div>
+        <h2>Каталог гастрономических фестивалей</h2>
+        <p>
+            Список фестивалей из базы. Позже сюда добавим фильтры, избранное и редактирование.
+        </p>
+
+        @* Кнопка только для админа *@
+        @if (User.IsInRole("Admin"))
+        {
+            <div class="festivals-toolbar" style="margin-top:12px;">
+                <a href="@Url.Action("Create", "Festivals")"
+                   class="btn btn-primary btn-shadow">
+                    + Добавить фестиваль
+                </a>
+            </div>
+        }
+
+        <div class="festivals-toolbar">
+            <input type="search" class="input input-search" placeholder="Поиск по названию…" />
+            <select class="input input-select">
+                <option>Все города</option>
+                <option>Москва</option>
+                <option>Санкт-Петербург</option>
+                <option>Другие</option>
+            </select>
+            <select class="input input-select">
+                <option>Любые даты</option>
+                <option>Этот месяц</option>
+                <option>Следующий месяц</option>
+            </select>
+        </div>
+    </div>
+</section>
+
+<section class="section-card">
+    <div class="festivals-grid">
+        @if (Model == null || Model.Count == 0)
+        {
+            <p>Пока нет ни одного фестиваля.</p>
+        }
+        else
+        {
+            foreach (var f in Model)
+            {
+                <article class="festival-card">
+                    <a href="@Url.Action("Details", "Festivals", new { id = f.Id })"
+                       class="festival-card__link">
+                        @* картинка *@
+                        @if (!string.IsNullOrWhiteSpace(f.CoverUrl))
+                        {
+                            <div class="festival-card__img">
+                                <img src="@f.CoverUrl" alt="@f.Title" />
+                            </div>
+                        }
+
+                        @* тело карточки *@
+                        <div class="festival-card__body">
+                            <h3 class="festival-card__title">@f.Title</h3>
+
+                            @if (!string.IsNullOrWhiteSpace(f.City) || !string.IsNullOrWhiteSpace(f.Country))
+                            {
+                                <p class="festival-card__city">
+                                    @($"{f.City}{(string.IsNullOrWhiteSpace(f.Country) ? "" : ", " + f.Country)}")
+                                </p>
+                            }
+
+                            <p class="festival-card__dates">
+                                @f.StartDate.ToString("dd.MM.yyyy") — @f.EndDate.ToString("dd.MM.yyyy")
+                            </p>
+
+                            @if (!string.IsNullOrWhiteSpace(f.Description))
+                            {
+                                <p class="festival-card__desc">@f.Description</p>
+                            }
+                        </div>
+                    </a>
+
+                    @* админские кнопки *@
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <div class="festival-card__admin">
+                            <a href="@Url.Action("Edit", "Festivals", new { id = f.Id })"
+                               class="btn btn-outline btn-sm">
+                                Редактировать
+                            </a>
+
+                            <form asp-action="Delete"
+                                  asp-controller="Festivals"
+                                  asp-route-id="@f.Id"
+                                  method="post"
+                                  style="display:inline;">
+                                @Html.AntiForgeryToken()
+                                <button type="submit"
+                                        class="btn btn-outline btn-sm"
+                                        onclick="return confirm('Удалить фестиваль «@f.Title»?');">
+                                    Удалить
+                                </button>
+                            </form>
+                        </div>
+                    }
+                </article>
+            }
+        }
+    </div>
+</section>

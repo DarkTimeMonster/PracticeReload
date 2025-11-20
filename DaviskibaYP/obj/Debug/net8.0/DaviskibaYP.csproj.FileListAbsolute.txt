@@ -1,0 +1,350 @@
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.csproj.AssemblyReference.cache
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.AssemblyInfoInputs.cache
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.AssemblyInfo.cs
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.csproj.CoreCompileInputs.cache
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.RazorAssemblyInfo.cache
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.RazorAssemblyInfo.cs
+C:\Users\dawis\source\repos\DaviskibaYP\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\dawis\source\repos\DaviskibaYP\bin\Debug\net8.0\appsettings.json
+C:\Users\dawis\source\repos\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.staticwebassets.runtime.json
+C:\Users\dawis\source\repos\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.staticwebassets.endpoints.json
+C:\Users\dawis\source\repos\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.exe
+C:\Users\dawis\source\repos\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.deps.json
+C:\Users\dawis\source\repos\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.runtimeconfig.json
+C:\Users\dawis\source\repos\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.dll
+C:\Users\dawis\source\repos\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.pdb
+C:\Users\dawis\source\repos\DaviskibaYP\bin\Debug\net8.0\Domain.dll
+C:\Users\dawis\source\repos\DaviskibaYP\bin\Debug\net8.0\Services.dll
+C:\Users\dawis\source\repos\DaviskibaYP\bin\Debug\net8.0\Services.pdb
+C:\Users\dawis\source\repos\DaviskibaYP\bin\Debug\net8.0\Domain.pdb
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\scopedcss\bundle\DaviskibaYP.styles.css
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\scopedcss\projectbundle\DaviskibaYP.bundle.scp.css
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\Daviskib.A83E3B5B.Up2Date
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.dll
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\refint\DaviskibaYP.dll
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.pdb
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.genruntimeconfig.cache
+C:\Users\dawis\source\repos\DaviskibaYP\obj\Debug\net8.0\ref\DaviskibaYP.dll
+C:\Users\dawis\source\repos\DaviskibaYP\bin\Debug\net8.0\DAL.dll
+C:\Users\dawis\source\repos\DaviskibaYP\bin\Debug\net8.0\DAL.pdb
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\appsettings.Development.json
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\appsettings.json
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.staticwebassets.runtime.json
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.staticwebassets.endpoints.json
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.exe
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.deps.json
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.runtimeconfig.json
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.pdb
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Humanizer.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\NodaTime.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Npgsql.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Npgsql.NodaTime.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\System.CodeDom.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\System.Text.Json.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\DAL.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Domain.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Services.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\DAL.pdb
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Services.pdb
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\Domain.pdb
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.csproj.AssemblyReference.cache
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.AssemblyInfoInputs.cache
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.AssemblyInfo.cs
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.csproj.CoreCompileInputs.cache
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.MvcApplicationPartsAssemblyInfo.cache
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.RazorAssemblyInfo.cache
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.RazorAssemblyInfo.cs
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\EFCoreNpgsqlNodaTime.cs
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\scopedcss\bundle\DaviskibaYP.styles.css
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\scopedcss\projectbundle\DaviskibaYP.bundle.scp.css
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\staticwebassets.build.json
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\staticwebassets.development.json
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\swae.build.ex.cache
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\Daviskib.A83E3B5B.Up2Date
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.dll
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\refint\DaviskibaYP.dll
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.pdb
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.genruntimeconfig.cache
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\ref\DaviskibaYP.dll
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.sourcelink.json
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\FluentValidation.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\Practice\DaviskibaYP\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Practice\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.MvcApplicationPartsAssemblyInfo.cs
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.csproj.AssemblyReference.cache
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.GeneratedMSBuildEditorConfig.editorconfig
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.AssemblyInfoInputs.cache
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.AssemblyInfo.cs
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.csproj.CoreCompileInputs.cache
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.MvcApplicationPartsAssemblyInfo.cs
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.MvcApplicationPartsAssemblyInfo.cache
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.RazorAssemblyInfo.cache
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.RazorAssemblyInfo.cs
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\EFCoreNpgsqlNodaTime.cs
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\appsettings.Development.json
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\appsettings.json
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.staticwebassets.runtime.json
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.staticwebassets.endpoints.json
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.exe
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.deps.json
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.runtimeconfig.json
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\DaviskibaYP.pdb
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\FluentValidation.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Humanizer.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\NodaTime.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Npgsql.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.NodaTime.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Npgsql.NodaTime.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\System.CodeDom.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\System.Text.Json.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\DAL.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Domain.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Services.dll
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\DAL.pdb
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Services.pdb
+D:\Новая папка\DaviskibaYP\bin\Debug\net8.0\Domain.pdb
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\scopedcss\bundle\DaviskibaYP.styles.css
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\scopedcss\projectbundle\DaviskibaYP.bundle.scp.css
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\staticwebassets.build.json
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\staticwebassets.development.json
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\swae.build.ex.cache
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\Daviskib.A83E3B5B.Up2Date
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.dll
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\refint\DaviskibaYP.dll
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.pdb
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\DaviskibaYP.genruntimeconfig.cache
+D:\Новая папка\DaviskibaYP\obj\Debug\net8.0\ref\DaviskibaYP.dll
