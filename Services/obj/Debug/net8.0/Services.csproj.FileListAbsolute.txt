@@ -50,3 +50,21 @@ D:\Новая папка\Services\obj\Debug\net8.0\Services.dll
 D:\Новая папка\Services\obj\Debug\net8.0\refint\Services.dll
 D:\Новая папка\Services\obj\Debug\net8.0\Services.pdb
 D:\Новая папка\Services\obj\Debug\net8.0\ref\Services.dll
+D:\PracticeReload\Services\bin\Debug\net8.0\Services.deps.json
+D:\PracticeReload\Services\bin\Debug\net8.0\Services.dll
+D:\PracticeReload\Services\bin\Debug\net8.0\Services.pdb
+D:\PracticeReload\Services\bin\Debug\net8.0\DAL.dll
+D:\PracticeReload\Services\bin\Debug\net8.0\Domain.dll
+D:\PracticeReload\Services\bin\Debug\net8.0\DAL.pdb
+D:\PracticeReload\Services\bin\Debug\net8.0\Domain.pdb
+D:\PracticeReload\Services\obj\Debug\net8.0\Services.csproj.AssemblyReference.cache
+D:\PracticeReload\Services\obj\Debug\net8.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\PracticeReload\Services\obj\Debug\net8.0\Services.AssemblyInfoInputs.cache
+D:\PracticeReload\Services\obj\Debug\net8.0\Services.AssemblyInfo.cs
+D:\PracticeReload\Services\obj\Debug\net8.0\Services.csproj.CoreCompileInputs.cache
+D:\PracticeReload\Services\obj\Debug\net8.0\Services.sourcelink.json
+D:\PracticeReload\Services\obj\Debug\net8.0\Services.csproj.Up2Date
+D:\PracticeReload\Services\obj\Debug\net8.0\Services.dll
+D:\PracticeReload\Services\obj\Debug\net8.0\refint\Services.dll
+D:\PracticeReload\Services\obj\Debug\net8.0\Services.pdb
+D:\PracticeReload\Services\obj\Debug\net8.0\ref\Services.dll

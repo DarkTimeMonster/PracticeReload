@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zz7R4Qy7FXM=",
+  "dgSpecHash": "qq4okKL1LAY=",
   "success": true,
-  "projectFilePath": "D:\\Practice\\DaviskibaYP\\DaviskibaYP.csproj",
+  "projectFilePath": "D:\\PracticeReload\\DaviskibaYP\\DaviskibaYP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dawis\\.nuget\\packages\\fluentvalidation\\12.1.0\\fluentvalidation.12.1.0.nupkg.sha512",
     "C:\\Users\\dawis\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.1\\fluentvalidation.aspnetcore.11.3.1.nupkg.sha512",

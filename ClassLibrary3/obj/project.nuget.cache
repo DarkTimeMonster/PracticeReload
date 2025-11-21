@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c4+lkyNNg7Y=",
+  "dgSpecHash": "gvIxKMHjTZ4=",
   "success": true,
-  "projectFilePath": "D:\\Practice\\ClassLibrary3\\DAL.csproj",
+  "projectFilePath": "D:\\PracticeReload\\ClassLibrary3\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dawis\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\dawis\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

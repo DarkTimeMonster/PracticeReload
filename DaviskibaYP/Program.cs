@@ -15,6 +15,12 @@ using System.Text.Unicode;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// ===== SMTP (Gmail) =====
+var smtpSection = builder.Configuration.GetSection("Smtp");
+var smtpSettings = smtpSection.Get<SmtpSettings>()
+    ?? throw new InvalidOperationException("Не найдена секция Smtp в appsettings.json");
+builder.Services.AddSingleton(smtpSettings);
+builder.Services.AddTransient<IEmailSender, GmailEmailSender>();
 // ===== MVC + JSON + FluentValidation =====
 builder.Services
     .AddControllersWithViews()

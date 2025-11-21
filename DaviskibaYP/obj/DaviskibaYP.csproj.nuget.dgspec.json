@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Practice\\DaviskibaYP\\DaviskibaYP.csproj": {}
+    "D:\\PracticeReload\\DaviskibaYP\\DaviskibaYP.csproj": {}
   },
   "projects": {
-    "D:\\Practice\\ClassLibrary3\\DAL.csproj": {
+    "D:\\PracticeReload\\ClassLibrary3\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\ClassLibrary3\\DAL.csproj",
+        "projectUniqueName": "D:\\PracticeReload\\ClassLibrary3\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\Practice\\ClassLibrary3\\DAL.csproj",
+        "projectPath": "D:\\PracticeReload\\ClassLibrary3\\DAL.csproj",
         "packagesPath": "C:\\Users\\dawis\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\ClassLibrary3\\obj\\",
+        "outputPath": "D:\\PracticeReload\\ClassLibrary3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Practice\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Practice\\Domain\\Domain.csproj"
+              "D:\\PracticeReload\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\PracticeReload\\Domain\\Domain.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "D:\\Practice\\DaviskibaYP\\DaviskibaYP.csproj": {
+    "D:\\PracticeReload\\DaviskibaYP\\DaviskibaYP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\DaviskibaYP\\DaviskibaYP.csproj",
+        "projectUniqueName": "D:\\PracticeReload\\DaviskibaYP\\DaviskibaYP.csproj",
         "projectName": "DaviskibaYP",
-        "projectPath": "D:\\Practice\\DaviskibaYP\\DaviskibaYP.csproj",
+        "projectPath": "D:\\PracticeReload\\DaviskibaYP\\DaviskibaYP.csproj",
         "packagesPath": "C:\\Users\\dawis\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\DaviskibaYP\\obj\\",
+        "outputPath": "D:\\PracticeReload\\DaviskibaYP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -127,11 +127,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Practice\\ClassLibrary3\\DAL.csproj": {
-                "projectPath": "D:\\Practice\\ClassLibrary3\\DAL.csproj"
+              "D:\\PracticeReload\\ClassLibrary3\\DAL.csproj": {
+                "projectPath": "D:\\PracticeReload\\ClassLibrary3\\DAL.csproj"
               },
-              "D:\\Practice\\Services\\Services.csproj": {
-                "projectPath": "D:\\Practice\\Services\\Services.csproj"
+              "D:\\PracticeReload\\Services\\Services.csproj": {
+                "projectPath": "D:\\PracticeReload\\Services\\Services.csproj"
               }
             }
           }
@@ -212,14 +212,14 @@
         }
       }
     },
-    "D:\\Practice\\Domain\\Domain.csproj": {
+    "D:\\PracticeReload\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\PracticeReload\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Practice\\Domain\\Domain.csproj",
+        "projectPath": "D:\\PracticeReload\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\dawis\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\Domain\\obj\\",
+        "outputPath": "D:\\PracticeReload\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -277,14 +277,14 @@
         }
       }
     },
-    "D:\\Practice\\Services\\Services.csproj": {
+    "D:\\PracticeReload\\Services\\Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Practice\\Services\\Services.csproj",
+        "projectUniqueName": "D:\\PracticeReload\\Services\\Services.csproj",
         "projectName": "Services",
-        "projectPath": "D:\\Practice\\Services\\Services.csproj",
+        "projectPath": "D:\\PracticeReload\\Services\\Services.csproj",
         "packagesPath": "C:\\Users\\dawis\\.nuget\\packages\\",
-        "outputPath": "D:\\Practice\\Services\\obj\\",
+        "outputPath": "D:\\PracticeReload\\Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -305,11 +305,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\Practice\\ClassLibrary3\\DAL.csproj": {
-                "projectPath": "D:\\Practice\\ClassLibrary3\\DAL.csproj"
+              "D:\\PracticeReload\\ClassLibrary3\\DAL.csproj": {
+                "projectPath": "D:\\PracticeReload\\ClassLibrary3\\DAL.csproj"
               },
-              "D:\\Practice\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Practice\\Domain\\Domain.csproj"
+              "D:\\PracticeReload\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\PracticeReload\\Domain\\Domain.csproj"
               }
             }
           }
