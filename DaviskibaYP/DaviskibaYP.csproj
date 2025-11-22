@@ -17,6 +17,9 @@
 		<!-- Явно фиксируем основную сборку EF Core -->
 		<PackageReference Include="FluentValidation.AspNetCore" Version="11.3.1" />
 		<PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.3.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="8.0.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.OAuth" Version="2.3.0" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.1" />
 
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.1">

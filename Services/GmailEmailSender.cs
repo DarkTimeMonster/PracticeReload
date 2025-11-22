@@ -30,8 +30,6 @@ public class GmailEmailSender : IEmailSender
 
         message.To.Add(toEmail);
 
-        // чтобы можно было ответить прямо отправителю
-        // (его Email мы добавим в ReplyTo в ContactService)
         await client.SendMailAsync(message);
     }
 }

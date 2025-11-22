@@ -4,6 +4,7 @@ wwwroot\favicon.ico
 wwwroot\img\festival1.jpg
 wwwroot\img\festival2.jpg
 wwwroot\img\festival3.jpg
+wwwroot\img\google-logo.png
 wwwroot\js\contact_form.js
 wwwroot\js\login_and_registration_script.js
 wwwroot\js\map_init.js

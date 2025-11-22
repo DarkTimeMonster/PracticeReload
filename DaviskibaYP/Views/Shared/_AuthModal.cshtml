@@ -12,7 +12,6 @@
         </div>
 
         <div class="auth-panels">
-            <!-- ВХОД -->
             <form id="auth-login" class="auth-panel active" method="post" action="javascript:void(0)">
                 <div class="form-row">
                     <label for="login-email">Email</label>
@@ -22,7 +21,22 @@
                     <label for="login-pass">Пароль</label>
                     <input id="login-pass" name="Password" type="password" placeholder="••••••••" required />
                 </div>
-                <button class="btn btn-primary" type="submit">Войти</button>
+
+                <div class="auth-actions">
+                    <button type="submit" class="btn btn-primary auth-submit">
+                        Войти
+                    </button>
+
+                    <a asp-controller="Account"
+                       asp-action="GoogleLogin"
+                       class="btn btn-google">
+                        <img src="~/img/google-logo.png"
+                             alt="Google"
+                             class="google-icon" />
+                        <span>Войти через Google</span>
+                    </a>
+                </div>
+
                 <div id="loginErrors"></div> <!-- контейнер ошибок -->
             </form>
 

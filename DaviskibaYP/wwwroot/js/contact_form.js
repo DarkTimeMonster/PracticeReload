@@ -17,11 +17,10 @@
 
     if (!data.success) {
         console.log('Ошибки валидации:', data.errors);
-        // тут, если захочешь, можно раскидать ошибки по полям
+
         return;
     }
 
-    // тут success === true
     let text = data.message || 'Ваше сообщение успешно отправлено.';
 
     if (data.userEmailSent === false) {

@@ -3,15 +3,98 @@
   "WorkspaceRootPath": "D:\\PracticeReload\\DaviskibaYP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\wwwroot\\css\\modal_and_gallery.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\css\\modal_and_gallery.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\views\\shared\\_authmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_authmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\wwwroot\\js\\modal_init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\js\\modal_init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\views\\shared\\_gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6383C15B-5AA6-14CC-E6DE-B8C238620A33}|..\\Services\\Services.csproj|d:\\practicereload\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\views\\shared\\_messageform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_messageform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|d:\\practicereload\\domain\\entities\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6383C15B-5AA6-14CC-E6DE-B8C238620A33}|..\\Services\\Services.csproj|d:\\practicereload\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6383C15B-5AA6-14CC-E6DE-B8C238620A33}|..\\Services\\Services.csproj|d:\\practicereload\\services\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6383C15B-5AA6-14CC-E6DE-B8C238620A33}|..\\Services\\Services.csproj|d:\\practicereload\\services\\gmailemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6383C15B-5AA6-14CC-E6DE-B8C238620A33}|..\\Services\\Services.csproj|d:\\practicereload\\services\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6383C15B-5AA6-14CC-E6DE-B8C238620A33}|..\\Services\\Services.csproj|d:\\practicereload\\services\\festivalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\wwwroot\\js\\contact_form.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\js\\contact_form.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\validation\\loginandregistration\\contactmessagevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:validation\\loginandregistration\\contactmessagevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\validation\\festivals\\festivaleditviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:validation\\festivals\\festivaleditviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|d:\\practicereload\\domain\\viewmodels\\festivals\\festivaleditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\validation\\loginandregistration\\loginviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:validation\\loginandregistration\\loginviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|d:\\practicereload\\domain\\viewmodels\\loginandregistration\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|d:\\practicereload\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,35 +104,8 @@
       "AbsoluteMoniker": "D:0:0:{7386E0A7-C245-ACFA-D5C7-477A3E9F7E13}|..\\ClassLibrary3\\DAL.csproj|d:\\practicereload\\classlibrary3\\migrations\\20251121140216_addemailconfirmationtousers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|d:\\practicereload\\domain\\entities\\entities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\wwwroot\\js\\map_init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\js\\map_init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6383C15B-5AA6-14CC-E6DE-B8C238620A33}|..\\Services\\Services.csproj|d:\\practicereload\\services\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\wwwroot\\js\\contact_form.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\js\\contact_form.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6383C15B-5AA6-14CC-E6DE-B8C238620A33}|..\\Services\\Services.csproj|d:\\practicereload\\services\\smtpsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6383C15B-5AA6-14CC-E6DE-B8C238620A33}|..\\Services\\Services.csproj|d:\\practicereload\\services\\iemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6383C15B-5AA6-14CC-E6DE-B8C238620A33}|..\\Services\\Services.csproj|d:\\practicereload\\services\\gmailemailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\controllers\\festivalimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -64,36 +120,8 @@
       "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:controllers\\festivalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\js\\login_and_registration_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\validation\\loginandregistration\\loginviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:validation\\loginandregistration\\loginviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\views\\festivals\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\festivals\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\validation\\festivals\\festivaleditviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:validation\\festivals\\festivaleditviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\validation\\loginandregistration\\contactmessagevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:validation\\loginandregistration\\contactmessagevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\views\\shared\\_messageform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_messageform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\validation\\loginandregistration\\registerviewmodelvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -106,10 +134,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\lib\\jquery\\dist\\jquery.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\views\\shared\\_authmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_authmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\views\\shared\\_contactsblock.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -144,14 +168,6 @@
       "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\js\\shared_script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\wwwroot\\js\\modal_init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\js\\modal_init.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\wwwroot\\css\\modal_and_gallery.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\css\\modal_and_gallery.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\daviskibayp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:daviskibayp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -162,10 +178,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\views\\festivalimages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\festivalimages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\views\\shared\\_gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_gallery.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\practicereload\\daviskibayp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -299,7 +311,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -315,45 +327,332 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_AuthModal.cshtml",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_AuthModal.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AuthModal.cshtml",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_AuthModal.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AuthModal.cshtml",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAcwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T15:07:23.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_MessageForm.cshtml",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_MessageForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_MessageForm.cshtml",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_MessageForm.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_MessageForm.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T12:23:52.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Gallery.cshtml",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Gallery.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Gallery.cshtml",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Gallery.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Gallery.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T15:10:20.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "modal_init.js",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\modal_init.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\modal_init.js",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\modal_init.js",
+              "RelativeToolTip": "wwwroot\\js\\modal_init.js",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAUwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-04T22:52:02.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "modal_and_gallery.css",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\css\\modal_and_gallery.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\modal_and_gallery.css",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\css\\modal_and_gallery.css",
+              "RelativeToolTip": "wwwroot\\css\\modal_and_gallery.css",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAUwM4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-04T22:51:25.962Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SmtpSettings.cs",
+              "DocumentMoniker": "D:\\PracticeReload\\Services\\SmtpSettings.cs",
+              "RelativeDocumentMoniker": "..\\Services\\SmtpSettings.cs",
+              "ToolTip": "D:\\PracticeReload\\Services\\SmtpSettings.cs",
+              "RelativeToolTip": "..\\Services\\SmtpSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T12:26:09.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "shared.css",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\css\\shared.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\shared.css",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\css\\shared.css",
+              "RelativeToolTip": "wwwroot\\css\\shared.css",
+              "ViewState": "AgIAAGgEAAAAAAAAAAAAALMEAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-11-03T14:56:52.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "login_and_registration_script.js",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\login_and_registration_script.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\login_and_registration_script.js",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\login_and_registration_script.js",
+              "RelativeToolTip": "wwwroot\\js\\login_and_registration_script.js",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAUwJQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-05T12:30:52.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-04T12:01:20.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "..\\Services\\UserService.cs",
               "ToolTip": "D:\\PracticeReload\\Services\\UserService.cs",
               "RelativeToolTip": "..\\Services\\UserService.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAiwIAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAIwL4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-21T14:08:24.394Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20251121140216_AddEmailConfirmationToUsers.cs",
-              "DocumentMoniker": "D:\\PracticeReload\\ClassLibrary3\\Migrations\\20251121140216_AddEmailConfirmationToUsers.cs",
-              "RelativeDocumentMoniker": "..\\ClassLibrary3\\Migrations\\20251121140216_AddEmailConfirmationToUsers.cs",
-              "ToolTip": "D:\\PracticeReload\\ClassLibrary3\\Migrations\\20251121140216_AddEmailConfirmationToUsers.cs",
-              "RelativeToolTip": "..\\ClassLibrary3\\Migrations\\20251121140216_AddEmailConfirmationToUsers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T14:02:16.405Z",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-03T14:56:15.737Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAKMAAAAAAAAAAADwv68AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T12:34:30.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAqwFEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T18:29:00.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ContactService.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Services\\ContactService.cs",
               "RelativeDocumentMoniker": "..\\Services\\ContactService.cs",
               "ToolTip": "D:\\PracticeReload\\Services\\ContactService.cs",
               "RelativeToolTip": "..\\Services\\ContactService.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAgwEkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T12:33:09.551Z"
+              "WhenOpened": "2025-11-21T12:33:09.551Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
+              "Title": "GmailEmailSender.cs",
+              "DocumentMoniker": "D:\\PracticeReload\\Services\\GmailEmailSender.cs",
+              "RelativeDocumentMoniker": "..\\Services\\GmailEmailSender.cs",
+              "ToolTip": "D:\\PracticeReload\\Services\\GmailEmailSender.cs",
+              "RelativeToolTip": "..\\Services\\GmailEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T12:32:50.552Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IEmailSender.cs",
+              "DocumentMoniker": "D:\\PracticeReload\\Services\\IEmailSender.cs",
+              "RelativeDocumentMoniker": "..\\Services\\IEmailSender.cs",
+              "ToolTip": "D:\\PracticeReload\\Services\\IEmailSender.cs",
+              "RelativeToolTip": "..\\Services\\IEmailSender.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T12:32:34.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FestivalService.cs",
+              "DocumentMoniker": "D:\\PracticeReload\\Services\\FestivalService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\FestivalService.cs",
+              "ToolTip": "D:\\PracticeReload\\Services\\FestivalService.cs",
+              "RelativeToolTip": "..\\Services\\FestivalService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T08:07:45.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Entities.cs",
+              "DocumentMoniker": "D:\\PracticeReload\\Domain\\Entities\\Entities.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Entities.cs",
+              "ToolTip": "D:\\PracticeReload\\Domain\\Entities\\Entities.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\Entities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-21T13:55:43.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "contact_form.js",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\contact_form.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\contact_form.js",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\contact_form.js",
+              "RelativeToolTip": "wwwroot\\js\\contact_form.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-11-05T13:20:06.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ContactMessageValidator.cs",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Validation\\LoginAndRegistration\\ContactMessageValidator.cs",
+              "RelativeDocumentMoniker": "Validation\\LoginAndRegistration\\ContactMessageValidator.cs",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Validation\\LoginAndRegistration\\ContactMessageValidator.cs",
+              "RelativeToolTip": "Validation\\LoginAndRegistration\\ContactMessageValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T14:48:06.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FestivalEditViewModelValidator.cs",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Validation\\Festivals\\FestivalEditViewModelValidator.cs",
+              "RelativeDocumentMoniker": "Validation\\Festivals\\FestivalEditViewModelValidator.cs",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Validation\\Festivals\\FestivalEditViewModelValidator.cs",
+              "RelativeToolTip": "Validation\\Festivals\\FestivalEditViewModelValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:32:42.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FestivalEditViewModel.cs",
+              "DocumentMoniker": "D:\\PracticeReload\\Domain\\ViewModels\\Festivals\\FestivalEditViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\ViewModels\\Festivals\\FestivalEditViewModel.cs",
+              "ToolTip": "D:\\PracticeReload\\Domain\\ViewModels\\Festivals\\FestivalEditViewModel.cs",
+              "RelativeToolTip": "..\\Domain\\ViewModels\\Festivals\\FestivalEditViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T07:39:27.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\PracticeReload\\Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "ToolTip": "D:\\PracticeReload\\Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "RelativeToolTip": "..\\Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-22T07:22:23.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T15:01:41.5Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginViewModelValidator.cs",
+              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Validation\\LoginAndRegistration\\LoginViewModelValidator.cs",
+              "RelativeDocumentMoniker": "Validation\\LoginAndRegistration\\LoginViewModelValidator.cs",
+              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Validation\\LoginAndRegistration\\LoginViewModelValidator.cs",
+              "RelativeToolTip": "Validation\\LoginAndRegistration\\LoginViewModelValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-19T12:28:40.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "ContactsController.cs",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Controllers\\ContactsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ContactsController.cs",
@@ -366,93 +665,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "contact_form.js",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\contact_form.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\contact_form.js",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\contact_form.js",
-              "RelativeToolTip": "wwwroot\\js\\contact_form.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-05T13:20:06.442Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IEmailSender.cs",
-              "DocumentMoniker": "D:\\PracticeReload\\Services\\IEmailSender.cs",
-              "RelativeDocumentMoniker": "..\\Services\\IEmailSender.cs",
-              "ToolTip": "D:\\PracticeReload\\Services\\IEmailSender.cs",
-              "RelativeToolTip": "..\\Services\\IEmailSender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T12:32:34.109Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Controllers\\AccountController.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAowHkAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T12:34:30.833Z",
+              "DocumentIndex": 25,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "D:\\PracticeReload\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "..\\Domain\\Domain.csproj",
+              "ToolTip": "D:\\PracticeReload\\Domain\\Domain.csproj",
+              "RelativeToolTip": "..\\Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-22T06:44:31.068Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProfileController.cs",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Controllers\\ProfileController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Controllers\\ProfileController.cs",
-              "RelativeToolTip": "Controllers\\ProfileController.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAowJoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 27,
+              "Title": "20251121140216_AddEmailConfirmationToUsers.cs",
+              "DocumentMoniker": "D:\\PracticeReload\\ClassLibrary3\\Migrations\\20251121140216_AddEmailConfirmationToUsers.cs",
+              "RelativeDocumentMoniker": "..\\ClassLibrary3\\Migrations\\20251121140216_AddEmailConfirmationToUsers.cs",
+              "ToolTip": "D:\\PracticeReload\\ClassLibrary3\\Migrations\\20251121140216_AddEmailConfirmationToUsers.cs",
+              "RelativeToolTip": "..\\ClassLibrary3\\Migrations\\20251121140216_AddEmailConfirmationToUsers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T15:01:41.5Z",
+              "WhenOpened": "2025-11-21T14:02:16.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-04T12:01:20.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T18:29:00.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GmailEmailSender.cs",
-              "DocumentMoniker": "D:\\PracticeReload\\Services\\GmailEmailSender.cs",
-              "RelativeDocumentMoniker": "..\\Services\\GmailEmailSender.cs",
-              "ToolTip": "D:\\PracticeReload\\Services\\GmailEmailSender.cs",
-              "RelativeToolTip": "..\\Services\\GmailEmailSender.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T12:32:50.552Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 28,
               "Title": "map_init.js",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\map_init.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\map_init.js",
@@ -465,20 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Entities.cs",
-              "DocumentMoniker": "D:\\PracticeReload\\Domain\\Entities\\Entities.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Entities\\Entities.cs",
-              "ToolTip": "D:\\PracticeReload\\Domain\\Entities\\Entities.cs",
-              "RelativeToolTip": "..\\Domain\\Entities\\Entities.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T13:55:43.576Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 31,
               "Title": "FestivalsController.cs",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Controllers\\FestivalsController.cs",
               "RelativeDocumentMoniker": "Controllers\\FestivalsController.cs",
@@ -486,35 +712,12 @@
               "RelativeToolTip": "Controllers\\FestivalsController.cs",
               "ViewState": "AgIAADYAAAAAAAAAAAAuwEUAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T14:39:25.619Z"
+              "WhenOpened": "2025-11-14T14:39:25.619Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "SmtpSettings.cs",
-              "DocumentMoniker": "D:\\PracticeReload\\Services\\SmtpSettings.cs",
-              "RelativeDocumentMoniker": "..\\Services\\SmtpSettings.cs",
-              "ToolTip": "D:\\PracticeReload\\Services\\SmtpSettings.cs",
-              "RelativeToolTip": "..\\Services\\SmtpSettings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-21T12:26:09.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T14:56:15.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 67,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
@@ -522,35 +725,12 @@
               "RelativeToolTip": "..\\..\\Practice\\Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T23:31:33.031Z"
+              "WhenOpened": "2025-11-14T23:31:33.031Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "shared.css",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\css\\shared.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\shared.css",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\css\\shared.css",
-              "RelativeToolTip": "wwwroot\\css\\shared.css",
-              "ViewState": "AgIAAGgEAAAAAAAAAAAAALMEAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-03T14:56:52.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "login_and_registration_script.js",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\login_and_registration_script.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\login_and_registration_script.js",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\login_and_registration_script.js",
-              "RelativeToolTip": "wwwroot\\js\\login_and_registration_script.js",
-              "ViewState": "AgIAAG0AAAAAAAAAAAAUwJQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-05T12:30:52.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 30,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -558,11 +738,12 @@
               "RelativeToolTip": "Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T14:58:10.01Z"
+              "WhenOpened": "2025-11-03T14:58:10.01Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 29,
               "Title": "FestivalImagesController.cs",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Controllers\\FestivalImagesController.cs",
               "RelativeDocumentMoniker": "Controllers\\FestivalImagesController.cs",
@@ -570,23 +751,25 @@
               "RelativeToolTip": "Controllers\\FestivalImagesController.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAkwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T10:37:02.857Z"
+              "WhenOpened": "2025-11-17T10:37:02.857Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 66,
               "Title": "20251115204117_AddUserRoleToUsers.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\Migrations\\20251115204117_AddUserRoleToUsers.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\ClassLibrary3\\Migrations\\20251115204117_AddUserRoleToUsers.cs",
               "ToolTip": "D:\\Practice\\ClassLibrary3\\Migrations\\20251115204117_AddUserRoleToUsers.cs",
               "RelativeToolTip": "..\\..\\Practice\\ClassLibrary3\\Migrations\\20251115204117_AddUserRoleToUsers.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T20:41:17.402Z"
+              "WhenOpened": "2025-11-15T20:41:17.402Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 65,
               "Title": "GastroFestDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\Migrations\\GastroFestDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\ClassLibrary3\\Migrations\\GastroFestDbContextModelSnapshot.cs",
@@ -594,107 +777,60 @@
               "RelativeToolTip": "..\\..\\Practice\\ClassLibrary3\\Migrations\\GastroFestDbContextModelSnapshot.cs",
               "ViewState": "AgIAAN8AAAAAAAAAAAAgwOQAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T14:55:34.407Z"
+              "WhenOpened": "2025-11-12T14:55:34.407Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 64,
               "Title": "ContactService.cs",
               "DocumentMoniker": "D:\\Practice\\Services\\ContactService.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\Services\\ContactService.cs",
               "ToolTip": "D:\\Practice\\Services\\ContactService.cs",
               "RelativeToolTip": "..\\..\\Practice\\Services\\ContactService.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAABRwA4AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T13:46:06.433Z"
+              "WhenOpened": "2025-11-14T13:46:06.433Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ContactMessageValidator.cs",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Validation\\LoginAndRegistration\\ContactMessageValidator.cs",
-              "RelativeDocumentMoniker": "Validation\\LoginAndRegistration\\ContactMessageValidator.cs",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Validation\\LoginAndRegistration\\ContactMessageValidator.cs",
-              "RelativeToolTip": "Validation\\LoginAndRegistration\\ContactMessageValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T14:48:06.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 32,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Festivals\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Festivals\\Create.cshtml",
               "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Views\\Festivals\\Create.cshtml",
               "RelativeToolTip": "Views\\Festivals\\Create.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAIBJwCgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T10:30:03.999Z"
+              "WhenOpened": "2025-11-15T10:30:03.999Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "FestivalEditViewModelValidator.cs",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Validation\\Festivals\\FestivalEditViewModelValidator.cs",
-              "RelativeDocumentMoniker": "Validation\\Festivals\\FestivalEditViewModelValidator.cs",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Validation\\Festivals\\FestivalEditViewModelValidator.cs",
-              "RelativeToolTip": "Validation\\Festivals\\FestivalEditViewModelValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T12:32:42.634Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "LoginViewModelValidator.cs",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Validation\\LoginAndRegistration\\LoginViewModelValidator.cs",
-              "RelativeDocumentMoniker": "Validation\\LoginAndRegistration\\LoginViewModelValidator.cs",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Validation\\LoginAndRegistration\\LoginViewModelValidator.cs",
-              "RelativeToolTip": "Validation\\LoginAndRegistration\\LoginViewModelValidator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T12:28:40.041Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "_MessageForm.cshtml",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_MessageForm.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_MessageForm.cshtml",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_MessageForm.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_MessageForm.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T12:23:52.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 61,
               "Title": "ContactService.cs",
               "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\ContactService.cs",
               "RelativeDocumentMoniker": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\ContactService.cs",
               "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\ContactService.cs",
               "RelativeToolTip": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\ContactService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T11:29:39.469Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 60,
               "Title": "FestivalService.cs",
               "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\FestivalService.cs",
               "RelativeDocumentMoniker": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\FestivalService.cs",
               "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\FestivalService.cs",
               "RelativeToolTip": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\FestivalService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T12:01:50.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 33,
               "Title": "RegisterViewModelValidator.cs",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Validation\\LoginAndRegistration\\RegisterViewModelValidator.cs",
               "RelativeDocumentMoniker": "Validation\\LoginAndRegistration\\RegisterViewModelValidator.cs",
@@ -702,23 +838,23 @@
               "RelativeToolTip": "Validation\\LoginAndRegistration\\RegisterViewModelValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T12:31:54.494Z"
+              "WhenOpened": "2025-11-19T12:31:54.494Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 62,
               "Title": "Entities.cs",
               "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Domain\\Entities\\Entities.cs",
               "RelativeDocumentMoniker": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Domain\\Entities\\Entities.cs",
               "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Domain\\Entities\\Entities.cs",
               "RelativeToolTip": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Domain\\Entities\\Entities.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAA9wD0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T11:43:02.842Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 68,
               "Title": "ContactStorage.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\ContactStorage.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\ClassLibrary3\\ContactStorage.cs",
@@ -726,11 +862,12 @@
               "RelativeToolTip": "..\\..\\Practice\\ClassLibrary3\\ContactStorage.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAqwAYAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T09:23:43.307Z"
+              "WhenOpened": "2025-11-05T09:23:43.307Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 69,
               "Title": "GastroFestDbContext.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\GastroFestDbContext.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\ClassLibrary3\\GastroFestDbContext.cs",
@@ -738,23 +875,23 @@
               "RelativeToolTip": "..\\..\\Practice\\ClassLibrary3\\GastroFestDbContext.cs",
               "ViewState": "AgIAAEMAAAAAAAAAAAAkwFQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T13:44:40.295Z"
+              "WhenOpened": "2025-11-12T13:44:40.295Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 63,
               "Title": "ContactStorage.cs",
               "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ClassLibrary3\\ContactStorage.cs",
               "RelativeDocumentMoniker": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ClassLibrary3\\ContactStorage.cs",
               "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ClassLibrary3\\ContactStorage.cs",
               "RelativeToolTip": "..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ClassLibrary3\\ContactStorage.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-20T11:29:41.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 70,
               "Title": "Entities.cs",
               "DocumentMoniker": "D:\\Practice\\Domain\\Entities\\Entities.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\Domain\\Entities\\Entities.cs",
@@ -762,11 +899,12 @@
               "RelativeToolTip": "..\\..\\Practice\\Domain\\Entities\\Entities.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAIwDoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T13:27:32.487Z"
+              "WhenOpened": "2025-11-14T13:27:32.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 71,
               "Title": "Domain.csproj",
               "DocumentMoniker": "D:\\Practice\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "..\\..\\Practice\\Domain\\Domain.csproj",
@@ -774,23 +912,25 @@
               "RelativeToolTip": "..\\..\\Practice\\Domain\\Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-19T14:51:28.041Z"
+              "WhenOpened": "2025-11-19T14:51:28.041Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 35,
               "Title": "jquery.js",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
               "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\dist\\jquery.js",
               "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
               "RelativeToolTip": "wwwroot\\lib\\jquery\\dist\\jquery.js",
-              "ViewState": "AgIAAN4VAAAAAAAAAAAAALQVAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAANsVAAAAAAAAAIBJwLQVAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-19T12:22:46.138Z"
+              "WhenOpened": "2025-11-19T12:22:46.138Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 34,
               "Title": "FestivalImageEditViewModelValidator.cs",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Validation\\Festivals\\FestivalImageEditViewModelValidator.cs",
               "RelativeDocumentMoniker": "Validation\\Festivals\\FestivalImageEditViewModelValidator.cs",
@@ -798,11 +938,12 @@
               "RelativeToolTip": "Validation\\Festivals\\FestivalImageEditViewModelValidator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T12:33:02.447Z"
+              "WhenOpened": "2025-11-19T12:33:02.447Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 72,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
@@ -810,11 +951,12 @@
               "RelativeToolTip": "..\\..\\Practice\\Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-19T12:49:06.103Z"
+              "WhenOpened": "2025-11-19T12:49:06.103Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 37,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Festivals\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Festivals\\Index.cshtml",
@@ -822,11 +964,12 @@
               "RelativeToolTip": "Views\\Festivals\\Index.cshtml",
               "ViewState": "AgIAAEkAAAAAAAAAAAAuwFoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T09:51:10.04Z"
+              "WhenOpened": "2025-11-15T09:51:10.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 36,
               "Title": "_ContactsBlock.cshtml",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_ContactsBlock.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ContactsBlock.cshtml",
@@ -834,23 +977,12 @@
               "RelativeToolTip": "Views\\Shared\\_ContactsBlock.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T12:23:05.802Z"
+              "WhenOpened": "2025-11-04T12:23:05.802Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "_AuthModal.cshtml",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_AuthModal.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_AuthModal.cshtml",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_AuthModal.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_AuthModal.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwCgAAAB1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T15:07:23.656Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 73,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\Practice\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\Services\\UserService.cs",
@@ -858,11 +990,12 @@
               "RelativeToolTip": "..\\..\\Practice\\Services\\UserService.cs",
               "ViewState": "AgIAAFoAAAAAAAAAAAAmwF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T14:08:07.051Z"
+              "WhenOpened": "2025-11-14T14:08:07.051Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Festivals\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Festivals\\Details.cshtml",
@@ -870,11 +1003,12 @@
               "RelativeToolTip": "Views\\Festivals\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T17:54:44.933Z"
+              "WhenOpened": "2025-11-15T17:54:44.933Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Festivals\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Festivals\\Edit.cshtml",
@@ -882,11 +1016,12 @@
               "RelativeToolTip": "Views\\Festivals\\Edit.cshtml",
               "ViewState": "AgIAADUAAAAAAAAAAAAuwFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-15T23:30:25.817Z"
+              "WhenOpened": "2025-11-15T23:30:25.817Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 40,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -894,11 +1029,12 @@
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
               "ViewState": "AgIAABkAAAAAAAAAAAAuwEEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T14:58:53.738Z"
+              "WhenOpened": "2025-11-03T14:58:53.738Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Profile\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
@@ -906,11 +1042,12 @@
               "RelativeToolTip": "Views\\Profile\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-14T15:21:47.954Z"
+              "WhenOpened": "2025-11-14T15:21:47.954Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\FestivalImages\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\FestivalImages\\Index.cshtml",
@@ -918,11 +1055,12 @@
               "RelativeToolTip": "Views\\FestivalImages\\Index.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAuwEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T11:10:22.446Z"
+              "WhenOpened": "2025-11-17T11:10:22.446Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 74,
               "Title": "20251112144626_InitialCreate.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\Migrations\\20251112144626_InitialCreate.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\ClassLibrary3\\Migrations\\20251112144626_InitialCreate.cs",
@@ -930,11 +1068,12 @@
               "RelativeToolTip": "..\\..\\Practice\\ClassLibrary3\\Migrations\\20251112144626_InitialCreate.cs",
               "ViewState": "AgIAADcAAAAAAAAAAAAgwEcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-12T14:46:27.528Z"
+              "WhenOpened": "2025-11-12T14:46:27.528Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 75,
               "Title": "UserStorage.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\UserStorage.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\ClassLibrary3\\UserStorage.cs",
@@ -942,11 +1081,12 @@
               "RelativeToolTip": "..\\..\\Practice\\ClassLibrary3\\UserStorage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T13:56:00.357Z"
+              "WhenOpened": "2025-11-14T13:56:00.357Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 76,
               "Title": "FestivalService.cs",
               "DocumentMoniker": "D:\\Practice\\Services\\FestivalService.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\Services\\FestivalService.cs",
@@ -954,11 +1094,12 @@
               "RelativeToolTip": "..\\..\\Practice\\Services\\FestivalService.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAswFUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T09:45:34.831Z"
+              "WhenOpened": "2025-11-15T09:45:34.831Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 77,
               "Title": "FestivalImageService.cs",
               "DocumentMoniker": "D:\\Practice\\Services\\FestivalImageService.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\Services\\FestivalImageService.cs",
@@ -966,11 +1107,12 @@
               "RelativeToolTip": "..\\..\\Practice\\Services\\FestivalImageService.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAmwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T10:34:14.26Z"
+              "WhenOpened": "2025-11-17T10:34:14.26Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "shared_script.js",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\shared_script.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\shared_script.js",
@@ -978,35 +1120,12 @@
               "RelativeToolTip": "wwwroot\\js\\shared_script.js",
               "ViewState": "AgIAAA0AAAAAAAAAAAAswDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-03T14:57:30.332Z"
+              "WhenOpened": "2025-11-03T14:57:30.332Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "modal_init.js",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\modal_init.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\modal_init.js",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\modal_init.js",
-              "RelativeToolTip": "wwwroot\\js\\modal_init.js",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAUwFYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-04T22:52:02.257Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "modal_and_gallery.css",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\css\\modal_and_gallery.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\modal_and_gallery.css",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\wwwroot\\css\\modal_and_gallery.css",
-              "RelativeToolTip": "wwwroot\\css\\modal_and_gallery.css",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAqwJgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-11-04T22:51:25.962Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 78,
               "Title": "FestivalStorage.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\FestivalStorage.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\ClassLibrary3\\FestivalStorage.cs",
@@ -1014,11 +1133,12 @@
               "RelativeToolTip": "..\\..\\Practice\\ClassLibrary3\\FestivalStorage.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAwDIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T14:37:27.174Z"
+              "WhenOpened": "2025-11-14T14:37:27.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 79,
               "Title": "FestivalImageStorage.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\FestivalImageStorage.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\ClassLibrary3\\FestivalImageStorage.cs",
@@ -1026,11 +1146,12 @@
               "RelativeToolTip": "..\\..\\Practice\\ClassLibrary3\\FestivalImageStorage.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAAwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T10:33:37.83Z"
+              "WhenOpened": "2025-11-17T10:33:37.83Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 80,
               "Title": "IBaseStorage.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\Interfaces\\IBaseStorage.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\ClassLibrary3\\Interfaces\\IBaseStorage.cs",
@@ -1038,23 +1159,25 @@
               "RelativeToolTip": "..\\..\\Practice\\ClassLibrary3\\Interfaces\\IBaseStorage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T13:00:04.916Z"
+              "WhenOpened": "2025-11-14T13:00:04.916Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "DaviskibaYP.csproj",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\DaviskibaYP.csproj",
               "RelativeDocumentMoniker": "DaviskibaYP.csproj",
               "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\DaviskibaYP.csproj",
               "RelativeToolTip": "DaviskibaYP.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-04T11:44:47.527Z"
+              "WhenOpened": "2025-11-04T11:44:47.527Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\FestivalImages\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\FestivalImages\\Edit.cshtml",
@@ -1062,11 +1185,12 @@
               "RelativeToolTip": "Views\\FestivalImages\\Edit.cshtml",
               "ViewState": "AgIAAAcAAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T11:11:17.014Z"
+              "WhenOpened": "2025-11-17T11:11:17.014Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\FestivalImages\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\FestivalImages\\Create.cshtml",
@@ -1074,11 +1198,12 @@
               "RelativeToolTip": "Views\\FestivalImages\\Create.cshtml",
               "ViewState": "AgIAAAcAAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T10:37:47.549Z"
+              "WhenOpened": "2025-11-17T10:37:47.549Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 81,
               "Title": "FestivalImageEditViewModel.cs",
               "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\Festivals\\FestivalImageEditViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\Domain\\ViewModels\\Festivals\\FestivalImageEditViewModel.cs",
@@ -1086,11 +1211,12 @@
               "RelativeToolTip": "..\\..\\Practice\\Domain\\ViewModels\\Festivals\\FestivalImageEditViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T10:36:29.743Z"
+              "WhenOpened": "2025-11-17T10:36:29.743Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 82,
               "Title": "ProfileViewModels.cs",
               "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\Profile\\ProfileViewModels.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\Domain\\ViewModels\\Profile\\ProfileViewModels.cs",
@@ -1098,23 +1224,12 @@
               "RelativeToolTip": "..\\..\\Practice\\Domain\\ViewModels\\Profile\\ProfileViewModels.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T08:23:21.939Z"
+              "WhenOpened": "2025-11-15T08:23:21.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "_Gallery.cshtml",
-              "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Gallery.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Gallery.cshtml",
-              "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Gallery.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Gallery.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T15:10:20.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 83,
               "Title": "FestivalEditViewModel.cs",
               "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\Festivals\\FestivalEditViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\Domain\\ViewModels\\Festivals\\FestivalEditViewModel.cs",
@@ -1122,11 +1237,12 @@
               "RelativeToolTip": "..\\..\\Practice\\Domain\\ViewModels\\Festivals\\FestivalEditViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T10:28:20.83Z"
+              "WhenOpened": "2025-11-15T10:28:20.83Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 47,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -1134,11 +1250,12 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-13T10:47:13.346Z"
+              "WhenOpened": "2025-11-13T10:47:13.346Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 84,
               "Title": "DAL.csproj",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\DAL.csproj",
               "RelativeDocumentMoniker": "..\\..\\Practice\\ClassLibrary3\\DAL.csproj",
@@ -1146,32 +1263,35 @@
               "RelativeToolTip": "..\\..\\Practice\\ClassLibrary3\\DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-15T18:28:23.221Z"
+              "WhenOpened": "2025-11-15T18:28:23.221Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 48,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAG8JAAAAAAAAAAArwIQJAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-11-15T18:00:16.823Z"
+              "WhenOpened": "2025-11-15T18:00:16.823Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 49,
               "Title": "DaviskibaYP",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\DaviskibaYP.csproj",
               "RelativeDocumentMoniker": "DaviskibaYP.csproj",
               "ToolTip": "D:\\PracticeReload\\DaviskibaYP\\DaviskibaYP.csproj",
               "RelativeToolTip": "DaviskibaYP.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-15T15:05:05.03Z"
+              "WhenOpened": "2025-11-15T15:05:05.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 85,
               "Title": "FestivalDetailsViewModel.cs",
               "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\Festivals\\FestivalDetailsViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\Practice\\Domain\\ViewModels\\Festivals\\FestivalDetailsViewModel.cs",
@@ -1179,11 +1299,12 @@
               "RelativeToolTip": "..\\..\\Practice\\Domain\\ViewModels\\Festivals\\FestivalDetailsViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T17:50:24.379Z"
+              "WhenOpened": "2025-11-15T17:50:24.379Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "_About.cshtml",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_About.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_About.cshtml",
@@ -1191,11 +1312,12 @@
               "RelativeToolTip": "Views\\Shared\\_About.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T12:22:22.017Z"
+              "WhenOpened": "2025-11-04T12:22:22.017Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "_Services.cshtml",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Services.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Services.cshtml",
@@ -1203,11 +1325,12 @@
               "RelativeToolTip": "Views\\Shared\\_Services.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T12:22:44.726Z"
+              "WhenOpened": "2025-11-04T12:22:44.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -1215,11 +1338,12 @@
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T14:59:19.666Z"
+              "WhenOpened": "2025-11-03T14:59:19.666Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -1227,31 +1351,34 @@
               "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T10:22:43.73Z"
+              "WhenOpened": "2025-11-04T10:22:43.73Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "ContactRepository.cs",
               "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\ContactRepository.cs",
               "ToolTip": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\ContactRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T11:40:18.634Z"
+              "WhenOpened": "2025-11-04T11:40:18.634Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 55,
               "Title": "ContactService.cs",
               "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\Services\\ContactService.cs",
               "ToolTip": "C:\\Users\\dawis\\source\\repos\\Services\\ContactService.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAiwCQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T11:40:47.439Z"
+              "WhenOpened": "2025-11-04T11:40:47.439Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\PracticeReload\\DaviskibaYP\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -1259,37 +1386,41 @@
               "RelativeToolTip": "Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T10:23:24.03Z"
+              "WhenOpened": "2025-11-04T10:23:24.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 57,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\Services\\Class1.cs",
               "ToolTip": "C:\\Users\\dawis\\source\\repos\\Services\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T14:48:28.664Z"
+              "WhenOpened": "2025-11-03T14:48:28.664Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 58,
               "Title": "DAL.csproj",
               "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\DAL.csproj",
               "ToolTip": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-03T14:48:53.743Z"
+              "WhenOpened": "2025-11-03T14:48:53.743Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 59,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\Class1.cs",
               "ToolTip": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-03T14:47:59.911Z"
+              "WhenOpened": "2025-11-03T14:47:59.911Z",
+              "EditorCaption": ""
             }
           ]
         }

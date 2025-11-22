@@ -1,14 +1,18 @@
-﻿using System.Collections.Generic;
+﻿using Domain.Entities;
+using Domain.ViewModels.LoginAndRegistration;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Services;
+using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading;
 using System.Threading.Tasks;
-using Domain.Entities;
-using Domain.ViewModels.LoginAndRegistration;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Mvc;
-using Services;
+using System.Security.Claims;
+
 
 namespace DaviskibaYP.Controllers
 {
@@ -162,14 +166,14 @@ namespace DaviskibaYP.Controllers
         }
 
 
-        // ===== ВЫХОД =====
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
-            // просто уходим на главную
             return RedirectToAction("Index", "Home");
         }
+
 
         // ===== ХЕЛПЕР ДЛЯ ЛОГИНА =====
 
@@ -196,6 +200,48 @@ namespace DaviskibaYP.Controllers
                 CookieAuthenticationDefaults.AuthenticationScheme,
                 principal);
         }
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult GoogleLogin(string returnUrl = "/")
+        {
+            var properties = new AuthenticationProperties
+            {
+                RedirectUri = Url.Action("GoogleResponse", "Account", new { returnUrl })
+            };
+
+            return Challenge(properties, GoogleDefaults.AuthenticationScheme);
+        }
+
+        [HttpGet]
+        [AllowAnonymous]
+        public async Task<IActionResult> GoogleResponse(string returnUrl = "/", CancellationToken ct = default)
+        {
+            // после успешной авторизации через Google в HttpContext.User уже есть клеймы Google
+            var principal = HttpContext.User;
+
+            var email = principal.FindFirst(ClaimTypes.Email)?.Value;
+            var name = principal.Identity?.Name ?? email;
+
+            if (string.IsNullOrEmpty(email))
+            {
+                TempData["LoginError"] = "Не удалось получить email из Google-аккаунта.";
+                return RedirectToAction("Index", "Home");
+            }
+
+            // создаём или получаем пользователя из нашей таблицы Users
+            var user = await _userService.GetOrCreateFromGoogleAsync(email, name, ct);
+
+            // логиним через наш обычный механизм (ClaimsIdentity, кука и т.п.)
+            await SignInUserAsync(user);
+
+            // возвращаем туда, откуда человек начинал логиниться
+            if (string.IsNullOrEmpty(returnUrl))
+                returnUrl = "/";
+
+            return LocalRedirect(returnUrl);
+        }
+
+
 
     }
 }

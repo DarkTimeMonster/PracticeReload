@@ -33,7 +33,11 @@
                                     @User.Identity.Name
                                 </span>
                                 <a class="btn btn-outline" href="@Url.Action("Index", "Profile")">Профиль</a>
-                                <form method="post" action="@Url.Action("Logout", "Account")" style="display:inline;">
+                                <form asp-controller="Account"
+                                      asp-action="Logout"
+                                      method="post"
+                                      style="display:inline;">
+                                    @Html.AntiForgeryToken()
                                     <button type="submit" class="btn btn-primary btn-shadow">Выйти</button>
                                 </form>
                             </div>

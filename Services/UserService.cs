@@ -29,7 +29,6 @@ public class UserService
         string password,
         CancellationToken ct = default)
     {
-        // проверяем, нет ли уже такого email
         var existing = await _users.GetByEmailAsync(email, ct);
         if (existing != null)
             return (false, "Пользователь с таким email уже существует.", null);
@@ -42,9 +41,7 @@ public class UserService
             Role = "Customer",
             CreatedAt = DateTime.UtcNow,
 
-            // новое: email ещё НЕ подтверждён
             EmailConfirmed = false,
-            // новое: генерируем уникальный код для подтверждения
             EmailConfirmationCode = Guid.NewGuid().ToString("N")
         };
 
@@ -62,7 +59,6 @@ public class UserService
         if (user == null)
             return (false, "Пользователь не найден.", null);
 
-        // новая проверка подлинности email
         if (!user.EmailConfirmed)
             return (false, "Ваш email ещё не подтверждён. Проверьте почту.", null);
 
@@ -76,9 +72,35 @@ public class UserService
         return (true, null, user);
     }
 
-    // Получить пользователя по Id (для профиля)
+    // ПОЛУЧИТЬ ПОЛЬЗОВАТЕЛЯ ПО ID (для профиля)
     public Task<User?> GetByIdAsync(int id, CancellationToken ct = default) =>
         _users.GetAsync(id, ct);
+
+    // ОБНОВЛЕНИЕ ПРОФИЛЯ (ИМЯ + EMAIL)
+    public async Task<(bool ok, string? error)> UpdateProfileAsync(
+        int id,
+        string name,
+        string email,
+        CancellationToken ct = default)
+    {
+        var user = await _users.GetAsync(id, ct);
+        if (user == null)
+            return (false, "Пользователь не найден.");
+
+        // если email меняется — проверяем уникальность
+        if (!string.Equals(user.Email, email, StringComparison.OrdinalIgnoreCase))
+        {
+            var existing = await _users.GetByEmailAsync(email, ct);
+            if (existing != null && existing.Id != id)
+                return (false, "Пользователь с таким email уже существует.");
+        }
+
+        user.Name = name;
+        user.Email = email;
+
+        await _users.UpdateAsync(user, ct);
+        return (true, null);
+    }
 
     // СМЕНА ПАРОЛЯ
     public async Task<(bool ok, string? error)> ChangePasswordAsync(
@@ -125,4 +147,46 @@ public class UserService
 
         return (true, null, user);
     }
+
+    public async Task<User> GetOrCreateFromGoogleAsync(
+    string email,
+    string? name,
+    CancellationToken ct = default)
+    {
+        // пробуем найти пользователя по email
+        var user = await _users.GetByEmailAsync(email, ct);
+        if (user != null)
+        {
+            // обновим имя, если из Google пришло что-то более осмысленное
+            if (!string.IsNullOrWhiteSpace(name) && user.Name != name)
+            {
+                user.Name = name;
+            }
+
+            user.LastLoginAt = DateTime.UtcNow;
+            await _users.UpdateAsync(user, ct);
+
+            return user;
+        }
+
+        // если пользователя ещё нет — создаём его
+        user = new User
+        {
+            Name = string.IsNullOrWhiteSpace(name) ? email : name,
+            Email = email,
+            // случайный пароль, чтобы поле не было пустым
+            PwdHash = HashPassword(Guid.NewGuid().ToString("N")),
+            Role = "Customer",
+            CreatedAt = DateTime.UtcNow,
+            LastLoginAt = DateTime.UtcNow,
+
+            // раз пришли из Google, считаем email подтверждённым
+            EmailConfirmed = true,
+            EmailConfirmationCode = null
+        };
+
+        await _users.AddAsync(user, ct);
+        return user;
+    }
+
 }

@@ -1,7 +1,6 @@
 ﻿using DAL;
 using DAL.Interfaces;
 using DAL.Storage;
-// наши пространства имён с валидаторами
 using DaviskibaYP.Validation.LoginAndRegistration;
 using DaviskibaYP.Validators;
 using Domain.Entities;
@@ -12,6 +11,9 @@ using Microsoft.EntityFrameworkCore;
 using Services;
 using System.Text.Encodings.Web;
 using System.Text.Unicode;
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication.Google;
+using Microsoft.AspNetCore.Authentication.OAuth;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -44,11 +46,39 @@ builder.Services.AddValidatorsFromAssemblyContaining<ContactMessageValidator>();
 
 // ===== АУТЕНТИФИКАЦИЯ (cookies) =====
 builder.Services
-    .AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddAuthentication(options =>
+    {
+        options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+        options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+        options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    })
     .AddCookie(options =>
     {
-        options.LoginPath = "/";
-        options.AccessDeniedPath = "/";
+        options.LoginPath = "/Account/Login";
+        options.LogoutPath = "/Account/Logout";
+    })
+    .AddGoogle(GoogleDefaults.AuthenticationScheme, options =>
+    {
+        var googleAuthSection = builder.Configuration.GetSection("Authentication:Google");
+        options.ClientId = googleAuthSection["ClientId"]!;
+        options.ClientSecret = googleAuthSection["ClientSecret"]!;
+        options.CallbackPath = "/signin-google";
+
+        // чтобы Google каждый раз показывал выбор аккаунта
+        options.Events ??= new OAuthEvents();
+        options.Events.OnRedirectToAuthorizationEndpoint = context =>
+        {
+            var uri = context.RedirectUri;
+
+            // если уже есть параметры, просто добавим &prompt=select_account
+            if (!uri.Contains("prompt=", StringComparison.OrdinalIgnoreCase))
+            {
+                uri += uri.Contains("?") ? "&prompt=select_account" : "?prompt=select_account";
+            }
+
+            context.Response.Redirect(uri);
+            return Task.CompletedTask;
+        };
     });
 
 // ===== DbContext =====

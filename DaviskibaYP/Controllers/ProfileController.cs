@@ -1,154 +1,105 @@
-﻿using System.Security.Cryptography;
-using System.Text;
-using DAL;
-using Domain.Entities;
+﻿using System.Security.Claims;
+using System.Threading;
+using System.Threading.Tasks;
+using Domain.ViewModels.Profile;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+using Services;
 
-namespace Services;
-
-public class UserService
+namespace DaviskibaYP.Controllers
 {
-    private readonly UserStorage _users;
-
-    public UserService(UserStorage users)
+    [Authorize]
+    public class ProfileController : Controller
     {
-        _users = users;
-    }
+        private readonly UserService _userService;
 
-    // простое хеширование пароля (для учёбы хватит)
-    private static string HashPassword(string password)
-    {
-        using var sha = SHA256.Create();
-        var bytes = sha.ComputeHash(Encoding.UTF8.GetBytes(password));
-        return Convert.ToHexString(bytes); // ABCDEF0123...
-    }
-
-    // РЕГИСТРАЦИЯ: возвращаем (ok, error, user)
-    public async Task<(bool ok, string? error, User? user)> RegisterAsync(
-        string name,
-        string email,
-        string password,
-        CancellationToken ct = default)
-    {
-        // проверяем, нет ли уже такого email
-        var existing = await _users.GetByEmailAsync(email, ct);
-        if (existing != null)
-            return (false, "Пользователь с таким email уже существует.", null);
-
-        var user = new User
+        public ProfileController(UserService userService)
         {
-            Name = name,
-            Email = email,
-            PwdHash = HashPassword(password),
-            Role = "Customer",
-            CreatedAt = DateTime.UtcNow,
-
-            // новое: email ещё НЕ подтверждён
-            EmailConfirmed = false,
-            // новое: генерируем уникальный код для подтверждения
-            EmailConfirmationCode = Guid.NewGuid().ToString("N")
-        };
-
-        await _users.AddAsync(user, ct);
-        return (true, null, user);
-    }
-
-    // ЛОГИН: возвращаем (ok, error, user)
-    public async Task<(bool ok, string? error, User? user)> LoginAsync(
-        string email,
-        string password,
-        CancellationToken ct = default)
-    {
-        var user = await _users.GetByEmailAsync(email, ct);
-        if (user == null)
-            return (false, "Пользователь не найден.", null);
-
-        // проверка подлинности email
-        if (!user.EmailConfirmed)
-            return (false, "Ваш email ещё не подтверждён. Проверьте почту.", null);
-
-        var hash = HashPassword(password);
-        if (!string.Equals(user.PwdHash, hash, StringComparison.Ordinal))
-            return (false, "Неверный пароль.", null);
-
-        user.LastLoginAt = DateTime.UtcNow;
-        await _users.UpdateAsync(user, ct);
-
-        return (true, null, user);
-    }
-
-    // ПОЛУЧИТЬ ПОЛЬЗОВАТЕЛЯ ПО ID (для профиля)
-    public Task<User?> GetByIdAsync(int id, CancellationToken ct = default) =>
-        _users.GetAsync(id, ct);
-
-    // ОБНОВЛЕНИЕ ПРОФИЛЯ (ИМЯ + EMAIL)
-    public async Task<(bool ok, string? error)> UpdateProfileAsync(
-        int id,
-        string name,
-        string email,
-        CancellationToken ct = default)
-    {
-        var user = await _users.GetAsync(id, ct);
-        if (user == null)
-            return (false, "Пользователь не найден.");
-
-        // если email меняется — проверяем, что такого ещё нет
-        if (!string.Equals(user.Email, email, StringComparison.OrdinalIgnoreCase))
-        {
-            var existing = await _users.GetByEmailAsync(email, ct);
-            if (existing != null && existing.Id != id)
-                return (false, "Пользователь с таким email уже существует.");
+            _userService = userService;
         }
 
-        user.Name = name;
-        user.Email = email;
+        // GET /Profile /Profile/Index
+        [HttpGet]
+        public async Task<IActionResult> Index(CancellationToken ct)
+        {
+            var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (string.IsNullOrEmpty(userIdStr) || !int.TryParse(userIdStr, out var userId))
+                return RedirectToAction("Index", "Home");
 
-        await _users.UpdateAsync(user, ct);
-        return (true, null);
-    }
+            var user = await _userService.GetByIdAsync(userId, ct);
+            if (user == null)
+                return RedirectToAction("Index", "Home");
 
-    // СМЕНА ПАРОЛЯ
-    public async Task<(bool ok, string? error)> ChangePasswordAsync(
-        int id,
-        string currentPassword,
-        string newPassword,
-        CancellationToken ct = default)
-    {
-        var user = await _users.GetAsync(id, ct);
-        if (user == null)
-            return (false, "Пользователь не найден.");
+            var vm = new ProfilePageViewModel
+            {
+                Id = user.Id,
+                Name = user.Name,
+                Email = user.Email,
+                CreatedAt = user.CreatedAt
+            };
 
-        var currentHash = HashPassword(currentPassword);
-        if (!string.Equals(user.PwdHash, currentHash, StringComparison.Ordinal))
-            return (false, "Текущий пароль указан неверно.");
+            ViewBag.ProfileMessage = TempData["ProfileMessage"];
+            ViewBag.ProfileError = TempData["ProfileError"];
 
-        user.PwdHash = HashPassword(newPassword);
-        await _users.UpdateAsync(user, ct);
+            return View(vm);
+        }
 
-        return (true, null);
-    }
+        // POST /Profile/Update
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Update(ProfilePageViewModel model, CancellationToken ct)
+        {
+            var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (string.IsNullOrEmpty(userIdStr) || !int.TryParse(userIdStr, out var userId))
+                return RedirectToAction("Index", "Home");
 
-    // ПОДТВЕРЖДЕНИЕ EMAIL ПО КОДУ
-    public async Task<(bool ok, string? error, User? user)> ConfirmEmailAsync(
-        int userId,
-        string code,
-        CancellationToken ct = default)
-    {
-        var user = await _users.GetAsync(userId, ct);
-        if (user == null)
-            return (false, "Пользователь не найден.", null);
+            if (!ModelState.IsValid)
+            {
+                ViewBag.ProfileError = "Проверьте правильность заполнения формы.";
+                return View("Index", model);
+            }
 
-        if (user.EmailConfirmed)
-            return (false, "Email уже подтверждён.", user);
+            var (ok, error) = await _userService.UpdateProfileAsync(
+                userId,
+                model.Name,
+                model.Email,
+                ct);
 
-        if (string.IsNullOrEmpty(user.EmailConfirmationCode) ||
-            !string.Equals(user.EmailConfirmationCode, code, StringComparison.Ordinal))
-            return (false, "Некорректный код подтверждения.", null);
+            if (!ok)
+                TempData["ProfileError"] = error ?? "Не удалось обновить профиль.";
+            else
+                TempData["ProfileMessage"] = "Профиль успешно обновлён.";
 
-        user.EmailConfirmed = true;
-        user.EmailConfirmationCode = null;
+            return RedirectToAction("Index");
+        }
 
-        await _users.UpdateAsync(user, ct);
+        // POST /Profile/ChangePassword
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ChangePassword(ChangePasswordViewModel model, CancellationToken ct)
+        {
+            var userIdStr = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (string.IsNullOrEmpty(userIdStr) || !int.TryParse(userIdStr, out var userId))
+                return RedirectToAction("Index", "Home");
 
-        return (true, null, user);
+            if (!ModelState.IsValid)
+            {
+                TempData["ProfileError"] = "Проверьте правильность заполнения формы.";
+                return RedirectToAction("Index");
+            }
+
+            var (ok, error) = await _userService.ChangePasswordAsync(
+                userId,
+                model.CurrentPassword,
+                model.NewPassword,
+                ct);
+
+            if (!ok)
+                TempData["ProfileError"] = error ?? "Не удалось сменить пароль.";
+            else
+                TempData["ProfileMessage"] = "Пароль успешно изменён.";
+
+            return RedirectToAction("Index");
+        }
     }
 }
