@@ -1,4 +1,6 @@
-﻿@{
+﻿@model Domain.ViewModels.Home.HomeIndexViewModel
+
+@{
     ViewData["Title"] = "Главная — GastroFest";
 }
 
@@ -16,25 +18,84 @@
             </p>
 
             <div class="hero-main__actions">
-                <a href="#services" class="btn btn-primary btn-shadow">Найти фестиваль</a>
+                <a asp-controller="Festivals"
+                   asp-action="Index"
+                   class="btn btn-primary btn-shadow">
+                    Найти фестиваль
+                </a>
+
                 <a href="#contacts" class="btn btn-outline">Написать нам</a>
             </div>
         </div>
 
-
         <div class="hero-main__right">
-            <div class="hero-main__card">
-                <div class="hero-main__card-header">
-                    Ближайший фестиваль
+            @if (Model?.NearestFestival is null)
+            {
+                <div class="hero-main__card hero-main__card--fixed">
+                    <div class="hero-main__card-header">
+                        <span class="hero-main__card-label">Ближайший фестиваль</span>
+                    </div>
+
+                    <div class="hero-main__card-body">
+                        <div class="hero-main__card-main">
+                            <p class="hero-main__card-title">Пока нет событий</p>
+                            <p class="hero-main__card-desc">
+                                Как только появится ближайший фестиваль, он будет показан здесь.
+                            </p>
+                        </div>
+
+                        
+                    </div>
                 </div>
-                <div class="hero-main__card-body">
-                    <p class="hero-main__card-title">Street Food Weekend</p>
-                    <p class="hero-main__card-meta">Площадь города · каждые выходные</p>
-                    <p class="hero-main__card-note">
-                        Пример карточки фестиваля — в будущем здесь будет список из базы данных.
-                    </p>
-                </div>
-            </div>
+            }
+            else
+            {
+                <a asp-controller="Festivals"
+                   asp-action="Details"
+                   asp-route-id="@Model.NearestFestival.Id"
+                   class="hero-main__card-link-wrapper">
+                    <article class="hero-main__card hero-main__card--fixed">
+                        <div class="hero-main__card-header">
+                            <span class="hero-main__card-label">Ближайший фестиваль</span>
+                            <span class="hero-main__card-chip">Скоро</span>
+                        </div>
+
+                        <div class="hero-main__card-body">
+                            <div class="hero-main__card-main">
+                                <p class="hero-main__card-title">
+                                    @Model.NearestFestival.Title
+                                </p>
+
+                                <div class="hero-main__card-row">
+                                    <span class="hero-main__card-icon hero-main__card-icon--place"></span>
+                                    <span class="hero-main__card-text">
+                                        @Model.NearestFestival.City
+                                        @if (!string.IsNullOrWhiteSpace(Model.NearestFestival.Country))
+                                        {
+                                            @: · @Model.NearestFestival.Country
+                                        }
+                                    </span>
+                                </div>
+
+                                <div class="hero-main__card-row">
+                                    <span class="hero-main__card-icon hero-main__card-icon--date"></span>
+                                    <span class="hero-main__card-text">
+                                        @Model.NearestFestival.StartDate.ToString("d MMMM yyyy") —
+                                        @Model.NearestFestival.EndDate.ToString("d MMMM yyyy")
+                                    </span>
+                                </div>
+
+                                @if (!string.IsNullOrWhiteSpace(Model.NearestFestival.Description))
+                                {
+                                    <p class="hero-main__card-desc">
+                                        @Model.NearestFestival.Description
+                                    </p>
+                                }
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            }
         </div>
     </div>
 </section>
@@ -63,4 +124,3 @@
 <section id="message">
     @await Html.PartialAsync("_MessageForm")
 </section>
-    

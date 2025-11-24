@@ -12,6 +12,7 @@ using System.Security.Claims;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Security.Claims;
+using Services.EmailTemplates;
 
 
 namespace DaviskibaYP.Controllers
@@ -123,20 +124,21 @@ namespace DaviskibaYP.Controllers
                 new { userId = user.Id, code = user.EmailConfirmationCode },
                 Request.Scheme);
 
-            var body =
-                $"Здравствуйте, {user.Name ?? user.Email}!\n\n" +
-                "Вы зарегистрировались на сайте GastroFest.\n" +
-                "Для подтверждения электронной почты перейдите по ссылке:\n\n" +
-                $"{confirmUrl}\n\n" +
-                "Если вы не регистрировались на нашем сайте, просто игнорируйте это письмо.";
+            // --- ИСПОЛЬЗУЕМ HTML-ШАБЛОН ДЛЯ ПИСЬМА ---
+            var displayName = string.IsNullOrWhiteSpace(user.Name) ? user.Email : user.Name;
+            var bodyHtml = GastrofestEmailTemplates.BuildRegistrationEmail(displayName, confirmUrl);
 
             try
             {
-                await _emailSender.SendAsync(user.Email, "Подтверждение регистрации на GastroFest", body, ct);
+                await _emailSender.SendAsync(
+                    user.Email,
+                    "Подтверждение регистрации на GastroFest",
+                    bodyHtml,
+                    ct);
             }
             catch
             {
-                // можно залогировать ошибку, но регистрацию мы не отменяем
+                // можно залогировать, но регистрацию не отменяем
             }
 
             return Json(new
@@ -145,6 +147,7 @@ namespace DaviskibaYP.Controllers
                 message = "Регистрация почти завершена. На ваш email отправлено письмо с ссылкой для подтверждения."
             });
         }
+
 
 
         // ===== ПОДТВЕРЖДЕНИЕ EMAIL =====

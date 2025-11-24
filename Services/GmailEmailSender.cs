@@ -25,7 +25,7 @@ public class GmailEmailSender : IEmailSender
             From = new MailAddress(_settings.From),
             Subject = subject,
             Body = body,
-            IsBodyHtml = false
+            IsBodyHtml = true // <-- вот это
         };
 
         message.To.Add(toEmail);

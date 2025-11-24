@@ -1,6 +1,7 @@
 ﻿using DAL.Interfaces;
 using Domain.Entities;
 using Microsoft.Extensions.Logging;
+using Services.EmailTemplates; // <-- ДОБАВИЛИ ЭТО
 
 namespace Services
 {
@@ -36,38 +37,45 @@ namespace Services
             // 1. Сохраняем в БД
             await _storage.AddAsync(message, ct);
 
-            // 2. Письмо админу
+            var userName = message.Name;
+            var userEmail = message.Email;
+            var userMessage = message.Message;
+
+            // 2. Письмо админу (HTML-шаблон)
             var adminSubject = "Новое сообщение с сайта GastroFest";
-            var adminBody =
-                $"Имя: {message.Name}\n" +
-                $"Email: {message.Email}\n" +
-                $"Дата: {message.CreatedAt:dd.MM.yyyy HH:mm}\n\n" +
-                $"Сообщение:\n{message.Message}";
-
-            await _emailSender.SendAsync(_smtpSettings.AdminEmail, adminSubject, adminBody, ct);
-
-            // 3. Письмо пользователю
-            var userSubject = "Ваше обращение на сайт GastroFest получено";
-            var userBody =
-                $"Здравствуйте, {message.Name}!\n\n" +
-                "Спасибо за ваше обращение на сайт GastroFest.\n" +
-                "Ваш запрос получен и будет обработан в ближайшее время.\n\n" +
-                "Текст вашего сообщения:\n" +
-                $"{message.Message}\n\n" +
-                "С уважением,\nКоманда GastroFest";
+            var adminBody = GastrofestEmailTemplates.BuildContactAdminEmail(
+                userName,
+                userEmail,
+                userMessage
+            );
 
             try
             {
-                await _emailSender.SendAsync(message.Email, userSubject, userBody, ct);
+                await _emailSender.SendAsync(_smtpSettings.AdminEmail, adminSubject, adminBody, ct);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogWarning(ex,
+                    "Не удалось отправить письмо администратору на {AdminEmail}",
+                    _smtpSettings.AdminEmail);
+            }
+
+            // 3. Письмо пользователю (HTML-шаблон)
+            var userSubject = "Ваше обращение на сайт GastroFest получено";
+            var userBody = GastrofestEmailTemplates.BuildContactUserEmail(
+                userName,
+                userMessage
+            );
+
+            try
+            {
+                await _emailSender.SendAsync(userEmail, userSubject, userBody, ct);
                 return true;    // письмо пользователю ушло
             }
             catch (Exception ex)
             {
-                // Сюда попадаем, если:
-                // - очень кривой домен (smtp сразу ругнулся),
-                // - проблемы с подключением и т.п.
                 _logger.LogWarning(ex,
-                    "Не удалось отправить подтверждение пользователю на email {Email}", message.Email);
+                    "Не удалось отправить подтверждение пользователю на email {Email}", userEmail);
 
                 return false;   // считаем, что email не существует/недоступен
             }
