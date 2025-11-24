@@ -1,20 +1,37 @@
-﻿<form id="messageForm" method="post" action="javascript:void(0)" class="gf-form">
+﻿<form id="messageForm" method="post" class="gf-form" novalidate>
     @Html.AntiForgeryToken()
 
     <div class="field">
         <label for="msg-name">Ваше имя</label>
-        <input id="msg-name" name="Name" type="text" placeholder="Введите имя" required />
+        <input id="msg-name"
+               name="Name"
+               type="text"
+               placeholder="Введите имя"
+               required />
     </div>
 
     <div class="field">
         <label for="msg-email">Email</label>
-        <input id="msg-email" name="Email" type="email" placeholder="Введите email" required />
+        <input id="msg-email"
+               name="Email"
+               type="email"
+               placeholder="Введите email"
+               required />
     </div>
 
     <div class="field">
         <label for="msg-text">Сообщение</label>
-        <textarea id="msg-text" name="Message" rows="6" placeholder="Ваше сообщение..." required></textarea>
+        <textarea id="msg-text"
+                  name="Message"
+                  rows="6"
+                  placeholder="Ваше сообщение..."
+                  required></textarea>
     </div>
 
-    <button id="sendBtn" type="submit" class="btn btn-primary">Отправить сообщение</button>
+    <button id="sendBtn" type="submit" class="btn btn-primary">
+        Отправить сообщение
+    </button>
+
+    <!-- Статус отправки / ошибки -->
+    <p id="contactStatus" class="form-status" aria-live="polite"></p>
 </form>

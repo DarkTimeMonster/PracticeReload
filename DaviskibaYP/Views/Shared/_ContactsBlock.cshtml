@@ -2,19 +2,36 @@
     <div class="h-tag">Контакты</div>
     <h2>Как с нами связаться</h2>
 
-    <div style="display:grid; grid-template-columns: 1.15fr 1fr; gap: 20px; align-items:start;">
-        <div>
+    <div class="contacts-grid">
+        <div class="contacts-map">
             <div id="map" class="map" aria-label="Карта офиса GastroFest"></div>
         </div>
 
-        <div class="card" style="padding:16px;">
-            <ul style="list-style:none;padding:0;margin:0;display:grid;gap:10px;">
-                <li>📧 Email: info@gastrofest.ru</li>
-                <li>📞 Телефон: +7 (900) 123-45-67</li>
-                <li>📍 Адрес: Москва, ул. Вкусная, 7</li>
-                <li>🕓 Время работы: пн–пт, 10:00–18:00</li>
+        <div class="contacts-card">
+            <h3 class="contacts-card__title">Наши контакты</h3>
+            <p class="contacts-card__intro">
+                Если хотите задать вопрос или добавить свой фестиваль —
+                напишите нам любым удобным способом.
+            </p>
+
+            <ul class="contacts-card__list">
+                <li>
+                    <span class="contacts-card__icon">📧</span>
+                    <span>info@gastrofest.ru</span>
+                </li>
+                <li>
+                    <span class="contacts-card__icon">📞</span>
+                    <span>+7 (900) 123-45-67</span>
+                </li>
+                <li>
+                    <span class="contacts-card__icon">📍</span>
+                    <span>Москва, ул. Вкусная, 7</span>
+                </li>
+                <li>
+                    <span class="contacts-card__icon">🕓</span>
+                    <span>пн–пт, 10:00–18:00</span>
+                </li>
             </ul>
-            <p style="margin-top:12px;">Хотите добавить фестиваль или стать партнёром? Напишите нам — обсудим сотрудничество!</p>
         </div>
     </div>
 </section>

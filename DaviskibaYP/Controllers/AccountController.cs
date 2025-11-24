@@ -149,21 +149,23 @@ namespace DaviskibaYP.Controllers
 
         // ===== ПОДТВЕРЖДЕНИЕ EMAIL =====
         [HttpGet]
+        [HttpGet]
         public async Task<IActionResult> ConfirmEmail(int userId, string code, CancellationToken ct)
         {
             var (ok, error, user) = await _userService.ConfirmEmailAsync(userId, code, ct);
 
             if (!ok || user == null)
             {
-                // для простоты просто текст, можно сделать отдельное представление
-                return Content(error ?? "Не удалось подтвердить email.");
+                TempData["Error"] = error ?? "Не удалось подтвердить email.";
+                return RedirectToAction("Index", "Home");
             }
 
-            // после успешного подтверждения сразу логиним пользователя
             await SignInUserAsync(user);
 
-            return Content("Email успешно подтверждён. Вы вошли в систему.");
+            TempData["Success"] = "Email успешно подтверждён. Вы вошли в систему.";
+            return RedirectToAction("Index", "Home");
         }
+
 
 
         [HttpPost]
@@ -171,9 +173,10 @@ namespace DaviskibaYP.Controllers
         public async Task<IActionResult> Logout()
         {
             await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+            TempData["Success"] = "Вы вышли из аккаунта.";
             return RedirectToAction("Index", "Home");
         }
-
 
         // ===== ХЕЛПЕР ДЛЯ ЛОГИНА =====
 
@@ -216,7 +219,6 @@ namespace DaviskibaYP.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> GoogleResponse(string returnUrl = "/", CancellationToken ct = default)
         {
-            // после успешной авторизации через Google в HttpContext.User уже есть клеймы Google
             var principal = HttpContext.User;
 
             var email = principal.FindFirst(ClaimTypes.Email)?.Value;
@@ -224,17 +226,16 @@ namespace DaviskibaYP.Controllers
 
             if (string.IsNullOrEmpty(email))
             {
-                TempData["LoginError"] = "Не удалось получить email из Google-аккаунта.";
+                TempData["Error"] = "Не удалось получить email из Google-аккаунта.";
                 return RedirectToAction("Index", "Home");
             }
 
-            // создаём или получаем пользователя из нашей таблицы Users
             var user = await _userService.GetOrCreateFromGoogleAsync(email, name, ct);
 
-            // логиним через наш обычный механизм (ClaimsIdentity, кука и т.п.)
             await SignInUserAsync(user);
 
-            // возвращаем туда, откуда человек начинал логиниться
+            TempData["Success"] = $"Вы вошли как {user.Name ?? user.Email} через Google.";
+
             if (string.IsNullOrEmpty(returnUrl))
                 returnUrl = "/";
 

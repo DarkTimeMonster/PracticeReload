@@ -1460,3 +1460,1376 @@ body.noscroll {
         transform: translateY(-2px);
         box-shadow: 0 12px 26px rgba(15, 23, 42, 0.12);
     }
+/* ===== Контакты: карточка слева, карта справа ===== */
+
+.contacts-grid {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.3fr);
+    gap: 24px;
+    align-items: stretch;
+}
+
+/* левая цветная карточка */
+.contacts-info {
+    padding: 18px 20px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #ff8a3d, #ffbd6b);
+    color: #fff;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacts-info__title {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 800;
+}
+
+.contacts-info__text {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.95;
+}
+
+.contacts-info__list {
+    list-style: none;
+    padding: 0;
+    margin: 6px 0 0;
+    display: grid;
+    gap: 6px;
+    font-size: 0.92rem;
+}
+
+    .contacts-info__list li {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+.contacts-info__icon {
+    flex-shrink: 0;
+    font-size: 1.1rem;
+}
+
+/* правая колонка с картой */
+.contacts-map .map {
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.08);
+}
+
+/* адаптив: на*
+    /* ===== Контакты: карточка слева, карта справа, адаптив flex ===== */
+
+.contacts-grid {
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: stretch;
+}
+
+/* левая карточка */
+.contacts-info {
+    flex: 1 1 320px;
+    padding: 18px 20px;
+    border-radius: 18px;
+    background: linear-gradient(135deg, #ff9b4c, #ffc575);
+    color: #fff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.16);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacts-info__title {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 800;
+}
+
+.contacts-info__text {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.95;
+}
+
+.contacts-info__list {
+    list-style: none;
+    padding: 0;
+    margin: 6px 0 0;
+    display: grid;
+    gap: 6px;
+    font-size: 0.92rem;
+}
+
+    .contacts-info__list li {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+.contacts-info__icon {
+    flex-shrink: 0;
+    font-size: 1.05rem;
+}
+
+/* правая колонка с картой */
+.contacts-map {
+    flex: 1 1 360px;
+}
+
+    .contacts-map .map {
+        width: 100%;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    }
+
+/* на очень узких экранах чуть уменьшим тени */
+@media (max-width: 480px) {
+    .contacts-info {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+    }
+
+    .contacts-map .map {
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+    }
+}
+/* простой блок контактов */
+
+.contacts-intro {
+    margin-top: 6px;
+    margin-bottom: 14px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.contacts-map-wrapper {
+    margin-bottom: 14px;
+}
+
+/* полоска с контактами */
+.contacts-simple {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 20px;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.contacts-simple__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.contacts-simple__icon {
+    font-size: 1rem;
+}
+
+/* на небольших экранах контакты просто переходят на новые строки */
+@media (max-width: 600px) {
+    .contacts-simple {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+/* ===== Контакты: простая сетка текст + карта ===== */
+
+.contacts-grid {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.4fr);
+    gap: 24px;
+    align-items: start;
+}
+
+/* левая колонка с текстом */
+.contacts-info__intro {
+    margin: 0 0 10px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.contacts-info__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 6px;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+    .contacts-info__list li {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+.contacts-info__icon {
+    flex-shrink: 0;
+    font-size: 1.05rem;
+}
+
+/* правая колонка с картой */
+.contacts-map .map {
+    width: 100%;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+/* адаптив: на узких экранах блоки становятся столбиком */
+@media (max-width: 768px) {
+    .contacts-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+}
+/* ===== Контакты: карта слева, карточка справа ===== */
+
+.contacts-grid {
+    margin-top: 18px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+    gap: 24px;
+    align-items: stretch;
+}
+
+/* карта */
+.contacts-map .map {
+    width: 100%;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+
+.contacts-card__title {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--accent); /* тот же цвет, что на кнопках и бейджах */
+}
+
+.contacts-card__intro {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.contacts-card__list {
+    list-style: none;
+    padding: 0;
+    margin: 6px 0 0;
+    display: grid;
+    gap: 6px;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+    .contacts-card__list li {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+.contacts-card__icon {
+    flex-shrink: 0;
+    font-size: 1.05rem;
+    color: var(--accent); /* иконки в фирменном оранжевом */
+}
+
+/* адаптив: на телефоне карта сверху, контакты снизу */
+@media (max-width: 768px) {
+    .contacts-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+    
+.contacts-card {
+        position: relative;
+        padding: 16px 20px;
+        background: #ffffff;
+        border-radius: 14px;
+        /* лёгкая рамка в тоне сайта */
+        border: 1px solid #f5d8c2;
+        /* мягкая тень */
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+.contacts-card__title {
+    margin: 0 0 4px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333; /* НЕ ярко-оранжевый, просто тёмный */
+}
+
+.contacts-card__intro {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.contacts-card__list {
+    list-style: none;
+    padding: 0;
+    margin: 6px 0 0;
+    display: grid;
+    gap: 4px;
+    font-size: 0.93rem;
+    color: #333;
+}
+
+.contacts-card__icon {
+    flex-shrink: 0;
+    font-size: 1rem;
+    color: var(--accent); /* только маленький акцент на иконках */
+}
+.contacts-card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 12px;
+    bottom: 12px;
+    width: 4px;
+    border-radius: 999px;
+    background: var(--accent); /* твой оранжевый */
+}
+.contacts-card__title {
+    margin: 0 0 4px;
+    font-size: 0.98rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.contacts-card__intro {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+.contacts-card {
+    position: relative;
+    padding: 16px 20px;
+    background: #ffffff;
+    border-radius: 14px;
+    /* лёгкая рамка в тоне сайта */
+    border: 1px solid #f5d8c2;
+    /* мягкая тень */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+    .contacts-card::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 12px;
+        bottom: 12px;
+        width: 4px;
+        border-radius: 999px;
+        background: var(--accent); /* твой оранжевый */
+    }
+.contacts-card__title {
+    margin: 0 0 4px;
+    font-size: 0.98rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.contacts-card__intro {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+/* ===== Глобальные уведомления ===== */
+
+.alert {
+    margin: 0 0 16px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.alert-success {
+    background: #e8f9e6;
+    border: 1px solid #9ad29a;
+    color: #215b21;
+}
+
+.alert-error {
+    background: #ffe8e8;
+    border: 1px solid #ff9a9a;
+    color: #7b1a1a;
+}
+/* статус под формой контактов */
+.form-status {
+    margin-top: 8px;
+    font-size: 0.9rem;
+}
+
+.form-status--ok {
+    color: #1b7b2a;
+}
+
+.form-status--error {
+    color: #b3261e;
+}
+
+/* подсветка ошибочных полей */
+#messageForm .input-error {
+    border-color: #b3261e;
+    box-shadow: 0 0 0 1px rgba(179, 38, 30, 0.15);
+}
+/* Статус под формой контактов */
+.form-status {
+    margin-top: 8px;
+    font-size: 0.9rem;
+}
+
+.form-status--ok {
+    color: #1b7b2a; /* зелёный — успех */
+}
+
+.form-status--error {
+    color: #b3261e; /* красный — ошибка */
+}
+
+/* Подсветка полей с ошибкой */
+#messageForm .input-error {
+    border-color: #b3261e;
+    box-shadow: 0 0 0 1px rgba(179, 38, 30, 0.15);
+}
+/* ===== Страница профиля ===== */
+
+.profile-page {
+    margin-top: 10px;
+}
+
+.profile-page__title {
+    margin: 0 0 16px;
+}
+
+.profile-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    gap: 24px;
+    align-items: flex-start;
+}
+
+/* карточка пользователя */
+.profile-card {
+    margin-bottom: 16px;
+    padding: 16px 18px;
+    border-radius: 14px;
+    background: #ffffff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.profile-card__name {
+    margin: 0 0 4px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.profile-card__email {
+    margin: 0 0 10px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.profile-card__meta {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 4px;
+    font-size: 0.9rem;
+}
+
+    .profile-card__meta dt {
+        font-weight: 600;
+        color: #666;
+    }
+
+    .profile-card__meta dd {
+        margin: 0;
+    }
+
+/* общие блоки форм на странице профиля */
+.profile-form {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 16px 18px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+}
+
+.profile-form--compact {
+    padding: 14px 16px;
+}
+
+.profile-block__title {
+    margin: 0 0 10px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* чуть поправим поля внутри профиля */
+.profile-form .field {
+    margin-bottom: 12px;
+}
+
+    .profile-form .field label {
+        font-size: 0.9rem;
+    }
+
+/* адаптив */
+@media (max-width: 768px) {
+    .profile-layout {
+        grid-template-columns: 1fr;
+    }
+}
+/* ===== Страница профиля ===== */
+
+.profile-page {
+    margin-top: 10px;
+}
+
+.profile-page__title {
+    margin: 0 0 18px;
+    font-size: 1.6rem; /* поменьше, чем гигантский h1 по умолчанию */
+}
+
+/* Две колонки: инфа + пароль */
+.profile-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+    gap: 24px;
+    align-items: flex-start;
+}
+
+/* карточка пользователя */
+.profile-card {
+    margin-bottom: 16px;
+    padding: 14px 16px;
+    border-radius: 14px;
+    background: #ffffff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+}
+
+.profile-card__name {
+    margin: 0 0 2px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.profile-card__email {
+    margin: 0 0 10px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.profile-card__meta {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 4px;
+    font-size: 0.9rem;
+}
+
+    .profile-card__meta dt {
+        font-weight: 600;
+        color: #666;
+    }
+
+    .profile-card__meta dd {
+        margin: 0;
+    }
+
+/* формы профиля — белые блоки с тем же стилем, что и карточка */
+.profile-form {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 14px 16px 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+}
+
+.profile-form--compact {
+    padding: 12px 14px 14px;
+}
+
+.profile-block__title {
+    margin: 0 0 10px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* поля внутри форм — такие же как на других формах */
+.profile-form .field {
+    margin-bottom: 12px;
+}
+
+    .profile-form .field label {
+        display: block;
+        margin-bottom: 4px;
+        font-size: 0.9rem;
+    }
+
+    .profile-form .field input {
+        width: 100%;
+        padding: 8px 10px;
+        border-radius: 8px;
+        border: 1px solid #e6e6e6;
+        font-size: 0.95rem;
+    }
+
+        .profile-form .field input:focus {
+            outline: none;
+            border-color: #ff8a3d;
+            box-shadow: 0 0 0 1px rgba(255, 138, 61, 0.2);
+        }
+
+/* адаптив: на телефоне одна колонка */
+@media (max-width: 768px) {
+    .profile-layout {
+        grid-template-columns: 1fr;
+    }
+}
+/* ===== Модальное окно статуса на странице профиля ===== */
+
+.status-modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    z-index: 10000;
+}
+
+.status-modal--open {
+    display: flex;
+}
+
+.status-modal__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(3px);
+}
+
+.status-modal__content {
+    position: relative;
+    z-index: 1;
+    width: min(360px, 100%);
+    padding: 18px 18px 16px;
+    border-radius: 14px;
+    background: #ffffff;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+    text-align: left;
+}
+
+.status-modal__title {
+    margin: 0 0 8px;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.status-modal__text {
+    margin: 0 0 14px;
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.status-modal__close {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    border: 0;
+    background: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* вариант для ошибок */
+.status-modal--error .status-modal__content {
+    border: 1px solid #f6b0b0;
+}
+
+.status-modal--error .status-modal__title {
+    color: #b3261e;
+}
+/* ===== Модалки профиля (изменение данных и смена пароля) ===== */
+
+/* ===== Страница профиля (новая) ===== */
+
+.profile-page {
+    padding: 24px 0 40px;
+}
+
+.profile-shell {
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+/* Заголовок */
+
+.profile-page__header {
+    margin-bottom: 16px;
+}
+
+.profile-page__title {
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+.profile-page__subtitle {
+    margin: 4px 0 0;
+    font-size: 0.95rem;
+    color: #666;
+}
+
+/* Карточка пользователя */
+
+.profile-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 16px 18px 14px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.06);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 18px;
+}
+
+.profile-card__top {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.profile-avatar {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 0%, #ffe5cf, #ff8a3d);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: #fff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.profile-card__info {
+    flex: 1;
+    min-width: 0;
+}
+
+.profile-card__name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.profile-card__email {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 6px;
+}
+
+.profile-card__tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.profile-tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 3px 8px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    background: #f5f5f5;
+    color: #555;
+}
+
+.profile-tag--role {
+    background: rgba(255, 138, 61, 0.15);
+    color: #c45a12;
+}
+
+.profile-card__meta {
+    margin: 8px 0 0;
+    padding: 8px 0 0;
+    border-top: 1px solid #f2f2f2;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 4px 14px;
+    font-size: 0.88rem;
+}
+
+    .profile-card__meta dt {
+        font-weight: 600;
+        color: #777;
+    }
+
+    .profile-card__meta dd {
+        margin: 0;
+    }
+
+/* Плитки-действия под карточкой */
+
+.profile-actions-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+}
+
+@media (max-width: 640px) {
+    .profile-actions-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.profile-action {
+    border: 0;
+    padding: 14px 16px;
+    border-radius: 14px;
+    text-align: left;
+    background: #fff;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    cursor: pointer;
+    transition: transform .18s ease, box-shadow .18s ease, background-color .18s ease;
+}
+
+.profile-action--primary {
+    background: linear-gradient(135deg, #ff8a3d, #ff6a00);
+    border-color: transparent;
+    color: #fff;
+}
+
+.profile-action__icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+.profile-action__body {
+    flex: 1;
+    min-width: 0;
+}
+
+.profile-action__title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.profile-action__text {
+    font-size: 0.86rem;
+    color: #666;
+}
+
+.profile-action--primary .profile-action__icon {
+    background: rgba(255, 255, 255, 0.22);
+}
+
+.profile-action--primary .profile-action__text {
+    color: #ffe9d6;
+}
+
+.profile-action:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* ===== Модалки профиля ===== */
+
+body.profile-modal-open {
+    overflow: hidden;
+}
+
+.profile-modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    z-index: 10000;
+}
+
+.profile-modal--open {
+    display: flex;
+}
+
+.profile-modal__backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(3px);
+}
+
+.profile-modal__content {
+    position: relative;
+    z-index: 1;
+    width: min(420px, 100%);
+    padding: 18px 18px 16px;
+    border-radius: 16px;
+    background: #ffffff;
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.profile-modal__title {
+    margin: 0 0 4px;
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.profile-modal__subtitle {
+    margin: 0 0 12px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.profile-modal__form .field {
+    margin-bottom: 12px;
+}
+
+    .profile-modal__form .field label {
+        display: block;
+        margin-bottom: 4px;
+        font-size: 0.9rem;
+    }
+
+    .profile-modal__form .field input {
+        width: 100%;
+        padding: 8px 10px;
+        border-radius: 8px;
+        border: 1px solid #e6e6e6;
+        font-size: 0.95rem;
+    }
+
+        .profile-modal__form .field input:focus {
+            outline: none;
+            border-color: #ff8a3d;
+            box-shadow: 0 0 0 1px rgba(255, 138, 61, 0.2);
+        }
+
+.profile-modal__actions {
+    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.profile-modal__close {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    border: 0;
+    background: transparent;
+    font-size: 18px;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+/* адаптив */
+
+@media (max-width: 768px) {
+    .profile-shell {
+        padding-inline: 4px;
+    }
+
+    .profile-modal__content {
+        padding: 16px 14px 14px;
+        border-radius: 14px;
+    }
+}
+/* ===== Профиль: карточки-действия (изменить данные / сменить пароль) ===== */
+
+.profile-actions-row {
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: 14px;
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* общая карточка-экшен */
+.profile-action {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 14px;
+    border-radius: 14px;
+    border: 1px solid #f5d8c2;
+    background: #ffffff;
+    box-shadow: 0 8px 22px rgba(0, 0, 0, 0.03);
+    cursor: pointer;
+    text-align: left;
+    transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease, background-color .15s ease;
+}
+
+    .profile-action:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 10px 26px rgba(0, 0, 0, 0.05);
+        border-color: #ffb87a;
+        background: #fffdf9;
+    }
+
+/* акцентная (левая) карточка — чуть сильнее подсвечена */
+.profile-action--primary {
+    border-color: #ffb87a;
+    box-shadow: 0 12px 30px rgba(255, 122, 36, 0.18);
+    background: linear-gradient(135deg, #fffaf4 0%, #ffe4c3 40%, #ffffff 100%);
+}
+
+    .profile-action--primary:hover {
+        box-shadow: 0 14px 34px rgba(255, 122, 36, 0.22);
+        background: linear-gradient(135deg, #fff7f0 0%, #ffd9aa 45%, #ffffff 100%);
+    }
+
+/* иконка слева */
+.profile-action__icon {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    background: var(--accent-soft);
+    color: var(--accent);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+/* для второстепенных действий — более спокойный вид иконки */
+.profile-action__icon--outline {
+    background: #ffffff;
+    border: 1px solid #f1d7c5;
+    box-shadow: none;
+}
+
+/* текст внутри карточки */
+.profile-action__body {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.profile-action__title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.profile-action__text {
+    font-size: 0.86rem;
+    color: #666;
+}
+
+/* адаптив: на узких экранах — в колонку */
+@media (max-width: 768px) {
+    .profile-actions-row {
+        grid-template-columns: 1fr;
+    }
+}
+.profile-actions-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.profile-action {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 14px;
+    border-radius: 12px;
+    border: 1px solid #f4ddc8;
+    background: #fff;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.03);
+    cursor: pointer;
+    text-align: left;
+    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, background-color .18s ease;
+}
+
+.profile-action--primary {
+    background: linear-gradient(135deg, #ff8a3d, #ffb66a);
+    border-color: transparent;
+    box-shadow: 0 10px 26px rgba(255, 138, 61, 0.30);
+    color: #fff;
+}
+
+.profile-action__icon {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.18);
+    font-size: 18px;
+}
+
+.profile-action__title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.profile-action__text {
+    font-size: 0.85rem;
+    color: #666;
+}
+
+/* ховер */
+.profile-action:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 26px rgba(0,0,0,0.06);
+    border-color: #f0cba8;
+}
+
+.profile-action--primary:hover {
+    background: linear-gradient(135deg, #ff7a24, #ffab57);
+}
+
+/* фокус с клавиатуры */
+.profile-action:focus-visible {
+    outline: 2px solid #ff8a3d;
+    outline-offset: 3px;
+}
+.profile-modal {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .18s ease;
+}
+
+.profile-modal--open {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.profile-modal__content {
+    transform: translateY(10px) scale(.98);
+    opacity: 0;
+    transition: transform .2s ease, opacity .2s ease;
+}
+
+.profile-modal--open .profile-modal__content {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+}
+.profile-shell {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.profile-card {
+    position: relative;
+    overflow: hidden;
+}
+
+    .profile-card::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        height: 4px;
+        background: linear-gradient(90deg, #ff8a3d, #ffb66a);
+    }
+.profile-page__header {
+    margin-bottom: 16px;
+}
+
+.profile-page__title {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+    .profile-page__title::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -4px;
+        width: 36px;
+        height: 3px;
+        border-radius: 999px;
+        background: linear-gradient(90deg, #ff8a3d, #ffb66a);
+    }
+.profile-page {
+    font-size: 0.95rem;
+}
+
+.profile-card__meta {
+    font-size: 0.88rem;
+}
+
+.profile-tag {
+    font-size: 0.78rem;
+}
+.profile-alert {
+    margin-top: 10px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-size: 0.88rem;
+}
+
+.profile-alert--ok {
+    background: #e8f9e6;
+    border: 1px solid #9ad29a;
+    color: #215b21;
+}
+
+.profile-alert--error {
+    background: #ffe8e8;
+    border: 1px solid #ff9a9a;
+    color: #7b1a1a;
+}
+/* Внутренняя «коробка» профиля внутри секции */
+.profile-shell {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 18px 22px 22px;
+    border-radius: 22px;
+    background: #ffffff;
+    border: 1px solid #f5d8c2;
+    box-shadow: 0 16px 40px rgba(210, 150, 90, 0.14);
+}
+
+/* Карточка с аватаркой и данными — чуть светлее, чем фон shell */
+.profile-card {
+    background: #fffdf8;
+    border-radius: 16px;
+    padding: 14px 16px 12px;
+    border: 1px solid #f5e1cf;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.04);
+}
+
+    /* Тонкая оранжевая полоска сверху карточки профиля */
+    .profile-card::before {
+        content: "";
+        display: block;
+        height: 3px;
+        border-radius: 999px;
+        margin: -6px -10px 10px;
+        background: linear-gradient(90deg, #ff9b4c, #ff7a24);
+    }
+/* Сетка из двух плиток */
+.profile-actions-grid {
+    margin-top: 14px;
+    display: grid;
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+    gap: 14px;
+}
+
+/* Базовая плитка действия */
+.profile-action {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 14px;
+    border-radius: 14px;
+    background: #ffffff;
+    border: 1px solid #f4ddc9;
+    box-shadow: 0 10px 26px rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+    text-align: left;
+    transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease, background .18s ease;
+}
+
+    .profile-action:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 14px 32px rgba(0, 0, 0, 0.06);
+        border-color: #ffc59a;
+    }
+
+/* Иконка слева — маленький круглый бейдж */
+.profile-action__icon {
+    flex-shrink: 0;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    background: radial-gradient(circle at 30% 0%, #ffe7d2, #ff9b4c);
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(255, 122, 36, 0.45);
+}
+
+/* Заголовок и текст внутри плитки */
+.profile-action__body {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.profile-action__title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.profile-action__text {
+    font-size: 0.86rem;
+    color: #666;
+}
+
+/* Основная плитка (Изменить данные) — лёгкая подложка + цветная полоска слева */
+.profile-action--primary {
+    position: relative;
+    background: linear-gradient(135deg, #fff9f3, #ffffff);
+    border-color: #ffc59a;
+}
+
+    .profile-action--primary::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 10px;
+        bottom: 10px;
+        width: 4px;
+        border-radius: 999px;
+        background: linear-gradient(180deg, #ffb56b, #ff7a24);
+    }
+
+/* На совсем узких экранах — плитки одна под другой */
+@media (max-width: 640px) {
+    .profile-actions-grid {
+        grid-template-columns: 1fr;
+    }
+}

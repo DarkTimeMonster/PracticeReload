@@ -9,6 +9,7 @@ wwwroot\js\contact_form.js
 wwwroot\js\login_and_registration_script.js
 wwwroot\js\map_init.js
 wwwroot\js\modal_init.js
+wwwroot\js\profile_modals.js
 wwwroot\js\shared_script.js
 wwwroot\lib\bootstrap\LICENSE
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css

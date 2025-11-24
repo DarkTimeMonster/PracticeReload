@@ -1,35 +1,74 @@
-﻿document.getElementById('messageForm').addEventListener('submit', async function (e) {
-    e.preventDefault();
+﻿const form = document.getElementById('messageForm');
+const statusBox = document.getElementById('contactStatus');
 
-    const payload = {
-        name: this.querySelector('[name="Name"]').value,
-        email: this.querySelector('[name="Email"]').value,
-        message: this.querySelector('[name="Message"]').value
-    };
+if (form && statusBox) {
+    form.addEventListener('submit', async function (e) {
+        e.preventDefault();
 
-    const res = await fetch('/Contacts/Send', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
+        // Сбрасываем прошлый статус
+        statusBox.textContent = '';
+        statusBox.className = 'form-status';
+
+        // Сбрасываем подсветку ошибок полей
+        form.querySelectorAll('.input-error').forEach(el => {
+            el.classList.remove('input-error');
+        });
+
+        const payload = {
+            name: form.querySelector('[name="Name"]').value,
+            email: form.querySelector('[name="Email"]').value,
+            message: form.querySelector('[name="Message"]').value
+        };
+
+        try {
+            const res = await fetch('/Contacts/Send', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(payload)
+            });
+
+            const data = await res.json();
+
+            // Валидация на сервере
+            if (!data.success) {
+                statusBox.classList.add('form-status--error');
+
+                if (data.errors) {
+                    // Подсветить поля с ошибками
+                    Object.keys(data.errors).forEach(key => {
+                        const input = form.querySelector(`[name="${key}"]`);
+                        if (input) {
+                            input.classList.add('input-error');
+                        }
+                    });
+
+                    const firstError = Object.values(data.errors)[0];
+                    statusBox.textContent = firstError || 'Исправьте ошибки в форме.';
+                } else {
+                    statusBox.textContent = 'Исправьте ошибки в форме.';
+                }
+
+                return;
+            }
+
+            // Успех
+            statusBox.classList.add('form-status--ok');
+            statusBox.textContent = data.message || 'Сообщение успешно отправлено.';
+
+            form.reset();
+
+            // Скрыть статус через 5 секунд (не обязательно)
+            setTimeout(() => {
+                statusBox.textContent = '';
+                statusBox.className = 'form-status';
+            }, 5000);
+
+        } catch (err) {
+            console.error(err);
+            statusBox.classList.add('form-status--error');
+            statusBox.textContent = 'Произошла ошибка при отправке. Попробуйте ещё раз позже.';
+        }
     });
-
-    const data = await res.json();
-
-    if (!data.success) {
-        console.log('Ошибки валидации:', data.errors);
-
-        return;
-    }
-
-    let text = data.message || 'Ваше сообщение успешно отправлено.';
-
-    if (data.userEmailSent === false) {
-        text += '\n\nОднако не удалось отправить письмо на указанный вами email. ' +
-            'Возможно, адрес введён с ошибкой или не существует.';
-    } else {
-        text += '\n\nНа вашу почту отправлено письмо-подтверждение.';
-    }
-
-    alert(text);
-    this.reset();
-});
+}

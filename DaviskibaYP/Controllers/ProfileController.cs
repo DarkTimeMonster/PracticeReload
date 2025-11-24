@@ -18,7 +18,6 @@ namespace DaviskibaYP.Controllers
             _userService = userService;
         }
 
-        // GET /Profile /Profile/Index
         [HttpGet]
         public async Task<IActionResult> Index(CancellationToken ct)
         {
@@ -38,13 +37,9 @@ namespace DaviskibaYP.Controllers
                 CreatedAt = user.CreatedAt
             };
 
-            ViewBag.ProfileMessage = TempData["ProfileMessage"];
-            ViewBag.ProfileError = TempData["ProfileError"];
-
             return View(vm);
         }
 
-        // POST /Profile/Update
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update(ProfilePageViewModel model, CancellationToken ct)
@@ -55,8 +50,8 @@ namespace DaviskibaYP.Controllers
 
             if (!ModelState.IsValid)
             {
-                ViewBag.ProfileError = "Проверьте правильность заполнения формы.";
-                return View("Index", model);
+                TempData["Error"] = "Проверьте правильность заполнения формы.";
+                return RedirectToAction("Index");
             }
 
             var (ok, error) = await _userService.UpdateProfileAsync(
@@ -66,14 +61,13 @@ namespace DaviskibaYP.Controllers
                 ct);
 
             if (!ok)
-                TempData["ProfileError"] = error ?? "Не удалось обновить профиль.";
+                TempData["Error"] = error ?? "Не удалось обновить профиль.";
             else
-                TempData["ProfileMessage"] = "Профиль успешно обновлён.";
+                TempData["Success"] = "Профиль успешно обновлён.";
 
             return RedirectToAction("Index");
         }
 
-        // POST /Profile/ChangePassword
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> ChangePassword(ChangePasswordViewModel model, CancellationToken ct)
@@ -84,7 +78,7 @@ namespace DaviskibaYP.Controllers
 
             if (!ModelState.IsValid)
             {
-                TempData["ProfileError"] = "Проверьте правильность заполнения формы.";
+                TempData["Error"] = "Проверьте правильность заполнения формы.";
                 return RedirectToAction("Index");
             }
 
@@ -95,9 +89,9 @@ namespace DaviskibaYP.Controllers
                 ct);
 
             if (!ok)
-                TempData["ProfileError"] = error ?? "Не удалось сменить пароль.";
+                TempData["Error"] = error ?? "Не удалось сменить пароль.";
             else
-                TempData["ProfileMessage"] = "Пароль успешно изменён.";
+                TempData["Success"] = "Пароль успешно изменён.";
 
             return RedirectToAction("Index");
         }

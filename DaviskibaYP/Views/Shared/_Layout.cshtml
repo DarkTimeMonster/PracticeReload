@@ -102,6 +102,15 @@
     </header>
 
     <main class="container main-content" role="main">
+        @if (TempData["Success"] is string successMsg)
+        {
+            <div class="alert alert-success">@successMsg</div>
+        }
+        @if (TempData["Error"] is string errorMsg)
+        {
+            <div class="alert alert-error">@errorMsg</div>
+        }
+
         @RenderBody()
     </main>
 
