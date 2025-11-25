@@ -3331,3 +3331,104 @@ hero-main__card-icon--date::after {
     height: 6px;
     border-radius: 2px;
 }
+.festivals-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+    margin-bottom: 24px;
+}
+
+.festival-card {
+    background: #ffffff;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.06);
+    display: flex;
+    flex-direction: column;
+}
+
+.festival-card__cover img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+}
+
+.festival-card__body {
+    padding: 14px 16px 16px;
+}
+
+.festival-card__title {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.festival-card__meta {
+    font-size: 13px;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.festival-card__desc {
+    font-size: 13px;
+    color: #555;
+    max-height: 3.6em;
+    overflow: hidden;
+}
+
+.festival-card__link {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ff7a1a;
+    text-decoration: none;
+}
+
+/* пагинация */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.pagination__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+}
+
+.pagination__item {
+}
+
+.pagination__link {
+    display: inline-block;
+    min-width: 32px;
+    padding: 6px 10px;
+    border-radius: 999px;
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+    color: #444;
+    background: #fff3e6;
+    transition: background 0.15s ease, color 0.15s ease;
+}
+
+.pagination__item--active .pagination__link {
+    background: #ff7a1a;
+    color: #ffffff;
+}
+
+.pagination__link:hover {
+    background: #ff9b4a;
+    color: #ffffff;
+}
+
+.pagination__link--prev,
+.pagination__link--next {
+    padding: 6px 12px;
+}

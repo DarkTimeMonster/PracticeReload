@@ -13,13 +13,34 @@ public class FestivalsController : Controller
     {
         _festivalService = festivalService;
     }
-
-    // СПИСОК
     [HttpGet]
-    public async Task<IActionResult> Index(CancellationToken ct)
+    [HttpGet]
+    public async Task<IActionResult> Index(
+    string? search,
+    string? city,
+    string? dateFilter,
+    int page = 1,
+    int pageSize = 6,
+    CancellationToken ct = default)
     {
-        var list = await _festivalService.GetAllAsync(ct);
-        return View(list);
+        var (items, totalCount) = await _festivalService.GetPagedAsync(
+            page, pageSize, search, city, dateFilter, ct);
+
+        var totalPages = (int)Math.Ceiling(totalCount / (double)pageSize);
+
+        var vm = new FestivalListViewModel
+        {
+            Festivals = items,
+            Page = page,
+            PageSize = pageSize,
+            TotalPages = totalPages,
+            TotalCount = totalCount,
+            Search = search,
+            City = city,
+            DateFilter = dateFilter
+        };
+
+        return View(vm);
     }
 
     // ДЕТАЛИ

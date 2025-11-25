@@ -1,5 +1,5 @@
 ﻿@using Domain.Entities
-@model List<Festival>
+@model Domain.ViewModels.Festivals.FestivalListViewModel
 
 @{
     ViewData["Title"] = "Каталог фестивалей";
@@ -24,32 +24,91 @@
             </div>
         }
 
-        <div class="festivals-toolbar">
-            <input type="search" class="input input-search" placeholder="Поиск по названию…" />
-            <select class="input input-select">
-                <option>Все города</option>
-                <option>Москва</option>
-                <option>Санкт-Петербург</option>
-                <option>Другие</option>
+        @* Форма фильтров *@
+        <form asp-action="Index"
+              method="get"
+              class="festivals-toolbar"
+              id="festival-filters-form">
+
+            <!-- Поиск по названию -->
+            <input type="search"
+                   name="search"
+                   class="input input-search"
+                   placeholder="Поиск по названию…"
+                   value="@Model.Search" />
+
+            <!-- Фильтр по городу -->
+            <select class="input input-select" name="city">
+                <option value="">Все города</option>
+
+                @* Москва *@
+                @if (Model.City == "Москва")
+                {
+                    <option value="Москва" selected>Москва</option>
+                }
+                else
+                {
+                    <option value="Москва">Москва</option>
+                }
+
+                @* Санкт-Петербург *@
+                @if (Model.City == "Санкт-Петербург")
+                {
+                    <option value="Санкт-Петербург" selected>Санкт-Петербург</option>
+                }
+                else
+                {
+                    <option value="Санкт-Петербург">Санкт-Петербург</option>
+                }
+
+                @* Другие *@
+                @if (Model.City == "other")
+                {
+                    <option value="other" selected>Другие</option>
+                }
+                else
+                {
+                    <option value="other">Другие</option>
+                }
             </select>
-            <select class="input input-select">
-                <option>Любые даты</option>
-                <option>Этот месяц</option>
-                <option>Следующий месяц</option>
+
+            <!-- Фильтр по датам -->
+            <select class="input input-select" name="dateFilter">
+                <option value="">Любые даты</option>
+
+                @* Этот месяц *@
+                @if (Model.DateFilter == "currentMonth")
+                {
+                    <option value="currentMonth" selected>Этот месяц</option>
+                }
+                else
+                {
+                    <option value="currentMonth">Этот месяц</option>
+                }
+
+                @* Следующий месяц *@
+                @if (Model.DateFilter == "nextMonth")
+                {
+                    <option value="nextMonth" selected>Следующий месяц</option>
+                }
+                else
+                {
+                    <option value="nextMonth">Следующий месяц</option>
+                }
             </select>
-        </div>
+        </form>
     </div>
 </section>
 
 <section class="section-card">
-    <div class="festivals-grid">
-        @if (Model == null || Model.Count == 0)
-        {
-            <p>Пока нет ни одного фестиваля.</p>
-        }
-        else
-        {
-            foreach (var f in Model)
+    @if (Model.Festivals == null || Model.Festivals.Count == 0)
+    {
+        <p>По заданным фильтрам фестивалей не найдено.</p>
+    }
+    else
+    {
+        <div class="festivals-grid">
+            @foreach (var f in Model.Festivals)
             {
                 <article class="festival-card">
                     <a href="@Url.Action("Details", "Festivals", new { id = f.Id })"
@@ -109,6 +168,95 @@
                     }
                 </article>
             }
+        </div>
+
+        @* Пагинация *@
+        if (Model.TotalPages > 1)
+        {
+            <nav class="pagination" aria-label="Навигация по страницам">
+                <ul class="pagination__list">
+                    @if (Model.Page > 1)
+                    {
+                        <li class="pagination__item">
+                            <a asp-action="Index"
+                               asp-route-page="@(Model.Page - 1)"
+                               asp-route-pageSize="@Model.PageSize"
+                               asp-route-search="@Model.Search"
+                               asp-route-city="@Model.City"
+                               asp-route-dateFilter="@Model.DateFilter"
+                               class="pagination__link pagination__link--prev">
+                                ← Назад
+                            </a>
+                        </li>
+                    }
+
+                    @for (var i = 1; i <= Model.TotalPages; i++)
+                    {
+                        <li class="pagination__item @(i == Model.Page ? "pagination__item--active" : "")">
+                            <a asp-action="Index"
+                               asp-route-page="@i"
+                               asp-route-pageSize="@Model.PageSize"
+                               asp-route-search="@Model.Search"
+                               asp-route-city="@Model.City"
+                               asp-route-dateFilter="@Model.DateFilter"
+                               class="pagination__link">
+                                @i
+                            </a>
+                        </li>
+                    }
+
+                    @if (Model.Page < Model.TotalPages)
+                    {
+                        <li class="pagination__item">
+                            <a asp-action="Index"
+                               asp-route-page="@(Model.Page + 1)"
+                               asp-route-pageSize="@Model.PageSize"
+                               asp-route-search="@Model.Search"
+                               asp-route-city="@Model.City"
+                               asp-route-dateFilter="@Model.DateFilter"
+                               class="pagination__link pagination__link--next">
+                                Вперёд →
+                            </a>
+                        </li>
+                    }
+                </ul>
+            </nav>
         }
-    </div>
+    }
 </section>
+
+<script>
+    (function () {
+        var form = document.getElementById('festival-filters-form');
+        if (!form) return;
+
+        var searchInput = form.querySelector('input[name="search"]');
+        var citySelect = form.querySelector('select[name="city"]');
+        var dateSelect = form.querySelector('select[name="dateFilter"]');
+
+        var timerId = null;
+
+        // Авто-поиск по вводу (с задержкой)
+        if (searchInput) {
+            searchInput.addEventListener('input', function () {
+                if (timerId) {
+                    clearTimeout(timerId);
+                }
+                timerId = setTimeout(function () {
+                    form.submit();
+                }, 500); // мс задержки после последнего ввода
+            });
+        }
+
+        // Селекты — сразу отправляют форму
+        function attachChangeSubmit(el) {
+            if (!el) return;
+            el.addEventListener('change', function () {
+                form.submit();
+            });
+        }
+
+        attachChangeSubmit(citySelect);
+        attachChangeSubmit(dateSelect);
+    })();
+</script>

@@ -95,5 +95,86 @@ namespace Services
             await _db.SaveChangesAsync(ct);
             return false; // теперь не в избранном
         }
+
+        public async Task<(List<Festival> Items, int TotalCount)> GetPagedAsync(
+    int page,
+    int pageSize,
+    string? search,
+    string? city,
+    string? dateFilter,
+    CancellationToken ct = default)
+        {
+            if (page < 1) page = 1;
+            if (pageSize < 1) pageSize = 6;
+
+            var query = _db.Festivals.AsQueryable();
+
+            // === поиск по названию ===
+            if (!string.IsNullOrWhiteSpace(search))
+            {
+                var term = search.Trim();
+                query = query.Where(f => EF.Functions.ILike(f.Title, $"%{term}%"));
+            }
+
+            // === фильтр по городу ===
+            if (!string.IsNullOrWhiteSpace(city))
+            {
+                if (city == "other")
+                {
+                    query = query.Where(f =>
+                        f.City != "Москва" &&
+                        f.City != "Санкт-Петербург");
+                }
+                else
+                {
+                    query = query.Where(f => f.City == city);
+                }
+            }
+
+            // === фильтр по датам (UTC!) ===
+            if (!string.IsNullOrWhiteSpace(dateFilter))
+            {
+                // Берём сегодняшнюю дату в UTC
+                var todayUtc = DateTime.UtcNow;
+
+                // Первый день текущего месяца в UTC
+                var firstCurrentMonth = new DateTime(
+                    todayUtc.Year,
+                    todayUtc.Month,
+                    1,
+                    0, 0, 0,
+                    DateTimeKind.Utc);
+
+                // Первый день следующего месяца в UTC
+                var firstNextMonth = firstCurrentMonth.AddMonths(1);
+                // Первый день месяца после следующего
+                var firstAfterNext = firstNextMonth.AddMonths(1);
+
+                if (dateFilter == "currentMonth")
+                {
+                    query = query.Where(f =>
+                        f.StartDate >= firstCurrentMonth &&
+                        f.StartDate < firstNextMonth);
+                }
+                else if (dateFilter == "nextMonth")
+                {
+                    query = query.Where(f =>
+                        f.StartDate >= firstNextMonth &&
+                        f.StartDate < firstAfterNext);
+                }
+            }
+
+            // сортируем по дате начала
+            query = query.OrderBy(f => f.StartDate);
+
+            var totalCount = await query.CountAsync(ct);
+
+            var items = await query
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToListAsync(ct);
+
+            return (items, totalCount);
+        }
     }
 }
