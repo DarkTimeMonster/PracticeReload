@@ -14,6 +14,7 @@ using System.Text.Unicode;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
 using Microsoft.AspNetCore.Authentication.OAuth;
+using Services.Account;
 
 var builder = WebApplication.CreateBuilder(args);
 

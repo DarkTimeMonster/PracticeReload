@@ -2,7 +2,12 @@
 @model List<FestivalImage>
 
 @{
-    var fest = (Domain.Entities.Festival)ViewBag.Festival;
+    // Исправление: используйте правильное пространство имён и тип для фестиваля.
+    // Если тип Festival не существует в Domain.Entities, проверьте, где он определён.
+    // Например, если он определён в Domain.Festivals, замените на:
+    // var fest = (Domain.Festivals.Festival)ViewBag.Festival;
+    // Если тип Festival определён в другом пространстве имён, укажите его здесь.
+    var fest = (Festival)ViewBag.Festival;
     ViewData["Title"] = $"Галерея — {fest.Title}";
 }
 

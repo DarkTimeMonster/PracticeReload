@@ -23,33 +23,51 @@
         <div class="header-bar" id="headerBar">
             <div class="topbar">
                 <div class="container topbar-inner">
-                    <a class="logo" href="@Url.Action("Index", "Home")">GastroFest<span class="dot">.</span></a>
+                    <a class="logo" href="@Url.Action("Index", "Home")">
+                        GastroFest<span class="dot">.</span>
+                    </a>
 
                     <div class="topbar-actions">
+                        @* Кнопки справа (desktop) *@
                         @if (User.Identity?.IsAuthenticated ?? false)
                         {
                             <div class="auth-buttons only-desktop">
                                 <span class="user-name">
                                     @User.Identity.Name
                                 </span>
-                                <a class="btn btn-outline" href="@Url.Action("Index", "Profile")">Профиль</a>
+
+                                <a class="btn btn-outline"
+                                   href="@Url.Action("Index", "Profile")">
+                                    Профиль
+                                </a>
+
                                 <form asp-controller="Account"
                                       asp-action="Logout"
                                       method="post"
                                       style="display:inline;">
                                     @Html.AntiForgeryToken()
-                                    <button type="submit" class="btn btn-primary btn-shadow">Выйти</button>
+                                    <button type="submit"
+                                            class="btn btn-primary btn-shadow">
+                                        Выйти
+                                    </button>
                                 </form>
                             </div>
                         }
                         else
                         {
                             <div class="auth-buttons only-desktop">
-                                <a class="btn btn-outline js-open-auth" data-auth-tab="login" href="#">Войти</a>
-                                <a class="btn btn-primary btn-shadow js-open-auth" data-auth-tab="register" href="#">Зарегистрироваться</a>
+                                <a class="btn btn-outline js-open-auth"
+                                   data-auth-tab="login"
+                                   href="#">
+                                    Войти
+                                </a>
+                                <a class="btn btn-primary btn-shadow js-open-auth"
+                                   data-auth-tab="register"
+                                   href="#">
+                                    Зарегистрироваться
+                                </a>
                             </div>
                         }
-
 
                         <button class="nav-toggle" id="navToggle"
                                 aria-controls="mainNav"
@@ -67,31 +85,53 @@
                 <div class="container navbar-inner">
                     <div id="mainNav" class="nav-collapse" data-collapsed="true">
                         <ul class="main-menu">
-                            
-                                <li><a href="@Url.Action("Index", "Home")#home">Главная</a></li>
-                                <li><a href="@Url.Action("Index", "Home")#about">О нас</a></li>
-                                <li><a href="@Url.Action("Index", "Festivals")">Фестивали</a></li>
-                                <li><a href="@Url.Action("Index", "Home")#services">Услуги</a></li>
-                                <li><a href="@Url.Action("Index", "Home")#contacts">Контакты</a></li>
+                            <li><a href="@Url.Action("Index", "Home")#home">Главная</a></li>
+                            <li><a href="@Url.Action("Index", "Home")#about">О нас</a></li>
+                            <li><a href="@Url.Action("Index", "Festivals")">Фестивали</a></li>
+                            <li><a href="@Url.Action("Index", "Home")#services">Услуги</a></li>
+                            <li><a href="@Url.Action("Index", "Home")#contacts">Контакты</a></li>
 
-                            <li class="only-mobile">
-                                <a class="menu-btn btn-outline js-open-auth"
-                                   data-auth-tab="login"
-                                   href="#">
-                                    Войти
-                                </a>
-                            </li>
-                            <li class="only-mobile">
-                                <a class="menu-btn btn-primary btn-shadow js-open-auth"
-                                   data-auth-tab="register"
-                                   href="#">
-                                    Зарегистрироваться
-                                </a>
-                            </li>
-
-                            
+                            @* Мобильные кнопки авторизации / профиля *@
+                            @if (User.Identity?.IsAuthenticated ?? false)
+                            {
+                                <li class="only-mobile">
+                                    <a class="menu-btn btn-outline"
+                                       href="@Url.Action("Index", "Profile")">
+                                        Профиль
+                                    </a>
+                                </li>
+                                <li class="only-mobile">
+                                    <form asp-controller="Account"
+                                          asp-action="Logout"
+                                          method="post"
+                                          style="margin:12px 0 0;">
+                                        @Html.AntiForgeryToken()
+                                        <button type="submit"
+                                                class="menu-btn btn-outline"
+                                                style="width:100%;">
+                                            Выйти
+                                        </button>
+                                    </form>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="only-mobile">
+                                    <a class="menu-btn btn-outline js-open-auth"
+                                       data-auth-tab="login"
+                                       href="#">
+                                        Войти
+                                    </a>
+                                </li>
+                                <li class="only-mobile">
+                                    <a class="menu-btn btn-primary btn-shadow js-open-auth"
+                                       data-auth-tab="register"
+                                       href="#">
+                                        Зарегистрироваться
+                                    </a>
+                                </li>
+                            }
                         </ul>
-
                     </div>
                 </div>
             </nav>
@@ -117,7 +157,9 @@
     <footer class="site-footer">
         <div class="container footer-inner">
             <div class="footer-brand">
-                <span class="footer-logo">GastroFest<span class="dot">.</span></span>
+                <span class="footer-logo">
+                    GastroFest<span class="dot">.</span>
+                </span>
                 <p class="footer-text">
                     Небольшой учебный проект-каталог гастрономических фестивалей.
                 </p>
@@ -137,7 +179,11 @@
         </div>
     </footer>
 
-    @await Html.PartialAsync("_AuthModal")
+    @* Модалка авторизации нужна только для неавторизованных *@
+    @if (!(User.Identity?.IsAuthenticated ?? false))
+    {
+        @await Html.PartialAsync("_AuthModal")
+    }
 
     <!-- jQuery и валидация для _ValidationScriptsPartial -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>

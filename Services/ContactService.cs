@@ -1,6 +1,7 @@
 ﻿using DAL.Interfaces;
 using Domain.Entities;
 using Microsoft.Extensions.Logging;
+using Services.Account;
 using Services.EmailTemplates; // <-- ДОБАВИЛИ ЭТО
 
 namespace Services

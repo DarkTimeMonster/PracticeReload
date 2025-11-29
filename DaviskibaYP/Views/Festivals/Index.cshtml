@@ -9,9 +9,6 @@
     <div class="section-inner">
         <div class="h-tag">Фестивали</div>
         <h2>Каталог гастрономических фестивалей</h2>
-        <p>
-            Список фестивалей из базы. Позже сюда добавим фильтры, избранное и редактирование.
-        </p>
 
         @* Кнопка только для админа *@
         @if (User.IsInRole("Admin"))
@@ -24,239 +21,79 @@
             </div>
         }
 
-        @* Форма фильтров *@
-        <form asp-action="Index"
-              method="get"
-              class="festivals-toolbar"
-              id="festival-filters-form">
-
-            <!-- Поиск по названию -->
+        @* Панель фильтров (работает на JS, без submit) *@
+        <div class="festivals-toolbar" id="festival-filters">
             <input type="search"
-                   name="search"
+                   id="filter-search"
                    class="input input-search"
-                   placeholder="Поиск по названию…"
-                   value="@Model.Search" />
+                   placeholder="Поиск по названию…" />
 
-            <!-- Фильтр по городу -->
-            <select class="input input-select" name="city">
+            <select class="input input-select" id="filter-city">
                 <option value="">Все города</option>
-
-                @* Москва *@
-                @if (Model.City == "Москва")
-                {
-                    <option value="Москва" selected>Москва</option>
-                }
-                else
-                {
-                    <option value="Москва">Москва</option>
-                }
-
-                @* Санкт-Петербург *@
-                @if (Model.City == "Санкт-Петербург")
-                {
-                    <option value="Санкт-Петербург" selected>Санкт-Петербург</option>
-                }
-                else
-                {
-                    <option value="Санкт-Петербург">Санкт-Петербург</option>
-                }
-
-                @* Другие *@
-                @if (Model.City == "other")
-                {
-                    <option value="other" selected>Другие</option>
-                }
-                else
-                {
-                    <option value="other">Другие</option>
-                }
+                <option value="Москва">Москва</option>
+                <option value="Санкт-Петербург">Санкт-Петербург</option>
+                <option value="other">Другие</option>
             </select>
 
-            <!-- Фильтр по датам -->
-            <select class="input input-select" name="dateFilter">
+            <select class="input input-select" id="filter-date">
                 <option value="">Любые даты</option>
-
-                @* Этот месяц *@
-                @if (Model.DateFilter == "currentMonth")
-                {
-                    <option value="currentMonth" selected>Этот месяц</option>
-                }
-                else
-                {
-                    <option value="currentMonth">Этот месяц</option>
-                }
-
-                @* Следующий месяц *@
-                @if (Model.DateFilter == "nextMonth")
-                {
-                    <option value="nextMonth" selected>Следующий месяц</option>
-                }
-                else
-                {
-                    <option value="nextMonth">Следующий месяц</option>
-                }
+                <option value="currentMonth">Этот месяц</option>
+                <option value="nextMonth">Следующий месяц</option>
             </select>
-        </form>
+        </div>
     </div>
 </section>
 
 <section class="section-card">
-    @if (Model.Festivals == null || Model.Festivals.Count == 0)
-    {
-        <p>По заданным фильтрам фестивалей не найдено.</p>
-    }
-    else
-    {
-        <div class="festivals-grid">
-            @foreach (var f in Model.Festivals)
-            {
-                <article class="festival-card">
-                    <a href="@Url.Action("Details", "Festivals", new { id = f.Id })"
-                       class="festival-card__link">
-                        @* картинка *@
-                        @if (!string.IsNullOrWhiteSpace(f.CoverUrl))
-                        {
-                            <div class="festival-card__img">
-                                <img src="@f.CoverUrl" alt="@f.Title" />
-                            </div>
-                        }
+    <div class="festivals-grid" id="festivals-grid">
+        <p>Загрузка фестивалей...</p>
+    </div>
 
-                        @* тело карточки *@
-                        <div class="festival-card__body">
-                            <h3 class="festival-card__title">@f.Title</h3>
-
-                            @if (!string.IsNullOrWhiteSpace(f.City) || !string.IsNullOrWhiteSpace(f.Country))
-                            {
-                                <p class="festival-card__city">
-                                    @($"{f.City}{(string.IsNullOrWhiteSpace(f.Country) ? "" : ", " + f.Country)}")
-                                </p>
-                            }
-
-                            <p class="festival-card__dates">
-                                @f.StartDate.ToString("dd.MM.yyyy") — @f.EndDate.ToString("dd.MM.yyyy")
-                            </p>
-
-                            @if (!string.IsNullOrWhiteSpace(f.Description))
-                            {
-                                <p class="festival-card__desc">@f.Description</p>
-                            }
-                        </div>
-                    </a>
-
-                    @* админские кнопки *@
-                    @if (User.IsInRole("Admin"))
-                    {
-                        <div class="festival-card__admin">
-                            <a href="@Url.Action("Edit", "Festivals", new { id = f.Id })"
-                               class="btn btn-outline btn-sm">
-                                Редактировать
-                            </a>
-
-                            <form asp-action="Delete"
-                                  asp-controller="Festivals"
-                                  asp-route-id="@f.Id"
-                                  method="post"
-                                  style="display:inline;">
-                                @Html.AntiForgeryToken()
-                                <button type="submit"
-                                        class="btn btn-outline btn-sm"
-                                        onclick="return confirm('Удалить фестиваль «@f.Title»?');">
-                                    Удалить
-                                </button>
-                            </form>
-                        </div>
-                    }
-                </article>
-            }
-        </div>
-
-        @* Пагинация *@
-        if (Model.TotalPages > 1)
-        {
-            <nav class="pagination" aria-label="Навигация по страницам">
-                <ul class="pagination__list">
-                    @if (Model.Page > 1)
-                    {
-                        <li class="pagination__item">
-                            <a asp-action="Index"
-                               asp-route-page="@(Model.Page - 1)"
-                               asp-route-pageSize="@Model.PageSize"
-                               asp-route-search="@Model.Search"
-                               asp-route-city="@Model.City"
-                               asp-route-dateFilter="@Model.DateFilter"
-                               class="pagination__link pagination__link--prev">
-                                ← Назад
-                            </a>
-                        </li>
-                    }
-
-                    @for (var i = 1; i <= Model.TotalPages; i++)
-                    {
-                        <li class="pagination__item @(i == Model.Page ? "pagination__item--active" : "")">
-                            <a asp-action="Index"
-                               asp-route-page="@i"
-                               asp-route-pageSize="@Model.PageSize"
-                               asp-route-search="@Model.Search"
-                               asp-route-city="@Model.City"
-                               asp-route-dateFilter="@Model.DateFilter"
-                               class="pagination__link">
-                                @i
-                            </a>
-                        </li>
-                    }
-
-                    @if (Model.Page < Model.TotalPages)
-                    {
-                        <li class="pagination__item">
-                            <a asp-action="Index"
-                               asp-route-page="@(Model.Page + 1)"
-                               asp-route-pageSize="@Model.PageSize"
-                               asp-route-search="@Model.Search"
-                               asp-route-city="@Model.City"
-                               asp-route-dateFilter="@Model.DateFilter"
-                               class="pagination__link pagination__link--next">
-                                Вперёд →
-                            </a>
-                        </li>
-                    }
-                </ul>
-            </nav>
-        }
-    }
+    @* Клиентская пагинация *@
+    <nav class="pagination" aria-label="Навигация по страницам">
+        <ul class="pagination__list" id="festivals-pagination">
+            @* JS сюда вставит кнопки страниц *@
+        </ul>
+    </nav>
 </section>
 
+@* Шаблон формы удаления с антифорджери-токеном *@
+<form id="festival-delete-form-template"
+      method="post"
+      action=""
+      style="display:none;">
+    @Html.AntiForgeryToken()
+    <button type="submit"></button>
+</form>
+
+@* Модальное окно удаления *@
+<div id="festival-delete-modal" class="gf-modal-overlay">
+    <div class="gf-modal">
+        <h3 class="gf-modal__title">Удалить фестиваль</h3>
+        <p class="gf-modal__text">
+            Вы действительно хотите удалить фестиваль
+            «<span id="festival-delete-modal-title"></span>»?
+        </p>
+        <div class="gf-modal__actions">
+            <button type="button"
+                    class="btn btn-primary"
+                    id="festival-delete-modal-confirm">
+                Удалить
+            </button>
+            <button type="button"
+                    class="btn btn-outline"
+                    id="festival-delete-modal-cancel">
+                Отмена
+            </button>
+        </div>
+    </div>
+</div>
+
+@* Конфиг для JS: только флаг "админ или нет" *@
 <script>
-    (function () {
-        var form = document.getElementById('festival-filters-form');
-        if (!form) return;
-
-        var searchInput = form.querySelector('input[name="search"]');
-        var citySelect = form.querySelector('select[name="city"]');
-        var dateSelect = form.querySelector('select[name="dateFilter"]');
-
-        var timerId = null;
-
-        // Авто-поиск по вводу (с задержкой)
-        if (searchInput) {
-            searchInput.addEventListener('input', function () {
-                if (timerId) {
-                    clearTimeout(timerId);
-                }
-                timerId = setTimeout(function () {
-                    form.submit();
-                }, 500); // мс задержки после последнего ввода
-            });
-        }
-
-        // Селекты — сразу отправляют форму
-        function attachChangeSubmit(el) {
-            if (!el) return;
-            el.addEventListener('change', function () {
-                form.submit();
-            });
-        }
-
-        attachChangeSubmit(citySelect);
-        attachChangeSubmit(dateSelect);
-    })();
+    window.gastroFestCatalogConfig = {
+        isAdmin: @User.IsInRole("Admin").ToString().ToLower()
+    };
 </script>
+
+<script src="~/js/festivals-catalog.js"></script>

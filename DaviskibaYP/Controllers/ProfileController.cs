@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 using Domain.ViewModels.Profile;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Services;
+using Services.Account;
 
 namespace DaviskibaYP.Controllers
 {

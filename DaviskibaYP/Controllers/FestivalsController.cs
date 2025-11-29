@@ -190,4 +190,26 @@ public class FestivalsController : Controller
         await _festivalService.DeleteAsync(id, ct);
         return RedirectToAction(nameof(Index));
     }
+
+
+    [HttpGet]
+    public async Task<IActionResult> GetAllJson(CancellationToken ct)
+    {
+        var list = await _festivalService.GetAllAsync(ct);
+
+        var result = list.Select(f => new
+        {
+            id = f.Id,
+            title = f.Title,
+            description = f.Description,
+            city = f.City,
+            country = f.Country,
+            startDate = f.StartDate, // в JSON уйдёт ISO-строка
+            endDate = f.EndDate,
+            coverUrl = f.CoverUrl
+        });
+
+        return Json(result);
+    }
+
 }
