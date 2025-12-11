@@ -38,7 +38,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<ProjectReference Include="..\ClassLibrary3\DAL.csproj" />
 		<ProjectReference Include="..\Services\Services.csproj" />	
 	</ItemGroup>
 

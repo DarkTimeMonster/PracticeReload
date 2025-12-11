@@ -1,10 +1,13 @@
-﻿using System.Security.Claims;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using Domain.Entities;
 using Domain.ViewModels.Profile;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Services.Account;
+using System.Security.Claims;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace DaviskibaYP.Controllers
 {
@@ -61,12 +64,42 @@ namespace DaviskibaYP.Controllers
                 ct);
 
             if (!ok)
+            {
                 TempData["Error"] = error ?? "Не удалось обновить профиль.";
-            else
-                TempData["Success"] = "Профиль успешно обновлён.";
+                return RedirectToAction("Index");
+            }
 
+            // подтягиваем обновлённого пользователя и ОБНОВЛЯЕМ куку
+            var updatedUser = await _userService.GetByIdAsync(userId, ct);
+            if (updatedUser != null)
+            {
+                await SignInUserAsync(updatedUser);
+            }
+
+            TempData["Success"] = "Профиль успешно обновлён.";
             return RedirectToAction("Index");
         }
+        private async Task SignInUserAsync(User user)
+        {
+            var claims = new List<Claim>
+    {
+        new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+        new Claim(ClaimTypes.Name, string.IsNullOrEmpty(user.Name) ? user.Email : user.Name),
+        new Claim(ClaimTypes.Email, user.Email),
+        new Claim(ClaimTypes.Role, string.IsNullOrEmpty(user.Role) ? "Customer" : user.Role)
+    };
+
+            var identity = new ClaimsIdentity(
+                claims,
+                CookieAuthenticationDefaults.AuthenticationScheme);
+
+            var principal = new ClaimsPrincipal(identity);
+
+            await HttpContext.SignInAsync(
+                CookieAuthenticationDefaults.AuthenticationScheme,
+                principal);
+        }
+
 
         [HttpPost]
         [ValidateAntiForgeryToken]

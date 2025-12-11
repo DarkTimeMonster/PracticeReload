@@ -97,12 +97,12 @@ namespace Services
         }
 
         public async Task<(List<Festival> Items, int TotalCount)> GetPagedAsync(
-    int page,
-    int pageSize,
-    string? search,
-    string? city,
-    string? dateFilter,
-    CancellationToken ct = default)
+            int page,
+            int pageSize,
+            string? search,
+            string? city,
+            string? dateFilter,
+        CancellationToken ct = default)
         {
             if (page < 1) page = 1;
             if (pageSize < 1) pageSize = 6;
