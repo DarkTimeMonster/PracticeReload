@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\77784228\\Documents\\GitHub\\PracticeReload\\Domain\\Domain.csproj": {}
+    "D:\\Test\\PracticeReload\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\77784228\\Documents\\GitHub\\PracticeReload\\Domain\\Domain.csproj": {
+    "D:\\Test\\PracticeReload\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\77784228\\Documents\\GitHub\\PracticeReload\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Test\\PracticeReload\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\77784228\\Documents\\GitHub\\PracticeReload\\Domain\\Domain.csproj",
+        "projectPath": "D:\\Test\\PracticeReload\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\77784228\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\77784228\\Documents\\GitHub\\PracticeReload\\Domain\\obj\\",
+        "outputPath": "D:\\Test\\PracticeReload\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
