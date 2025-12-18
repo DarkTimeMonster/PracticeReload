@@ -51,6 +51,9 @@
                                         Выйти
                                     </button>
                                 </form>
+
+                                <a class="btn btn-outline" href="@Url.Action("Index", "Favorites")">Избранное</a>
+
                             </div>
                         }
                         else
@@ -94,41 +97,22 @@
                             @* Мобильные кнопки авторизации / профиля *@
                             @if (User.Identity?.IsAuthenticated ?? false)
                             {
+                                <li class="only-mobile"><a class="menu-btn btn-outline" href="@Url.Action("Index", "Profile")">Профиль</a></li>
+                                <li class="only-mobile"><a class="menu-btn btn-outline" href="@Url.Action("Index", "Favorites")">Избранное</a></li>
                                 <li class="only-mobile">
-                                    <a class="menu-btn btn-outline"
-                                       href="@Url.Action("Index", "Profile")">
-                                        Профиль
-                                    </a>
-                                </li>
-                                <li class="only-mobile">
-                                    <form asp-controller="Account"
-                                          asp-action="Logout"
-                                          method="post"
-                                          style="margin:12px 0 0;">
+                                    <form asp-controller="Account" asp-action="Logout" method="post">
                                         @Html.AntiForgeryToken()
-                                        <button type="submit"
-                                                class="menu-btn btn-outline"
-                                                style="width:100%;">
-                                            Выйти
-                                        </button>
+                                        <button type="submit" class="menu-btn btn-primary btn-shadow" style="width:100%;">Выйти</button>
                                     </form>
                                 </li>
                             }
                             else
                             {
                                 <li class="only-mobile">
-                                    <a class="menu-btn btn-outline js-open-auth"
-                                       data-auth-tab="login"
-                                       href="#">
-                                        Войти
-                                    </a>
+                                    <a class="menu-btn btn-outline js-open-auth" data-auth-tab="login" href="#">Войти</a>
                                 </li>
                                 <li class="only-mobile">
-                                    <a class="menu-btn btn-primary btn-shadow js-open-auth"
-                                       data-auth-tab="register"
-                                       href="#">
-                                        Зарегистрироваться
-                                    </a>
+                                    <a class="menu-btn btn-primary btn-shadow js-open-auth" data-auth-tab="register" href="#">Зарегистрироваться</a>
                                 </li>
                             }
                         </ul>

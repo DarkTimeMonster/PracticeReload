@@ -45,3 +45,15 @@ C:\Users\77784228\Documents\GitHub\PracticeReload\Domain\obj\Debug\net8.0\Domain
 C:\Users\77784228\Documents\GitHub\PracticeReload\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\Users\77784228\Documents\GitHub\PracticeReload\Domain\obj\Debug\net8.0\Domain.pdb
 C:\Users\77784228\Documents\GitHub\PracticeReload\Domain\obj\Debug\net8.0\ref\Domain.dll
+D:\Test\PracticeReload\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Test\PracticeReload\Domain\bin\Debug\net8.0\Domain.dll
+D:\Test\PracticeReload\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Test\PracticeReload\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Test\PracticeReload\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Test\PracticeReload\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Test\PracticeReload\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Test\PracticeReload\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+D:\Test\PracticeReload\Domain\obj\Debug\net8.0\Domain.dll
+D:\Test\PracticeReload\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Test\PracticeReload\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Test\PracticeReload\Domain\obj\Debug\net8.0\ref\Domain.dll

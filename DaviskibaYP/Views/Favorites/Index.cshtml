@@ -1,0 +1,61 @@
+﻿@using Domain.Entities
+@model List<Festival>
+
+@{
+    ViewData["Title"] = "Избранное";
+}
+
+<section class="section-card">
+    <div class="section-inner">
+        <div class="h-tag">Избранное</div>
+        <h2>Избранные фестивали</h2>
+        <p class="muted">Здесь отображаются фестивали, которые вы добавили в избранное.</p>
+    </div>
+</section>
+
+<section class="section-card">
+    @if (Model == null || Model.Count == 0)
+    {
+        <p>В избранном пока пусто.</p>
+    }
+    else
+    {
+        <div class="festivals-grid">
+            @foreach (var f in Model)
+            {
+                <article class="festival-card">
+                    <a href="@Url.Action("Details", "Festivals", new { id = f.Id })"
+                       class="festival-card__link">
+
+                        @if (!string.IsNullOrWhiteSpace(f.CoverUrl))
+                        {
+                            <div class="festival-card__img">
+                                <img src="@f.CoverUrl" alt="@f.Title" />
+                            </div>
+                        }
+
+                        <div class="festival-card__body">
+                            <h3 class="festival-card__title">@f.Title</h3>
+
+                            @if (!string.IsNullOrWhiteSpace(f.City) || !string.IsNullOrWhiteSpace(f.Country))
+                            {
+                                <p class="festival-card__city">
+                                    @($"{f.City}{(string.IsNullOrWhiteSpace(f.Country) ? "" : ", " + f.Country)}")
+                                </p>
+                            }
+
+                            <p class="festival-card__dates">
+                                @f.StartDate.ToString("dd.MM.yyyy") — @f.EndDate.ToString("dd.MM.yyyy")
+                            </p>
+
+                            @if (!string.IsNullOrWhiteSpace(f.Description))
+                            {
+                                <p class="festival-card__desc">@f.Description</p>
+                            }
+                        </div>
+                    </a>
+                </article>
+            }
+        </div>
+    }
+</section>
