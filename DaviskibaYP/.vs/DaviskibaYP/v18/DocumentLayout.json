@@ -3,6 +3,28 @@
   "WorkspaceRootPath": "D:\\Test\\PracticeReload\\DaviskibaYP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\views\\favorites\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\favorites\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\views\\festivalimages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\festivalimages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|d:\\test\\practicereload\\domain\\entities\\userfavorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6383C15B-5AA6-14CC-E6DE-B8C238620A33}|..\\Services\\Services.csproj|d:\\test\\practicereload\\services\\festivalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,10 +47,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\wwwroot\\css\\shared.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -156,10 +174,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\views\\festivalimages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\festivalimages\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\views\\festivalimages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\festivalimages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -367,7 +381,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -383,7 +397,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Favorites\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Favorites\\Index.cshtml",
+              "ToolTip": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Favorites\\Index.cshtml",
+              "RelativeToolTip": "Views\\Favorites\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T09:13:56.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FavoritesController.cs",
+              "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Controllers\\FavoritesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FavoritesController.cs",
+              "ToolTip": "D:\\Test\\PracticeReload\\DaviskibaYP\\Controllers\\FavoritesController.cs",
+              "RelativeToolTip": "Controllers\\FavoritesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T09:11:48.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FestivalService.cs",
+              "DocumentMoniker": "D:\\Test\\PracticeReload\\Services\\FestivalService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\FestivalService.cs",
+              "ToolTip": "D:\\Test\\PracticeReload\\Services\\FestivalService.cs",
+              "RelativeToolTip": "..\\Services\\FestivalService.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAkwGUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T09:10:00.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
               "Title": "DAL.csproj",
               "DocumentMoniker": "D:\\PracticeReload\\ClassLibrary3\\DAL.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\ClassLibrary3\\DAL.csproj",
@@ -394,7 +447,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -406,19 +459,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAM4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAqwGoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-03T14:56:15.737Z"
+              "WhenOpened": "2025-11-03T14:56:15.737Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 85,
               "Title": "FestivalEditViewModel.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Domain\\ViewModels\\Festivals\\FestivalEditViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Domain\\ViewModels\\Festivals\\FestivalEditViewModel.cs",
@@ -430,7 +484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
@@ -442,7 +496,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "FestivalsController.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Controllers\\FestivalsController.cs",
               "RelativeDocumentMoniker": "Controllers\\FestivalsController.cs",
@@ -454,7 +508,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\FestivalImages\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\FestivalImages\\Create.cshtml",
+              "ToolTip": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\FestivalImages\\Create.cshtml",
+              "RelativeToolTip": "Views\\FestivalImages\\Create.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-17T10:37:47.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserFavorite.cs",
+              "DocumentMoniker": "D:\\Test\\PracticeReload\\Domain\\Entities\\UserFavorite.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Entities\\UserFavorite.cs",
+              "ToolTip": "D:\\Test\\PracticeReload\\Domain\\Entities\\UserFavorite.cs",
+              "RelativeToolTip": "..\\Domain\\Entities\\UserFavorite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T09:10:57.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Festivals\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Festivals\\Index.cshtml",
@@ -466,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "festivals-catalog.js",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\festivals-catalog.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\festivals-catalog.js",
@@ -474,25 +554,24 @@
               "RelativeToolTip": "wwwroot\\js\\festivals-catalog.js",
               "ViewState": "AgIAACQAAAAAAAAAAAAAADwAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-11-29T07:38:34.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-29T07:38:34.76Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Test\\PracticeReload\\DaviskibaYP\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAAAIEAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAgwH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-15T18:29:00.398Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 102,
+              "DocumentIndex": 106,
               "Title": "FestivalService.cs",
               "DocumentMoniker": "C:\\Users\\77784228\\Documents\\GitHub\\PracticeReload\\Services\\FestivalService.cs",
               "ToolTip": "C:\\Users\\77784228\\Documents\\GitHub\\PracticeReload\\Services\\FestivalService.cs",
@@ -502,7 +581,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 83,
               "Title": "FestivalImageStorage.cs",
               "DocumentMoniker": "D:\\PracticeReload\\ClassLibrary3\\FestivalImageStorage.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\ClassLibrary3\\FestivalImageStorage.cs",
@@ -514,7 +593,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 82,
               "Title": "FestivalStorage.cs",
               "DocumentMoniker": "D:\\PracticeReload\\ClassLibrary3\\FestivalStorage.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\ClassLibrary3\\FestivalStorage.cs",
@@ -526,7 +605,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 103,
+              "DocumentIndex": 107,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\77784228\\Documents\\GitHub\\PracticeReload\\Services\\Account\\UserService.cs",
               "ToolTip": "C:\\Users\\77784228\\Documents\\GitHub\\PracticeReload\\Services\\Account\\UserService.cs",
@@ -536,7 +615,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
@@ -548,7 +627,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Festivals\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Festivals\\Edit.cshtml",
@@ -560,7 +639,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "shared.css",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\wwwroot\\css\\shared.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\shared.css",
@@ -572,7 +651,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "shared_script.js",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\shared_script.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\shared_script.js",
@@ -584,7 +663,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 86,
               "Title": "Services.csproj",
               "DocumentMoniker": "D:\\PracticeReload\\Services\\Services.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Services\\Services.csproj",
@@ -596,7 +675,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 87,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Services\\Account\\UserService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Services\\Account\\UserService.cs",
@@ -608,7 +687,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 88,
               "Title": "IEmailSender.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Services\\Account\\IEmailSender.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Services\\Account\\IEmailSender.cs",
@@ -620,7 +699,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 89,
               "Title": "ContactService.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Services\\ContactService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Services\\ContactService.cs",
@@ -632,7 +711,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\FestivalImages\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\FestivalImages\\Index.cshtml",
@@ -644,7 +723,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Details.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Festivals\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Festivals\\Details.cshtml",
@@ -656,7 +735,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 90,
               "Title": "FestivalListViewModel.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Domain\\ViewModels\\Festivals\\FestivalListViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Domain\\ViewModels\\Festivals\\FestivalListViewModel.cs",
@@ -668,7 +747,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 91,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Domain\\Entities\\User.cs",
@@ -680,7 +759,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 92,
               "Title": "Festival.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Domain\\Entities\\Festival.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Domain\\Entities\\Festival.cs",
@@ -692,7 +771,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 93,
               "Title": "FestivalImage.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Domain\\Entities\\FestivalImage.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Domain\\Entities\\FestivalImage.cs",
@@ -704,7 +783,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 94,
               "Title": "UserFavorite.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Domain\\Entities\\UserFavorite.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Domain\\Entities\\UserFavorite.cs",
@@ -716,7 +795,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 95,
               "Title": "ContactMessage.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Domain\\Entities\\ContactMessage.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Domain\\Entities\\ContactMessage.cs",
@@ -728,7 +807,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Festivals\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Festivals\\Create.cshtml",
@@ -740,7 +819,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 96,
               "Title": "FestivalDetailsViewModel.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Domain\\ViewModels\\Festivals\\FestivalDetailsViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Domain\\ViewModels\\Festivals\\FestivalDetailsViewModel.cs",
@@ -752,7 +831,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "lib.dom.d.ts",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TSServer\\lib.dom.d.ts",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\TSServer\\lib.dom.d.ts",
@@ -762,7 +841,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 97,
               "Title": "FestivalService.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Services\\FestivalService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Services\\FestivalService.cs",
@@ -774,7 +853,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -786,7 +865,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 98,
               "Title": "ContactEmailTemplates.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Services\\EmailTemplates\\ContactEmailTemplates.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Services\\EmailTemplates\\ContactEmailTemplates.cs",
@@ -798,7 +877,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -810,7 +889,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "modal_and_gallery.css",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\wwwroot\\css\\modal_and_gallery.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\modal_and_gallery.css",
@@ -822,7 +901,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 99,
               "Title": "HomeIndexViewModel.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Domain\\ViewModels\\Home\\HomeIndexViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Domain\\ViewModels\\Home\\HomeIndexViewModel.cs",
@@ -834,7 +913,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 100,
               "Title": "ContactEmailTemplates.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Services\\EmailTemplates\\ContactEmailTemplates.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Services\\EmailTemplates\\ContactEmailTemplates.cs",
@@ -846,7 +925,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "_About.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_About.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_About.cshtml",
@@ -858,7 +937,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "ContactsController.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Controllers\\ContactsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ContactsController.cs",
@@ -870,7 +949,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 101,
               "Title": "GmailEmailSender.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Services\\Account\\GmailEmailSender.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Services\\Account\\GmailEmailSender.cs",
@@ -882,7 +961,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Profile\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
@@ -894,7 +973,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "_ContactsBlock.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_ContactsBlock.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ContactsBlock.cshtml",
@@ -906,7 +985,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "login_and_registration_script.js",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\login_and_registration_script.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\login_and_registration_script.js",
@@ -918,7 +997,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 102,
               "Title": "SmtpSettings.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Services\\Account\\SmtpSettings.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Services\\Account\\SmtpSettings.cs",
@@ -930,7 +1009,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "modal_init.js",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\modal_init.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\modal_init.js",
@@ -942,7 +1021,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "profile_modals.js",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\profile_modals.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\profile_modals.js",
@@ -954,7 +1033,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "_Gallery.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Gallery.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Gallery.cshtml",
@@ -966,7 +1045,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "_MessageForm.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_MessageForm.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_MessageForm.cshtml",
@@ -978,7 +1057,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "_AuthModal.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_AuthModal.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_AuthModal.cshtml",
@@ -990,7 +1069,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "contact_form.js",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\contact_form.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\contact_form.js",
@@ -1002,7 +1081,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "ContactMessageValidator.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Validation\\LoginAndRegistration\\ContactMessageValidator.cs",
               "RelativeDocumentMoniker": "Validation\\LoginAndRegistration\\ContactMessageValidator.cs",
@@ -1014,7 +1093,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "FestivalEditViewModelValidator.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Validation\\Festivals\\FestivalEditViewModelValidator.cs",
               "RelativeDocumentMoniker": "Validation\\Festivals\\FestivalEditViewModelValidator.cs",
@@ -1026,7 +1105,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 103,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "D:\\PracticeReload\\Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
@@ -1038,7 +1117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "LoginViewModelValidator.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Validation\\LoginAndRegistration\\LoginViewModelValidator.cs",
               "RelativeDocumentMoniker": "Validation\\LoginAndRegistration\\LoginViewModelValidator.cs",
@@ -1050,7 +1129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 100,
+              "DocumentIndex": 104,
               "Title": "Domain.csproj",
               "DocumentMoniker": "D:\\PracticeReload\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\Domain\\Domain.csproj",
@@ -1062,7 +1141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 101,
+              "DocumentIndex": 105,
               "Title": "20251121140216_AddEmailConfirmationToUsers.cs",
               "DocumentMoniker": "D:\\PracticeReload\\ClassLibrary3\\Migrations\\20251121140216_AddEmailConfirmationToUsers.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\PracticeReload\\ClassLibrary3\\Migrations\\20251121140216_AddEmailConfirmationToUsers.cs",
@@ -1074,7 +1153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "map_init.js",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\map_init.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\map_init.js",
@@ -1086,7 +1165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 63,
               "Title": "LoginViewModel.cs",
               "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\Domain\\ViewModels\\LoginAndRegistration\\LoginViewModel.cs",
@@ -1098,7 +1177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "FestivalImagesController.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Controllers\\FestivalImagesController.cs",
               "RelativeDocumentMoniker": "Controllers\\FestivalImagesController.cs",
@@ -1110,7 +1189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 62,
               "Title": "20251115204117_AddUserRoleToUsers.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\Migrations\\20251115204117_AddUserRoleToUsers.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\ClassLibrary3\\Migrations\\20251115204117_AddUserRoleToUsers.cs",
@@ -1122,7 +1201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 61,
               "Title": "GastroFestDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\Migrations\\GastroFestDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\ClassLibrary3\\Migrations\\GastroFestDbContextModelSnapshot.cs",
@@ -1134,7 +1213,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 60,
               "Title": "ContactService.cs",
               "DocumentMoniker": "D:\\Practice\\Services\\ContactService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\Services\\ContactService.cs",
@@ -1146,7 +1225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 57,
               "Title": "ContactService.cs",
               "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\ContactService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\ContactService.cs",
@@ -1157,7 +1236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 56,
               "Title": "FestivalService.cs",
               "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\FestivalService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Services\\FestivalService.cs",
@@ -1168,7 +1247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "RegisterViewModelValidator.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Validation\\LoginAndRegistration\\RegisterViewModelValidator.cs",
               "RelativeDocumentMoniker": "Validation\\LoginAndRegistration\\RegisterViewModelValidator.cs",
@@ -1180,7 +1259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 58,
               "Title": "Entities.cs",
               "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Domain\\Entities\\Entities.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\Domain\\Entities\\Entities.cs",
@@ -1191,7 +1270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 64,
               "Title": "ContactStorage.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\ContactStorage.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\ClassLibrary3\\ContactStorage.cs",
@@ -1203,7 +1282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 65,
               "Title": "GastroFestDbContext.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\GastroFestDbContext.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\ClassLibrary3\\GastroFestDbContext.cs",
@@ -1215,7 +1294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 59,
               "Title": "ContactStorage.cs",
               "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ClassLibrary3\\ContactStorage.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\ClassLibrary3\\ContactStorage.cs",
@@ -1226,7 +1305,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 66,
               "Title": "Entities.cs",
               "DocumentMoniker": "D:\\Practice\\Domain\\Entities\\Entities.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\Domain\\Entities\\Entities.cs",
@@ -1238,7 +1317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 67,
               "Title": "Domain.csproj",
               "DocumentMoniker": "D:\\Practice\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\Domain\\Domain.csproj",
@@ -1250,7 +1329,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "jquery.js",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
               "RelativeDocumentMoniker": "wwwroot\\lib\\jquery\\dist\\jquery.js",
@@ -1262,7 +1341,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "FestivalImageEditViewModelValidator.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Validation\\Festivals\\FestivalImageEditViewModelValidator.cs",
               "RelativeDocumentMoniker": "Validation\\Festivals\\FestivalImageEditViewModelValidator.cs",
@@ -1274,7 +1353,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 68,
               "Title": "RegisterViewModel.cs",
               "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\Domain\\ViewModels\\LoginAndRegistration\\RegisterViewModel.cs",
@@ -1286,7 +1365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 69,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\Practice\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\Services\\UserService.cs",
@@ -1298,7 +1377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 70,
               "Title": "20251112144626_InitialCreate.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\Migrations\\20251112144626_InitialCreate.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\ClassLibrary3\\Migrations\\20251112144626_InitialCreate.cs",
@@ -1310,7 +1389,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 71,
               "Title": "UserStorage.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\UserStorage.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\ClassLibrary3\\UserStorage.cs",
@@ -1322,7 +1401,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 72,
               "Title": "FestivalService.cs",
               "DocumentMoniker": "D:\\Practice\\Services\\FestivalService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\Services\\FestivalService.cs",
@@ -1334,7 +1413,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 73,
               "Title": "FestivalImageService.cs",
               "DocumentMoniker": "D:\\Practice\\Services\\FestivalImageService.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\Services\\FestivalImageService.cs",
@@ -1346,7 +1425,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 74,
               "Title": "FestivalStorage.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\FestivalStorage.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\ClassLibrary3\\FestivalStorage.cs",
@@ -1358,7 +1437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 75,
               "Title": "FestivalImageStorage.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\FestivalImageStorage.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\ClassLibrary3\\FestivalImageStorage.cs",
@@ -1370,7 +1449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 76,
               "Title": "IBaseStorage.cs",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\Interfaces\\IBaseStorage.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\ClassLibrary3\\Interfaces\\IBaseStorage.cs",
@@ -1382,7 +1461,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "DaviskibaYP.csproj",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\DaviskibaYP.csproj",
               "RelativeDocumentMoniker": "DaviskibaYP.csproj",
@@ -1394,7 +1473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\FestivalImages\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\FestivalImages\\Edit.cshtml",
@@ -1406,19 +1485,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\FestivalImages\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\FestivalImages\\Create.cshtml",
-              "ToolTip": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\FestivalImages\\Create.cshtml",
-              "RelativeToolTip": "Views\\FestivalImages\\Create.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T10:37:47.549Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 77,
               "Title": "FestivalImageEditViewModel.cs",
               "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\Festivals\\FestivalImageEditViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\Domain\\ViewModels\\Festivals\\FestivalImageEditViewModel.cs",
@@ -1430,7 +1497,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 78,
               "Title": "ProfileViewModels.cs",
               "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\Profile\\ProfileViewModels.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\Domain\\ViewModels\\Profile\\ProfileViewModels.cs",
@@ -1442,7 +1509,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 79,
               "Title": "FestivalEditViewModel.cs",
               "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\Festivals\\FestivalEditViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\Domain\\ViewModels\\Festivals\\FestivalEditViewModel.cs",
@@ -1454,7 +1521,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -1466,7 +1533,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 80,
               "Title": "DAL.csproj",
               "DocumentMoniker": "D:\\Practice\\ClassLibrary3\\DAL.csproj",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\ClassLibrary3\\DAL.csproj",
@@ -1478,7 +1545,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -1488,7 +1555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 46,
               "Title": "DaviskibaYP",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\DaviskibaYP.csproj",
               "RelativeDocumentMoniker": "DaviskibaYP.csproj",
@@ -1499,7 +1566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 81,
               "Title": "FestivalDetailsViewModel.cs",
               "DocumentMoniker": "D:\\Practice\\Domain\\ViewModels\\Festivals\\FestivalDetailsViewModel.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\Practice\\Domain\\ViewModels\\Festivals\\FestivalDetailsViewModel.cs",
@@ -1511,7 +1578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 47,
               "Title": "_Services.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Services.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Services.cshtml",
@@ -1523,7 +1590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 48,
               "Title": "Error.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
@@ -1535,7 +1602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 50,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -1547,7 +1614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 52,
               "Title": "ContactRepository.cs",
               "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\ContactRepository.cs",
               "ToolTip": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\ContactRepository.cs",
@@ -1557,7 +1624,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 51,
               "Title": "ContactService.cs",
               "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\Services\\ContactService.cs",
               "ToolTip": "C:\\Users\\dawis\\source\\repos\\Services\\ContactService.cs",
@@ -1567,7 +1634,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 49,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -1579,7 +1646,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 53,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\Services\\Class1.cs",
               "ToolTip": "C:\\Users\\dawis\\source\\repos\\Services\\Class1.cs",
@@ -1589,7 +1656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 54,
               "Title": "DAL.csproj",
               "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\DAL.csproj",
               "ToolTip": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\DAL.csproj",
@@ -1599,7 +1666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 55,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\Class1.cs",
               "ToolTip": "C:\\Users\\dawis\\source\\repos\\ClassLibrary3\\Class1.cs",

@@ -96,6 +96,18 @@ namespace Services
             return false; // теперь не в избранном
         }
 
+
+        public async Task<List<Festival>> GetFavoritesAsync(int userId, CancellationToken ct = default)
+        {
+            return await _db.UserFavorites
+                .AsNoTracking()
+                .Where(uf => uf.UserId == userId)
+                .OrderByDescending(uf => uf.CreatedAt)
+                .Select(uf => uf.Festival) // важно: навигация должна быть настроена
+                .ToListAsync(ct);
+        }
+
+
         public async Task<(List<Festival> Items, int TotalCount)> GetPagedAsync(
             int page,
             int pageSize,
@@ -130,6 +142,8 @@ namespace Services
                     query = query.Where(f => f.City == city);
                 }
             }
+
+
 
             // === фильтр по датам (UTC!) ===
             if (!string.IsNullOrWhiteSpace(dateFilter))
@@ -175,6 +189,9 @@ namespace Services
                 .ToListAsync(ct);
 
             return (items, totalCount);
+
+
+
         }
     }
 }
