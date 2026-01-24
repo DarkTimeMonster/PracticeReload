@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Test\\PracticeReload\\DaviskibaYP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\controllers\\festivalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:controllers\\festivalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\views\\festivalimages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:views\\festivalimages\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:controllers\\favoritescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B5C8CBAE-DE02-7B4C-706D-5B7BB03EEA4F}|..\\Domain\\Domain.csproj|d:\\test\\practicereload\\domain\\entities\\userfavorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -31,10 +35,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\wwwroot\\js\\festivals-catalog.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:wwwroot\\js\\festivals-catalog.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\controllers\\festivalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|solutionrelative:controllers\\festivalscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C891C587-7E95-4D51-893B-A558303EC2ED}|DaviskibaYP.csproj|d:\\test\\practicereload\\daviskibayp\\views\\festivals\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -381,7 +381,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -398,19 +398,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Favorites\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Favorites\\Index.cshtml",
-              "ToolTip": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Favorites\\Index.cshtml",
-              "RelativeToolTip": "Views\\Favorites\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T09:13:56.681Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "FavoritesController.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Controllers\\FavoritesController.cs",
               "RelativeDocumentMoniker": "Controllers\\FavoritesController.cs",
@@ -419,19 +406,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-18T09:11:48.104Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FestivalService.cs",
-              "DocumentMoniker": "D:\\Test\\PracticeReload\\Services\\FestivalService.cs",
-              "RelativeDocumentMoniker": "..\\Services\\FestivalService.cs",
-              "ToolTip": "D:\\Test\\PracticeReload\\Services\\FestivalService.cs",
-              "RelativeToolTip": "..\\Services\\FestivalService.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAkwGUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T09:10:00.078Z",
               "EditorCaption": ""
             },
             {
@@ -459,13 +433,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAqwGoAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAqwG0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-03T14:56:15.737Z",
               "EditorCaption": ""
@@ -496,19 +470,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "FestivalsController.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Controllers\\FestivalsController.cs",
               "RelativeDocumentMoniker": "Controllers\\FestivalsController.cs",
               "ToolTip": "D:\\Test\\PracticeReload\\DaviskibaYP\\Controllers\\FestivalsController.cs",
               "RelativeToolTip": "Controllers\\FestivalsController.cs",
-              "ViewState": "AgIAAK0AAAAAAAAAAAAUwNcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKcAAAAAAAAAAAAcwNcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T14:39:25.619Z"
+              "WhenOpened": "2025-11-14T14:39:25.619Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
+              "Title": "FestivalService.cs",
+              "DocumentMoniker": "D:\\Test\\PracticeReload\\Services\\FestivalService.cs",
+              "RelativeDocumentMoniker": "..\\Services\\FestivalService.cs",
+              "ToolTip": "D:\\Test\\PracticeReload\\Services\\FestivalService.cs",
+              "RelativeToolTip": "..\\Services\\FestivalService.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAkwGUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-18T09:10:00.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Favorites\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Favorites\\Index.cshtml",
+              "ToolTip": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Favorites\\Index.cshtml",
+              "RelativeToolTip": "Views\\Favorites\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T09:13:56.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\FestivalImages\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\FestivalImages\\Create.cshtml",
@@ -516,12 +515,11 @@
               "RelativeToolTip": "Views\\FestivalImages\\Create.cshtml",
               "ViewState": "AgIAAAcAAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T10:37:47.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T10:37:47.549Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserFavorite.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\Domain\\Entities\\UserFavorite.cs",
               "RelativeDocumentMoniker": "..\\Domain\\Entities\\UserFavorite.cs",
@@ -529,8 +527,7 @@
               "RelativeToolTip": "..\\Domain\\Entities\\UserFavorite.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T09:10:57.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T09:10:57.979Z"
             },
             {
               "$type": "Document",
@@ -546,7 +543,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "festivals-catalog.js",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\wwwroot\\js\\festivals-catalog.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\festivals-catalog.js",
@@ -558,7 +555,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -566,8 +563,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAHQAAAAAAAAAAAAgwH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T18:29:00.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T18:29:00.398Z"
             },
             {
               "$type": "Document",
