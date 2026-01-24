@@ -384,19 +384,6 @@
           "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Favorites\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Favorites\\Index.cshtml",
-              "ToolTip": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Favorites\\Index.cshtml",
-              "RelativeToolTip": "Views\\Favorites\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-18T09:13:56.681Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
@@ -410,6 +397,18 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Favorites\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Favorites\\Index.cshtml",
+              "ToolTip": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Favorites\\Index.cshtml",
+              "RelativeToolTip": "Views\\Favorites\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-18T09:13:56.681Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "FavoritesController.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\DaviskibaYP\\Controllers\\FavoritesController.cs",
@@ -418,8 +417,7 @@
               "RelativeToolTip": "Controllers\\FavoritesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T09:11:48.104Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T09:11:48.104Z"
             },
             {
               "$type": "Document",
@@ -427,12 +425,11 @@
               "Title": "FestivalService.cs",
               "DocumentMoniker": "D:\\Test\\PracticeReload\\Services\\FestivalService.cs",
               "RelativeDocumentMoniker": "..\\Services\\FestivalService.cs",
-              "ToolTip": "D:\\Test\\PracticeReload\\Services\\FestivalService.cs*",
-              "RelativeToolTip": "..\\Services\\FestivalService.cs*",
+              "ToolTip": "D:\\Test\\PracticeReload\\Services\\FestivalService.cs",
+              "RelativeToolTip": "..\\Services\\FestivalService.cs",
               "ViewState": "AgIAAFQAAAAAAAAAAAAkwGUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T09:10:00.078Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T09:10:00.078Z"
             },
             {
               "$type": "Document",
@@ -465,7 +462,7 @@
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
               "ToolTip": "D:\\Test\\PracticeReload\\DaviskibaYP\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAqwHQAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAqwGoAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-03T14:56:15.737Z",
               "EditorCaption": ""
@@ -516,8 +513,7 @@
               "RelativeToolTip": "Views\\FestivalImages\\Create.cshtml",
               "ViewState": "AgIAAAcAAAAAAAAAAAAuwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-17T10:37:47.549Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-17T10:37:47.549Z"
             },
             {
               "$type": "Document",
@@ -529,8 +525,7 @@
               "RelativeToolTip": "..\\Domain\\Entities\\UserFavorite.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-18T09:10:57.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-18T09:10:57.979Z"
             },
             {
               "$type": "Document",
@@ -566,8 +561,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAHQAAAAAAAAAAAAgwH8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T18:29:00.398Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-15T18:29:00.398Z"
             },
             {
               "$type": "Document",
