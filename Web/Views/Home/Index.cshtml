@@ -1,0 +1,126 @@
+﻿@model Domain.ViewModels.Home.HomeIndexViewModel
+
+@{
+    ViewData["Title"] = "Главная — GastroFest";
+}
+
+<!-- 1. Главная / красивый hero -->
+<section id="home" class="hero-main">
+    <div class="hero-main__bg"></div>
+
+    <div class="hero-main__content">
+        <div class="hero-main__left">
+            <span class="hero-main__badge">GastroFest</span>
+            <h1 class="hero-main__title">Весь вкус города — на одной карте</h1>
+            <p class="hero-main__text">
+                Каталог гастрономических фестивалей: уличная еда, вино, кофе и локальная кухня.
+                Ищите события и оставляйте сообщения организаторам через форму обратной связи.
+            </p>
+
+            <div class="hero-main__actions">
+                <a asp-controller="Festivals"
+                   asp-action="Index"
+                   class="btn btn-primary btn-shadow">
+                    Найти фестиваль
+                </a>
+
+                <a href="#contacts" class="btn btn-outline">Написать нам</a>
+            </div>
+        </div>
+
+        <div class="hero-main__right">
+            @if (Model?.NearestFestival is null)
+            {
+                <div class="hero-main__card hero-main__card--fixed">
+                    <div class="hero-main__card-header">
+                        <span class="hero-main__card-label">Ближайший фестиваль</span>
+                    </div>
+
+                    <div class="hero-main__card-body">
+                        <div class="hero-main__card-main">
+                            <p class="hero-main__card-title">Пока нет событий</p>
+                            <p class="hero-main__card-desc">
+                                Как только появится ближайший фестиваль, он будет показан здесь.
+                            </p>
+                        </div>
+
+                        
+                    </div>
+                </div>
+            }
+            else
+            {
+                <a asp-controller="Festivals"
+                   asp-action="Details"
+                   asp-route-id="@Model.NearestFestival.Id"
+                   class="hero-main__card-link-wrapper">
+                    <article class="hero-main__card hero-main__card--fixed">
+                        <div class="hero-main__card-header">
+                            <span class="hero-main__card-label">Ближайший фестиваль</span>
+                            <span class="hero-main__card-chip">Скоро</span>
+                        </div>
+
+                        <div class="hero-main__card-body">
+                            <div class="hero-main__card-main">
+                                <p class="hero-main__card-title">
+                                    @Model.NearestFestival.Title
+                                </p>
+
+                                <div class="hero-main__card-row">
+                                    <span class="hero-main__card-icon hero-main__card-icon--place"></span>
+                                    <span class="hero-main__card-text">
+                                        @Model.NearestFestival.City
+                                        @if (!string.IsNullOrWhiteSpace(Model.NearestFestival.Country))
+                                        {
+                                            @: · @Model.NearestFestival.Country
+                                        }
+                                    </span>
+                                </div>
+
+                                <div class="hero-main__card-row">
+                                    <span class="hero-main__card-icon hero-main__card-icon--date"></span>
+                                    <span class="hero-main__card-text">
+                                        @Model.NearestFestival.StartDate.ToString("d MMMM yyyy") —
+                                        @Model.NearestFestival.EndDate.ToString("d MMMM yyyy")
+                                    </span>
+                                </div>
+
+                                @if (!string.IsNullOrWhiteSpace(Model.NearestFestival.Description))
+                                {
+                                    <p class="hero-main__card-desc">
+                                        @Model.NearestFestival.Description
+                                    </p>
+                                }
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            }
+        </div>
+    </div>
+</section>
+
+<!-- 2. О нас: твой текущий красивый блок -->
+<section id="about">
+    @await Html.PartialAsync("_About")
+</section>
+
+<!-- 3. Услуги -->
+<section id="services">
+    @await Html.PartialAsync("_Services")
+</section>
+
+<!-- 4. Галерея -->
+<section id="gallery">
+    @await Html.PartialAsync("_Gallery")
+</section>
+
+<!-- 5. Контакты -->
+<section id="contacts">
+    @await Html.PartialAsync("_ContactsBlock")
+</section>
+
+<!-- 6. Форма сообщения -->
+<section id="message">
+    @await Html.PartialAsync("_MessageForm")
+</section>

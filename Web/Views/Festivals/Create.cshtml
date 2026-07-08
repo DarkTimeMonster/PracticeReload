@@ -1,0 +1,71 @@
+﻿@using Domain.ViewModels.Festivals
+@model FestivalEditViewModel
+
+@{
+    ViewData["Title"] = "Добавить фестиваль";
+}
+
+<section class="section-card">
+    <div class="section-inner">
+        <div class="h-tag">Фестивали</div>
+        <h2>Добавление фестиваля</h2>
+        <p>Заполните данные, и фестиваль появится в каталоге.</p>
+    </div>
+</section>
+
+<section class="section-card">
+    <form asp-action="Create" asp-controller="Festivals" method="post" class="form-vertical">
+        @Html.AntiForgeryToken()
+        <div class="form-row">
+            <label asp-for="Title"></label>
+            <input asp-for="Title" />
+            <span class="field-error" asp-validation-for="Title"></span>
+        </div>
+
+        <div class="form-row">
+            <label asp-for="Description"></label>
+            <textarea asp-for="Description" rows="3"></textarea>
+            <span class="field-error" asp-validation-for="Description"></span>
+        </div>
+
+        <div class="form-row two-cols">
+            <div>
+                <label asp-for="StartDate"></label>
+                <input asp-for="StartDate" type="date" />
+                <span class="field-error" asp-validation-for="StartDate"></span>
+            </div>
+            <div>
+                <label asp-for="EndDate"></label>
+                <input asp-for="EndDate" type="date" />
+                <span class="field-error" asp-validation-for="EndDate"></span>
+            </div>
+        </div>
+
+        <div class="form-row two-cols">
+            <div>
+                <label asp-for="City"></label>
+                <input asp-for="City" />
+                <span class="field-error" asp-validation-for="City"></span>
+            </div>
+            <div>
+                <label asp-for="Country"></label>
+                <input asp-for="Country" />
+                <span class="field-error" asp-validation-for="Country"></span>
+            </div>
+        </div>
+
+        <div class="form-row">
+            <label asp-for="CoverUrl"></label>
+            <input asp-for="CoverUrl" />
+            <span class="field-error" asp-validation-for="CoverUrl"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-shadow">
+            Сохранить
+        </button>
+    </form>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -1,0 +1,226 @@
+﻿@using Domain.ViewModels.Profile
+@model ProfilePageViewModel
+
+@{
+    ViewBag.Title = "Профиль — GastroFest";
+
+    var userName = !string.IsNullOrEmpty(Model.Name) ? Model.Name : Model.Email;
+    var initial = string.IsNullOrEmpty(userName)
+        ? "U"
+        : userName.Trim()[0].ToString().ToUpper();
+}
+
+<section class="profile-page">
+    <div class="profile-shell">
+        <header class="profile-page__header">
+            <h1 class="profile-page__title">Профиль</h1>
+            <p class="profile-page__subtitle">
+                Управляйте данными аккаунта и безопасностью — всё в одном месте.
+            </p>
+        </header>
+
+        <!-- Карточка пользователя -->
+        <div class="profile-card">
+            <div class="profile-card__top">
+                <div class="profile-avatar">
+                    <span>@initial</span>
+                </div>
+
+                <div class="profile-card__info">
+                    <div class="profile-card__name">@userName</div>
+                    <div class="profile-card__email">@Model.Email</div>
+
+                    <div class="profile-card__tags">
+                        <span class="profile-tag profile-tag--role">
+                            @(User.IsInRole("Admin") ? "Администратор" : "Пользователь")
+                        </span>
+                        <span class="profile-tag">
+                            С нами с @Model.CreatedAt.ToString("dd.MM.yyyy")
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <dl class="profile-card__meta">
+                <div>
+                    <dt>Email</dt>
+                    <dd>@Model.Email</dd>
+                </div>
+                <div>
+                    <dt>Роль в системе</dt>
+                    <dd>@(User.IsInRole("Admin") ? "Администратор" : "Пользователь")</dd>
+                </div>
+                <div>
+                    <dt>Дата регистрации</dt>
+                    <dd>@Model.CreatedAt.ToString("dd.MM.yyyy")</dd>
+                </div>
+            </dl>
+        </div>
+
+        <!-- Плитки-действия -->
+        <div class="profile-actions-row">
+            <button type="button"
+                    class="profile-action profile-action--primary"
+                    data-profile-modal="edit">
+                <span class="profile-action__icon">✏️</span>
+                <span class="profile-action__body">
+                    <span class="profile-action__title">Изменить данные</span>
+                    <span class="profile-action__text">
+                        Обновите имя и email, чтобы информация профиля всегда была актуальной.
+                    </span>
+                </span>
+            </button>
+
+            <button type="button"
+                    class="profile-action"
+                    data-profile-modal="password">
+                <span class="profile-action__icon profile-action__icon--outline">🔒</span>
+                <span class="profile-action__body">
+                    <span class="profile-action__title">Сменить пароль</span>
+                    <span class="profile-action__text">
+                        Задайте новый пароль для повышения безопасности аккаунта.
+                    </span>
+                </span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Модалка: изменить имя и email -->
+<div class="profile-modal" id="profileModal-edit">
+    <div class="profile-modal__backdrop" data-profile-close></div>
+
+    <div class="profile-modal__content">
+        <button type="button" class="profile-modal__close" data-profile-close>✕</button>
+
+        <h2 class="profile-modal__title">Изменить данные</h2>
+        <p class="profile-modal__subtitle">
+            Здесь можно скорректировать имя и адрес электронной почты.
+        </p>
+
+        <form asp-action="Update"
+              method="post"
+              class="profile-modal__form">
+            @Html.AntiForgeryToken()
+
+            <div class="field">
+                <label for="EditName">Имя</label>
+                <input id="EditName"
+                       name="Name"
+                       type="text"
+                       value="@Model.Name"
+                       required />
+            </div>
+
+            <div class="field">
+                <label for="EditEmail">Email</label>
+                <input id="EditEmail"
+                       name="Email"
+                       type="email"
+                       value="@Model.Email"
+                       required />
+            </div>
+
+            <div class="profile-modal__actions">
+                <button type="button"
+                        class="btn btn-outline"
+                        data-profile-close>
+                    Отмена
+                </button>
+                <button type="submit" class="btn btn-primary">
+                    Сохранить
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Модалка: сменить пароль -->
+<div class="profile-modal" id="profileModal-password">
+    <div class="profile-modal__backdrop" data-profile-close></div>
+
+    <div class="profile-modal__content">
+        <button type="button" class="profile-modal__close" data-profile-close>✕</button>
+
+        <h2 class="profile-modal__title">Сменить пароль</h2>
+        <p class="profile-modal__subtitle">
+            Введите текущий пароль и придумайте новый.
+        </p>
+
+        <form asp-action="ChangePassword"
+              method="post"
+              class="profile-modal__form">
+            @Html.AntiForgeryToken()
+
+            <div class="field">
+                <label for="CurrentPassword">Текущий пароль</label>
+                <input id="CurrentPassword"
+                       name="CurrentPassword"
+                       type="password"
+                       autocomplete="current-password"
+                       required />
+            </div>
+
+            <div class="field">
+                <label for="NewPassword">Новый пароль</label>
+                <input id="NewPassword"
+                       name="NewPassword"
+                       type="password"
+                       autocomplete="new-password"
+                       required />
+            </div>
+
+            <div class="field">
+                <label for="ConfirmPassword">Подтверждение пароля</label>
+                <input id="ConfirmPassword"
+                       name="ConfirmPassword"
+                       type="password"
+                       autocomplete="new-password"
+                       required />
+            </div>
+
+            <div class="profile-modal__actions">
+                <button type="button"
+                        class="btn btn-outline"
+                        data-profile-close>
+                    Отмена
+                </button>
+                <button type="submit" class="btn btn-primary">
+                    Обновить пароль
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+
+    <script>
+        (function () {
+            const body = document.body;
+            const openBtns = document.querySelectorAll("[data-profile-modal]");
+            const closeSelector = "[data-profile-close]";
+
+            openBtns.forEach(btn => {
+                btn.addEventListener("click", () => {
+                    const id = btn.getAttribute("data-profile-modal");
+                    const modal = document.getElementById("profileModal-" + id);
+                    if (!modal) return;
+
+                    modal.classList.add("profile-modal--open");
+                    body.classList.add("profile-modal-open");
+                });
+            });
+
+            document.querySelectorAll(".profile-modal").forEach(modal => {
+                modal.addEventListener("click", e => {
+                    if (e.target.matches(closeSelector)) {
+                        modal.classList.remove("profile-modal--open");
+                        body.classList.remove("profile-modal-open");
+                    }
+                });
+            });
+        })();
+    </script>
+}

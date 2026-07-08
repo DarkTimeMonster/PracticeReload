@@ -1,0 +1,48 @@
+﻿@using Domain.ViewModels.Festivals
+@model FestivalImageEditViewModel
+
+@{
+    ViewData["Title"] = "Добавить фото";
+}
+
+<section class="section-card">
+    <div class="section-inner">
+        <div class="h-tag">Галерея</div>
+        <h2>Добавить фотографию</h2>
+        <p class="muted">Укажи ссылку на изображение и (по желанию) alt-текст.</p>
+    </div>
+</section>
+
+<section class="section-card">
+    <form asp-action="Create" method="post" class="form-vertical">
+        @Html.AntiForgeryToken()
+        <input asp-for="FestivalId" type="hidden" />
+
+        <div class="form-row">
+            <label asp-for="Url"></label>
+            <input asp-for="Url" />
+            <span class="field-error" asp-validation-for="Url"></span>
+        </div>
+
+        <div class="form-row">
+            <label asp-for="Alt"></label>
+            <input asp-for="Alt" />
+            <span class="field-error" asp-validation-for="Alt"></span>
+        </div>
+
+        <div class="form-row">
+            <label asp-for="SortOrder"></label>
+            <input asp-for="SortOrder" type="number" />
+            <span class="field-error" asp-validation-for="SortOrder"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-shadow">Сохранить</button>
+        <a asp-action="Index" asp-route-festivalId="@Model.FestivalId" class="btn btn-outline">
+            Отмена
+        </a>
+    </form>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

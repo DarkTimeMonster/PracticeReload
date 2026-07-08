@@ -1,0 +1,99 @@
+﻿@using Domain.Entities
+@model Domain.ViewModels.Festivals.FestivalListViewModel
+
+@{
+    ViewData["Title"] = "Каталог фестивалей";
+}
+
+<section class="section-card">
+    <div class="section-inner">
+        <div class="h-tag">Фестивали</div>
+        <h2>Каталог гастрономических фестивалей</h2>
+
+        @* Кнопка только для админа *@
+        @if (User.IsInRole("Admin"))
+        {
+            <div class="festivals-toolbar" style="margin-top:12px;">
+                <a href="@Url.Action("Create", "Festivals")"
+                   class="btn btn-primary btn-shadow">
+                    + Добавить фестиваль
+                </a>
+            </div>
+        }
+
+        @* Панель фильтров (работает на JS, без submit) *@
+        <div class="festivals-toolbar" id="festival-filters">
+            <input type="search"
+                   id="filter-search"
+                   class="input input-search"
+                   placeholder="Поиск по названию…" />
+
+            <select class="input input-select" id="filter-city">
+                <option value="">Все города</option>
+                <option value="Москва">Москва</option>
+                <option value="Санкт-Петербург">Санкт-Петербург</option>
+                <option value="other">Другие</option>
+            </select>
+
+            <select class="input input-select" id="filter-date">
+                <option value="">Любые даты</option>
+                <option value="currentMonth">Этот месяц</option>
+                <option value="nextMonth">Следующий месяц</option>
+            </select>
+        </div>
+    </div>
+</section>
+
+<section class="section-card">
+    <div class="festivals-grid" id="festivals-grid">
+        <p>Загрузка фестивалей...</p>
+    </div>
+
+    @* Клиентская пагинация *@
+    <nav class="pagination" aria-label="Навигация по страницам">
+        <ul class="pagination__list" id="festivals-pagination">
+            @* JS сюда вставит кнопки страниц *@
+        </ul>
+    </nav>
+</section>
+
+@* Шаблон формы удаления с антифорджери-токеном *@
+<form id="festival-delete-form-template"
+      method="post"
+      action=""
+      style="display:none;">
+    @Html.AntiForgeryToken()
+    <button type="submit"></button>
+</form>
+
+@* Модальное окно удаления *@
+<div id="festival-delete-modal" class="gf-modal-overlay">
+    <div class="gf-modal">
+        <h3 class="gf-modal__title">Удалить фестиваль</h3>
+        <p class="gf-modal__text">
+            Вы действительно хотите удалить фестиваль
+            «<span id="festival-delete-modal-title"></span>»?
+        </p>
+        <div class="gf-modal__actions">
+            <button type="button"
+                    class="btn btn-primary"
+                    id="festival-delete-modal-confirm">
+                Удалить
+            </button>
+            <button type="button"
+                    class="btn btn-outline"
+                    id="festival-delete-modal-cancel">
+                Отмена
+            </button>
+        </div>
+    </div>
+</div>
+
+@* Конфиг для JS: только флаг "админ или нет" *@
+<script>
+    window.gastroFestCatalogConfig = {
+        isAdmin: @User.IsInRole("Admin").ToString().ToLower()
+    };
+</script>
+
+<script src="~/js/festivals-catalog.js"></script>
