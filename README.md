@@ -28,3 +28,21 @@ Update the database connection string in `Web/appsettings.json`:
 "ConnectionStrings": {
   "DefaultConnection": "Host=your_host;Database=GastroFestDb;Username=your_user;Password=your_password"
 }
+
+## 📸 Screenshots / Скриншоты
+
+### Web Interface (ASP.NET Core MVC)
+| Catalog & Filtering (Каталог и фильтрация) | User Favorites (Избранное) |
+| :---: | :---: |
+| ![Catalog](assets/Catalog.jpg) | ![Favorites](assets/Favorites.jpg) |
+
+| Authentication Modal (Авторизация) |
+| :---: |
+| ![Login & Register](assets/LoginRegister.png) |
+
+### Database Layer (PostgreSQL)
+| Hashed Passwords & Rolled Storage (Данные пользователей и хэширование) |
+| :---: |
+| ![Database](assets/Database.png) |
+
+---
